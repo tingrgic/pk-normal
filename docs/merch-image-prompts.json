@@ -1,0 +1,103 @@
+{
+  "tool": "Built-in image_gen",
+  "prompts": [
+    {
+      "id": "tee",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A heavyweight washed-black oversized T-shirt, front three-quarter view floating naturally, large warm white PK NORMAL typography across chest with tiny red target beneath."
+    },
+    {
+      "id": "hoodie",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A premium black hooded sweatshirt, folded hood, front three-quarter view, small white PK NORMAL chest embroidery and large tonal target detail near lower hem."
+    },
+    {
+      "id": "robe",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A luxurious black terrycloth bathrobe hanging naturally in three-quarter view, red piping and belt, white PK NORMAL embroidery on chest. A pair of matching black spa slippers at its foot."
+    },
+    {
+      "id": "calendar",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A standing spiral-bound yearly wall calendar, cover only, titled PK NORMAL and 2027. Tasteful playful sexy sports-fashion cover: fictional clearly adult male model aged around 30, athletic, open black bathrobe over black shorts, bare chest, confident smile, holding a dart, moody black and white photographic cover with red typography. No nudity, no real club member likeness. Whole calendar visible on warm white studio background."
+    },
+    {
+      "id": "darts",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. An open black darts travel case containing three elegant steel darts with black and red flights, spare flights and tiny towel. PK NORMAL white brand on inside case lid, precision machined silver details."
+    },
+    {
+      "id": "mug",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A sculptural black ceramic coffee mug with oversized white PK NORMAL lettering, red inner glaze, standing on a black round concentric-target coaster."
+    },
+    {
+      "id": "tote",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A heavy natural off-white canvas tote bag, front three-quarter view, huge black PK NORMAL print and a single small red bullseye, black woven handles."
+    },
+    {
+      "id": "candle",
+      "prompt": "Use case: product-mockup. Create one premium photorealistic studio product mockup for Croatian darts club PK NORMAL concept merch. Square composition, entire object visible with generous margin, warm off-white seamless background and soft natural shadows, editorial luxury catalogue photography, tactile realistic materials. Palette graphite black, warm white, small signal red accents. Branding only exact text \"PK NORMAL\" in bold condensed sans serif, simple thin concentric target rings, no crest, no other logos or watermark. A luxury black glass scented candle with white PK NORMAL label and small red target, unlit, with a separate flat black lid and understated matching square packaging box."
+    },
+    {
+      "id": "cap",
+      "prompt": "Use case: product-mockup. Premium photorealistic square studio catalogue image of washed-black baseball cap, white PK NORMAL embroidery and small red target. Entire product centered with generous margins on warm off-white seamless backdrop, soft realistic shadows. Original Croatian darts club merchandise concept, luxury tactile materials, bold condensed sans serif typography. No crest, no other logos, no watermark."
+    },
+    {
+      "id": "umbrella",
+      "prompt": "Use case: product-mockup. Premium photorealistic square studio catalogue image of open black umbrella angled to show canopy with white PK NORMAL typography and one thin red radial line. Entire product centered with generous margins on warm off-white seamless backdrop, soft realistic shadows. Original Croatian darts club merchandise concept, luxury tactile materials, bold condensed sans serif typography. No crest, no other logos, no watermark."
+    },
+    {
+      "id": "mat",
+      "prompt": "Use case: product-mockup. Premium photorealistic square studio catalogue image of black rectangular doormat with cream PK NORMAL typography, thin white darts throwing-line marking and small red target. Entire product centered with generous margins on warm off-white seamless backdrop, soft realistic shadows. Original Croatian darts club merchandise concept, luxury tactile materials, bold condensed sans serif typography. No crest, no other logos, no watermark."
+    },
+    {
+      "id": "socks",
+      "prompt": "Use case: product-mockup. Premium photorealistic square studio catalogue image of cream ribbed athletic socks, black vertical PK NORMAL lettering and red stripes. Entire product centered with generous margins on warm off-white seamless backdrop, soft realistic shadows. Original Croatian darts club merchandise concept, luxury tactile materials, bold condensed sans serif typography. No crest, no other logos, no watermark."
+    }
+  ],
+  "files": [
+    {
+      "id": "tee",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-d65da6f4-d71e-444f-a446-fba9fb74c0f2.png"
+    },
+    {
+      "id": "hoodie",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-f3382792-7261-44af-a4a8-a48a8b63e711.png"
+    },
+    {
+      "id": "robe",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-9c90d54c-c0ea-43fd-ac00-80b96abfe341.png"
+    },
+    {
+      "id": "calendar",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-2b9de991-2f09-4af9-a46a-c083746d04a4.png"
+    },
+    {
+      "id": "darts",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-6fa6ad1f-b76f-4f65-886f-5a9b6ca60bb4.png"
+    },
+    {
+      "id": "mug",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-beff7ee7-c5ae-46fd-9941-3ef85c19e9a5.png"
+    },
+    {
+      "id": "tote",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-07366253-e613-4048-993d-5a8efed1d14f.png"
+    },
+    {
+      "id": "candle",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-85d5975c-025f-411c-bbd4-40b0cf35b875.png"
+    },
+    {
+      "id": "cap",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-3ad3803f-cdac-48dc-b437-d39065117861.png"
+    },
+    {
+      "id": "umbrella",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-9edc02eb-86eb-4bc7-83ec-594734706058.png"
+    },
+    {
+      "id": "mat",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-446b0819-6597-4194-81b2-d7a6331eee61.png"
+    },
+    {
+      "id": "socks",
+      "path": "/home/tin/.codex/generated_images/01a0c869-f5d4-7011-abd9-a85aebef3e12/exec-aaf9505d-16a7-4245-ad9e-2c00fb0e298c.png"
+    }
+  ]
+}

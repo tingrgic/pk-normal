@@ -1,0 +1,680 @@
+export const club = {
+  name: "PK Normal",
+  city: "Zagreb",
+  admission: "12. kolovoza 2026.",
+  registration: "21015646",
+  phone: "091 3963 623",
+  phoneHref: "tel:+385913963623",
+  venue: "CB Quattro",
+  address: "Zagrebačka 26, Sesvete",
+  sources: {
+    admission: "https://psgz.hr/pk-normal-novi-clan-psgza",
+    registry:
+      "https://psgz.hr/user-content/zagreb/files/ud2/2026/8/00000224_registar-20262027.pdf",
+    team: "https://hps-dart.hr/normal",
+    club: "https://hps-dart.hr/pk-normal",
+    competitions: "https://psgz.hr/competitions",
+  },
+  checked: "16. 9. 2026.",
+};
+export const players = [
+  {
+    first: "Rikard",
+    last: "Milašinović",
+    initials: "RM",
+    role: "Predsjednik / kapetan",
+    slug: "milasinovic-rikard",
+  },
+  {
+    first: "Tin",
+    last: "Grgić",
+    initials: "TG",
+    role: "Igrač",
+    slug: "grgic-tin",
+  },
+  {
+    first: "Ivan",
+    last: "Štimac",
+    initials: "IŠ",
+    role: "Igrač",
+    slug: "stimac-ivan",
+  },
+  {
+    first: "Stjepan",
+    last: "Prusac",
+    initials: "SP",
+    role: "Igrač",
+    slug: "prusac-stjepan",
+  },
+  {
+    first: "Franko",
+    last: "Čegec",
+    initials: "FČ",
+    role: "Igrač",
+    slug: "cegec-franko-",
+  },
+  {
+    first: "Mihovil",
+    last: "Marjanović",
+    initials: "MM",
+    role: "Igrač",
+    slug: "marjanovic-mihovil",
+  },
+  {
+    first: "Ivan",
+    last: "Žugec",
+    initials: "IŽ",
+    role: "Igrač",
+    slug: "zugec-ivan",
+  },
+  {
+    first: "Franko",
+    last: "Ermakora",
+    initials: "FE",
+    role: "Igrač",
+    slug: "ermakora-franko",
+  },
+  {
+    first: "Filip",
+    last: "Jakelić",
+    initials: "FJ",
+    role: "Igrač",
+    slug: "jakelic-filip",
+  },
+];
+// Add confirmed results with source and check date; never synthesize scores.
+export type CompetitionResult = {
+  date: string;
+  opponent: string;
+  score: string;
+  source: string;
+  checked: string;
+};
+export const results: CompetitionResult[] = [];
+
+// Sponsorship and contributions confirmed by the club owner, not the federation.
+export const sponsors = [
+  {
+    id: "hidra",
+    name: "Hidra",
+    company: "Zagrebačka pivovara",
+    logo: "/sponsors/hidra.png",
+    website: "https://hidra.hr/",
+    sourceType: "owner-provided",
+    checked: "2026-09-18",
+    brandSource: "https://zagrebackapivovara.hr/hidra-pise-novo-poglavlje-osvjezenja/",
+    logoSource: "https://hidra.hr/wp-content/uploads/2024/06/HYDRA_LOGO-small.png",
+  },
+];
+// Official league snapshot for the odds simulator. Derived odds are not official.
+export const oddsSnapshot = {
+  "source": "https://psgz.hr/ranking-table/831",
+  "api": "https://psgz.hr/site/uniondivision/UnionLeagueTable?unionId=2&seasonId=26&leagueId=831",
+  "checked": "2026-09-18T18:01:17.723Z",
+  "season": "2026/27",
+  "competition": "4. liga · skupina B",
+  "teams": [
+    {
+      "name": "HOLLYWOOD PROMILI",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "duelsWon": 10,
+      "duelsLost": 6,
+      "legsWon": 22,
+      "legsLost": 15
+    },
+    {
+      "name": "BBF BULLY BOYS",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "duelsWon": 10,
+      "duelsLost": 6,
+      "legsWon": 23,
+      "legsLost": 17
+    },
+    {
+      "name": "BULLDOG GIANTS",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "duelsWon": 10,
+      "duelsLost": 6,
+      "legsWon": 22,
+      "legsLost": 18
+    },
+    {
+      "name": "EXTERIUM II",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "duelsWon": 9,
+      "duelsLost": 7,
+      "legsWon": 21,
+      "legsLost": 16
+    },
+    {
+      "name": "ZAGREB",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "duelsWon": 9,
+      "duelsLost": 7,
+      "legsWon": 22,
+      "legsLost": 18
+    },
+    {
+      "name": "NORMAL",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "duelsWon": 7,
+      "duelsLost": 9,
+      "legsWon": 18,
+      "legsLost": 22
+    },
+    {
+      "name": "KOCKA FELGA CVRČAK",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "duelsWon": 7,
+      "duelsLost": 9,
+      "legsWon": 16,
+      "legsLost": 21
+    },
+    {
+      "name": "MOZART DIAMANTI",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "duelsWon": 6,
+      "duelsLost": 10,
+      "legsWon": 18,
+      "legsLost": 22
+    },
+    {
+      "name": "VRAPČE 2",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "duelsWon": 6,
+      "duelsLost": 10,
+      "legsWon": 17,
+      "legsLost": 23
+    },
+    {
+      "name": "PKZ VOLTAGE",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "duelsWon": 6,
+      "duelsLost": 10,
+      "legsWon": 15,
+      "legsLost": 22
+    },
+    {
+      "name": "BLACK M",
+      "played": 0,
+      "wins": 0,
+      "losses": 0,
+      "duelsWon": 0,
+      "duelsLost": 0,
+      "legsWon": 0,
+      "legsLost": 0
+    }
+  ],
+  "players": [
+    {
+      "name": "Toni Kuraja",
+      "team": "HOLLYWOOD PROMILI",
+      "played": 4,
+      "wins": 4,
+      "losses": 0,
+      "legsWon": 8,
+      "legsLost": 0
+    },
+    {
+      "name": "Ivan Ljubej",
+      "team": "VRAPČE 2",
+      "played": 4,
+      "wins": 4,
+      "losses": 0,
+      "legsWon": 8,
+      "legsLost": 2
+    },
+    {
+      "name": "BENJAMIN DALIPI",
+      "team": "BULLDOG GIANTS",
+      "played": 2,
+      "wins": 2,
+      "losses": 0,
+      "legsWon": 4,
+      "legsLost": 2
+    },
+    {
+      "name": "JOSIP GUCIĆ",
+      "team": "BULLDOG GIANTS",
+      "played": 2,
+      "wins": 2,
+      "losses": 0,
+      "legsWon": 4,
+      "legsLost": 1
+    },
+    {
+      "name": "DOMAGOJ BENKOVIĆ",
+      "team": "BBF BULLY BOYS",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 7,
+      "legsLost": 4
+    },
+    {
+      "name": "Enrico Novak",
+      "team": "BULLDOG GIANTS",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 7,
+      "legsLost": 4
+    },
+    {
+      "name": "Goran Chudy",
+      "team": "ZAGREB",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 7,
+      "legsLost": 4
+    },
+    {
+      "name": "Siniša Percela",
+      "team": "ZAGREB",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 6,
+      "legsLost": 3
+    },
+    {
+      "name": "Luka Martić",
+      "team": "EXTERIUM II",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 6,
+      "legsLost": 3
+    },
+    {
+      "name": "ANTONIO SABLJAK",
+      "team": "BBF BULLY BOYS",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 6,
+      "legsLost": 2
+    },
+    {
+      "name": "Matej Šakota",
+      "team": "PKZ VOLTAGE",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 6,
+      "legsLost": 2
+    },
+    {
+      "name": "Tin Grgić",
+      "team": "NORMAL",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 6,
+      "legsLost": 4
+    },
+    {
+      "name": "Miroslav Remenarić",
+      "team": "KOCKA FELGA CVRČAK",
+      "played": 4,
+      "wins": 3,
+      "losses": 1,
+      "legsWon": 6,
+      "legsLost": 3
+    },
+    {
+      "name": "Luka Žuljević",
+      "team": "BBF BULLY BOYS",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "legsWon": 5,
+      "legsLost": 4
+    },
+    {
+      "name": "Andrija Skendrović",
+      "team": "EXTERIUM II",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "legsWon": 5,
+      "legsLost": 2
+    },
+    {
+      "name": "Danijel Čavić",
+      "team": "HOLLYWOOD PROMILI",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "legsWon": 4,
+      "legsLost": 3
+    },
+    {
+      "name": "Vito  Zirdum",
+      "team": "EXTERIUM II",
+      "played": 3,
+      "wins": 2,
+      "losses": 1,
+      "legsWon": 4,
+      "legsLost": 2
+    },
+    {
+      "name": "Karlo Berger",
+      "team": "ZAGREB",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 6,
+      "legsLost": 4
+    },
+    {
+      "name": "Robert Bebek",
+      "team": "EXTERIUM II",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 6,
+      "legsLost": 5
+    },
+    {
+      "name": "Franko Ermakora",
+      "team": "NORMAL",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 6,
+      "legsLost": 5
+    },
+    {
+      "name": "Leon Berišić",
+      "team": "BULLDOG GIANTS",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 5,
+      "legsLost": 4
+    },
+    {
+      "name": "Blaž Pranjkić",
+      "team": "HOLLYWOOD PROMILI",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 5,
+      "legsLost": 4
+    },
+    {
+      "name": "Dalibor Kremenović",
+      "team": "HOLLYWOOD PROMILI",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 5,
+      "legsLost": 6
+    },
+    {
+      "name": "FILIP  ĐULABIĆ",
+      "team": "MOZART DIAMANTI",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 5,
+      "legsLost": 5
+    },
+    {
+      "name": "Darijan Šamec-Gjurin",
+      "team": "MOZART DIAMANTI",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 5,
+      "legsLost": 5
+    },
+    {
+      "name": "Željko Marković",
+      "team": "MOZART DIAMANTI",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 5,
+      "legsLost": 4
+    },
+    {
+      "name": "Goran Blažinović",
+      "team": "BBF BULLY BOYS",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 4,
+      "legsLost": 5
+    },
+    {
+      "name": "Dejan Šimić",
+      "team": "PKZ VOLTAGE",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 4,
+      "legsLost": 5
+    },
+    {
+      "name": "Ivan Žugec",
+      "team": "NORMAL",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 4,
+      "legsLost": 5
+    },
+    {
+      "name": "Renato Bergles",
+      "team": "KOCKA FELGA CVRČAK",
+      "played": 4,
+      "wins": 2,
+      "losses": 2,
+      "legsWon": 4,
+      "legsLost": 5
+    },
+    {
+      "name": "Antun Berišić",
+      "team": "BULLDOG GIANTS",
+      "played": 2,
+      "wins": 1,
+      "losses": 1,
+      "legsWon": 2,
+      "legsLost": 3
+    },
+    {
+      "name": "Robert Žabec",
+      "team": "VRAPČE 2",
+      "played": 2,
+      "wins": 1,
+      "losses": 1,
+      "legsWon": 2,
+      "legsLost": 3
+    },
+    {
+      "name": "Hrvoje Stolar",
+      "team": "PKZ VOLTAGE",
+      "played": 4,
+      "wins": 1,
+      "losses": 3,
+      "legsWon": 4,
+      "legsLost": 7
+    },
+    {
+      "name": "Nikolina Kožul",
+      "team": "KOCKA FELGA CVRČAK",
+      "played": 4,
+      "wins": 1,
+      "losses": 3,
+      "legsWon": 4,
+      "legsLost": 6
+    },
+    {
+      "name": "Željko Štefanović",
+      "team": "VRAPČE 2",
+      "played": 4,
+      "wins": 1,
+      "losses": 3,
+      "legsWon": 3,
+      "legsLost": 6
+    },
+    {
+      "name": "Lukas  Jurina",
+      "team": "KOCKA FELGA CVRČAK",
+      "played": 4,
+      "wins": 1,
+      "losses": 3,
+      "legsWon": 2,
+      "legsLost": 7
+    },
+    {
+      "name": "Zoran Steković",
+      "team": "MOZART DIAMANTI",
+      "played": 4,
+      "wins": 0,
+      "losses": 4,
+      "legsWon": 3,
+      "legsLost": 8
+    },
+    {
+      "name": "Sven Klasić",
+      "team": "VRAPČE 2",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "legsWon": 2,
+      "legsLost": 4
+    },
+    {
+      "name": "Ivan Štimac",
+      "team": "NORMAL",
+      "played": 4,
+      "wins": 0,
+      "losses": 4,
+      "legsWon": 2,
+      "legsLost": 8
+    },
+    {
+      "name": "Saša Percela",
+      "team": "ZAGREB",
+      "played": 3,
+      "wins": 0,
+      "losses": 3,
+      "legsWon": 1,
+      "legsLost": 6
+    },
+    {
+      "name": "BRUNO  PLEHAN",
+      "team": "VRAPČE 2",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "legsWon": 1,
+      "legsLost": 4
+    },
+    {
+      "name": "Danijel Ivanišević",
+      "team": "PKZ VOLTAGE",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "legsWon": 1,
+      "legsLost": 4
+    },
+    {
+      "name": "Dragutin Štefanović",
+      "team": "VRAPČE 2",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "legsWon": 1,
+      "legsLost": 4
+    },
+    {
+      "name": "Ante Dominković",
+      "team": "BULLDOG GIANTS",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "legsWon": 0,
+      "legsLost": 4
+    },
+    {
+      "name": "Petra Ivanišević",
+      "team": "PKZ VOLTAGE",
+      "played": 2,
+      "wins": 0,
+      "losses": 2,
+      "legsWon": 0,
+      "legsLost": 4
+    },
+    {
+      "name": "ANTON BELAN",
+      "team": "ZAGREB",
+      "played": 1,
+      "wins": 1,
+      "losses": 0,
+      "legsWon": 2,
+      "legsLost": 1
+    },
+    {
+      "name": "Luka Miličić",
+      "team": "BBF BULLY BOYS",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "legsWon": 1,
+      "legsLost": 2
+    },
+    {
+      "name": "Ante  Bebek",
+      "team": "EXTERIUM II",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "legsWon": 0,
+      "legsLost": 2
+    },
+    {
+      "name": "Denis Bukva",
+      "team": "HOLLYWOOD PROMILI",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "legsWon": 0,
+      "legsLost": 2
+    },
+    {
+      "name": "Dominik Kossa",
+      "team": "EXTERIUM II",
+      "played": 1,
+      "wins": 0,
+      "losses": 1,
+      "legsWon": 0,
+      "legsLost": 2
+    }
+  ]
+};

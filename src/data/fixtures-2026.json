@@ -1,0 +1,148 @@
+[
+  {
+    "id": "rygexymu",
+    "startsAt": "2026-09-11T19:00:00+02:00",
+    "home": "ZAGREB",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 1,
+    "venueId": "x",
+    "source": "https://psgz.hr/event/rygexymu",
+    "result": [
+      9,
+      7
+    ]
+  },
+  {
+    "id": "pepuycnd",
+    "startsAt": "2026-09-18T19:00:00+02:00",
+    "home": "NORMAL",
+    "away": "PKZ VOLTAGE",
+    "kind": "league",
+    "round": 2,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/pepuycnd",
+    "result": null
+  },
+  {
+    "id": "sshhukuq",
+    "startsAt": "2026-09-25T19:00:00+02:00",
+    "home": "BBF BULLY BOYS",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 3,
+    "venueId": "bbf",
+    "source": "https://psgz.hr/event/sshhukuq",
+    "result": null
+  },
+  {
+    "id": "lfxviryk",
+    "startsAt": "2026-10-02T19:00:00+02:00",
+    "home": "NORMAL",
+    "away": "VRAPČE 2",
+    "kind": "league",
+    "round": 4,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/lfxviryk",
+    "result": null
+  },
+  {
+    "id": "ijotufns",
+    "startsAt": "2026-10-09T19:00:00+02:00",
+    "home": "HOLLYWOOD PROMILI",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 5,
+    "venueId": null,
+    "source": "https://psgz.hr/event/ijotufns",
+    "result": null
+  },
+  {
+    "id": "cup-a-2026",
+    "startsAt": "2026-10-11T10:00:00+02:00",
+    "home": "A1 THRILLER",
+    "away": "NORMAL",
+    "kind": "cup",
+    "round": 1,
+    "venueId": "pivana",
+    "source": "https://psgz.hr/event/mrwtxbao/bracket",
+    "result": null
+  },
+  {
+    "id": "ylqiwagm",
+    "startsAt": "2026-10-30T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "MOZART DIAMANTI",
+    "kind": "league",
+    "round": 7,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/ylqiwagm",
+    "result": null
+  },
+  {
+    "id": "xgjjijwm",
+    "startsAt": "2026-11-06T19:00:00+01:00",
+    "home": "KOCKA FELGA CVRČAK",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 8,
+    "venueId": "degusto",
+    "source": "https://psgz.hr/event/xgjjijwm",
+    "result": null
+  },
+  {
+    "id": "sujvmldw",
+    "startsAt": "2026-11-13T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "BLACK M",
+    "kind": "league",
+    "round": 9,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/sujvmldw",
+    "result": null
+  },
+  {
+    "id": "hgswlsez",
+    "startsAt": "2026-11-20T19:00:00+01:00",
+    "home": "EXTERIUM II",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 10,
+    "venueId": "exterium",
+    "source": "https://psgz.hr/event/hgswlsez",
+    "result": null
+  },
+  {
+    "id": "kqzcxvqs",
+    "startsAt": "2026-11-27T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "BULLDOG GIANTS",
+    "kind": "league",
+    "round": 11,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/kqzcxvqs",
+    "result": null
+  },
+  {
+    "id": "uazauxvk",
+    "startsAt": "2026-12-04T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "ZAGREB",
+    "kind": "league",
+    "round": 12,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/uazauxvk",
+    "result": null
+  },
+  {
+    "id": "sfeuffca",
+    "startsAt": "2026-12-11T19:00:00+01:00",
+    "home": "PKZ VOLTAGE",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 13,
+    "venueId": "zapad",
+    "source": "https://psgz.hr/event/sfeuffca",
+    "result": null
+  }
+]

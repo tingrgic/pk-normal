@@ -1,0 +1,23 @@
+import data from './fixtures-2026.json' with { type: 'json' };
+export type Fixture = { id: string; startsAt: string; home: string; away: string; kind: 'league' | 'cup'; round: number; venueId: string | null; source: string; result: number[] | null };
+export type Venue = { id: string; number: string; name: string; address: string; area: string; coordinates: [number, number]; source: string; coordinateSource: string; precision: 'address' | 'venue' };
+export const atlasMeta = { year: 2026, season: '2026/27', checked: '2026-09-18', league: '4. liga · skupina B', source: 'https://psgz.hr/ranking-table/831', cupSource: 'https://psgz.hr/ranking-table/859', venueNote: 'Igrališta lige prema registru HPS-a. Moguće promjene provjeri na službenoj stranici utakmice.' };
+export const fixtures = data as Fixture[];
+export const venues: Venue[] = [
+ { id: 'quattro', number: '01', name: 'CB Quattro', address: 'Zagrebačka 26, Sesvete', area: 'Sesvete', coordinates: [16.1024289,45.8285209], source:'https://hps-dart.hr/normal', coordinateSource:'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Zagrebacka%20cesta%2026%2C%20Sesvete%2C%20Croatia&f=json', precision:'address' },
+ { id: 'bbf', number: '02', name: 'BBF', address: 'Savska cesta 150, Zagreb', area: 'Knežija', coordinates: [15.9555944,45.7910847], source:'https://hps-dart.hr/bbf-bully-boys', coordinateSource:'https://www.openstreetmap.org/node/919803676', precision:'venue' },
+ { id: 'pivana', number: '03', name: 'Pivana', address: 'Ilica 222, Zagreb', area: 'Črnomerec', coordinates: [15.9473690,45.8126659], source:'https://psgz.hr/masters-serija-elektronskog-i-klasicnog-pikada-ekipni-kup', coordinateSource:'https://www.openstreetmap.org/node/2286844151', precision:'venue' },
+ { id: 'degusto', number: '04', name: 'CB DeGusto', address: 'Ilica 506, Vrapče, Zagreb', area: 'Vrapče', coordinates: [15.9027403,45.8130519], source:'https://hps-dart.hr/kocka-felga-cvrcak', coordinateSource:'https://www.openstreetmap.org/way/137405864', precision:'address' },
+ { id: 'exterium', number: '05', name: 'CB Exterium', address: 'Poljačka 52, Zagreb', area: 'Donja Kustošija', coordinates: [15.9174465,45.8102634], source:'https://hps-dart.hr/exterium-ii', coordinateSource:'https://www.openstreetmap.org/node/1473213336', precision:'venue' },
+ { id: 'zapad', number: '06', name: 'Igralište PKZ Voltage', address: 'Ulica Dragutina Golika 44, Zagreb', area: 'Ljubljanica', coordinates: [15.9296678,45.7990662], source:'https://hps-dart.hr/pkz-voltage', coordinateSource:'https://www.openstreetmap.org/way/181445818', precision:'address' },
+ { id: 'x', number: '07', name: 'CB X', address: 'Lermanova 49, Zagreb', area: 'Donja Kustošija', coordinates: [15.9201477,45.8076789], source:'https://hps-dart.hr/zagreb', coordinateSource:'https://www.openstreetmap.org/way/398164148', precision:'address' },
+];
+export const venueFor = (fixture: Fixture) => venues.find(v => v.id === fixture.venueId);
+export const opponent = (f: Fixture) => f.home === 'NORMAL' ? f.away : f.home;
+export const ground = (f: Fixture) => f.kind === 'cup' ? 'neutral' : f.home === 'NORMAL' ? 'home' : 'away';
+export const groundLabel = (f: Fixture) => ({ home:'DOMAĆI', away:'GOSTI', neutral:'KUP / NEUTRALNO' }[ground(f)]);
+export const localDate = (f: Fixture, locale = 'hr-HR') => new Intl.DateTimeFormat(locale, { timeZone:'Europe/Zagreb', day:'numeric', month:'long' }).format(new Date(f.startsAt));
+export const localTime = (f: Fixture, locale = 'hr-HR') => new Intl.DateTimeFormat(locale, { timeZone:'Europe/Zagreb', hour:'2-digit', minute:'2-digit', hourCycle:'h23' }).format(new Date(f.startsAt));
+export const localMonth = (f: Fixture) => f.startsAt.slice(5,7);
+export const nextFixture = (now = Date.now()) => fixtures.find(f => !f.result && Date.parse(f.startsAt) >= now) || fixtures[fixtures.length-1];
+export function directions(venue: Venue) { return 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent(venue.address); }

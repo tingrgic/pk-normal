@@ -1,0 +1,3378 @@
+{
+  "Alati": {
+    "en": "Tools",
+    "de": "Werkzeuge"
+  },
+  "Fokus": {
+    "en": "Focus",
+    "de": "Fokus"
+  },
+  "Sve stane u jedan trenutak.": {
+    "en": "Everything comes down to one moment.",
+    "de": "Alles entscheidet sich in einem Moment."
+  },
+  "Udah. Pogled. Izbačaj. Kad se sve utiša, ostaju samo ruka i cilj.": {
+    "en": "Breathe. Aim. Release. When everything goes quiet, only your hand and the target remain.",
+    "de": "Atmen. Zielen. Werfen. Wenn alles still wird, bleiben nur deine Hand und das Ziel."
+  },
+  "Ritam": {
+    "en": "Rhythm",
+    "de": "Rhythmus"
+  },
+  "Još jedno bacanje.": {
+    "en": "One more throw.",
+    "de": "Noch ein Wurf."
+  },
+  "Pronađi svoj ritam. Ponovi pokret. Dobar osjećaj dolazi s vremenom.": {
+    "en": "Find your rhythm. Repeat the motion. The feel comes with time.",
+    "de": "Finde deinen Rhythmus. Wiederhole die Bewegung. Das Gefühl kommt mit der Zeit."
+  },
+  "Ekipa": {
+    "en": "Team",
+    "de": "Team"
+  },
+  "Za crtom nikad nisi sam.": {
+    "en": "You are never alone at the oche.",
+    "de": "An der Abwurflinie bist du nie allein."
+  },
+  "Bacaš sam. Igraš s ekipom. I dobar pogodak uvijek ima s kim proslaviti.": {
+    "en": "You throw on your own. You play as a team. And there is always someone to celebrate a great shot with.",
+    "de": "Du wirfst allein. Du spielst im Team. Und einen guten Treffer feierst du gemeinsam."
+  },
+  "O KLUBU": {
+    "en": "THE CLUB",
+    "de": "DER VEREIN"
+  },
+  "NOVO IME.": {
+    "en": "NEW NAME.",
+    "de": "NEUER NAME."
+  },
+  "ISTI": {
+    "en": "SAME",
+    "de": "GLEICHE"
+  },
+  "GUŠT.": {
+    "en": "PASSION.",
+    "de": "LEIDENSCHAFT."
+  },
+  "Mi smo PK Normal.": {
+    "en": "We are PK Normal.",
+    "de": "Wir sind PK Normal."
+  },
+  "Zagrebačka ekipa s jasnim ciljem.": {
+    "en": "A Zagreb team with a clear aim.",
+    "de": "Ein Team aus Zagreb mit einem klaren Ziel."
+  },
+  "Od": {
+    "en": "Since",
+    "de": "Seit dem"
+  },
+  "dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog da se uvijek vratimo za crtu.": {
+    "en": "we have been part of the Zagreb Darts Federation. For us, darts is a good reason to get together. And an even better reason to keep coming back to the oche.",
+    "de": "gehören wir dem Zagreber Dartverband an. Darts ist für uns ein guter Grund, zusammenzukommen. Und ein noch besserer, immer wieder an die Abwurflinie zurückzukehren."
+  },
+  "Normal je dio PSGZ-a": {
+    "en": "Normal is part of PSGZ",
+    "de": "Normal gehört zum PSGZ"
+  },
+  "Jedna meta. Puno razloga za igru.": {
+    "en": "One target. So many reasons to play.",
+    "de": "Ein Ziel. Viele Gründe zu spielen."
+  },
+  "NAŠ RITAM": {
+    "en": "OUR RHYTHM",
+    "de": "UNSER RHYTHMUS"
+  },
+  "NORMALNO JE IMATI SVOJ ĐIR.": {
+    "en": "IT IS NORMAL TO DO YOUR OWN THING.",
+    "de": "DEIN EIGENER STIL IST NORMAL."
+  },
+  "PK NORMAL — U SVOM RITMU —": {
+    "en": "PK NORMAL — IN OUR OWN RHYTHM —",
+    "de": "PK NORMAL — IM EIGENEN RHYTHMUS —"
+  },
+  "Naš pristup igri": {
+    "en": "Our approach to the game",
+    "de": "Unser Spielverständnis"
+  },
+  "EKIPA": {
+    "en": "THE TEAM",
+    "de": "DAS TEAM"
+  },
+  "SVATKO SVOJ.": {
+    "en": "ALL DIFFERENT.",
+    "de": "JEDER ANDERS."
+  },
+  "ZAJEDNO": {
+    "en": "TOGETHER",
+    "de": "ZUSAMMEN"
+  },
+  "Imena iza svakog bacanja.": {
+    "en": "The names behind every throw.",
+    "de": "Die Namen hinter jedem Wurf."
+  },
+  "Igrači ekipe Normal.": {
+    "en": "The players of Team Normal.",
+    "de": "Die Spieler von Team Normal."
+  },
+  "Ekipa prema službenom registru Hrvatskog pikado saveza.": {
+    "en": "Team listed in the official Croatian Darts Federation register.",
+    "de": "Team laut offiziellem Register des kroatischen Dartverbands."
+  },
+  "Cijeli profil ekipe": {
+    "en": "Full team profile",
+    "de": "Vollständiges Teamprofil"
+  },
+  "NATJECANJA": {
+    "en": "COMPETITIONS",
+    "de": "WETTBEWERBE"
+  },
+  "ZA CRTOM.": {
+    "en": "AT THE OCHE.",
+    "de": "AN DER LINIE."
+  },
+  "U IGRI.": {
+    "en": "IN THE GAME.",
+    "de": "IM SPIEL."
+  },
+  "Raspored se prati.": {
+    "en": "Following the fixtures.",
+    "de": "Den Spielplan im Blick."
+  },
+  "Sljedeći potez se priprema.": {
+    "en": "Preparing the next move.",
+    "de": "Den nächsten Wurf im Kopf."
+  },
+  "Službene rasporede, tablice i rezultate potraži na stranicama saveza.": {
+    "en": "Find official fixtures, standings and results on the federation websites.",
+    "de": "Offizielle Spielpläne, Tabellen und Ergebnisse findest du auf den Verbandsseiten."
+  },
+  "PIKADO SAVEZ GRADA ZAGREBA": {
+    "en": "ZAGREB DARTS FEDERATION",
+    "de": "DARTVERBAND ZAGREB"
+  },
+  "Raspored i rezultati": {
+    "en": "Fixtures and results",
+    "de": "Spielplan und Ergebnisse"
+  },
+  "HRVATSKI PIKADO SAVEZ": {
+    "en": "CROATIAN DARTS FEDERATION",
+    "de": "KROATISCHER DARTVERBAND"
+  },
+  "Ekipa Normal": {
+    "en": "Team Normal",
+    "de": "Team Normal"
+  },
+  "Za interaktivnu kartu uključi JavaScript. Službeni raspored nalazi se na stranicama PSGZ-a.": {
+    "en": "Enable JavaScript for the interactive map. The official schedule is available on the PSGZ website.",
+    "de": "Aktiviere JavaScript für die interaktive Karte. Den offiziellen Spielplan findest du beim PSGZ."
+  },
+  "ALAT ZA TVOJU EKIPU / 01–10 IGRAČA": {
+    "en": "A TOOL FOR YOUR TEAM / 01–10 PLAYERS",
+    "de": "FÜR DEIN TEAM / 01–10 SPIELER"
+  },
+  "TI BACAJ.": {
+    "en": "YOU THROW.",
+    "de": "DU WIRFST."
+  },
+  "MI BROJIMO.": {
+    "en": "WE COUNT.",
+    "de": "WIR ZÄHLEN."
+  },
+  "501, Cricket ili samo zagrijavanje. Složi ekipu, odredi tko prvi baca i prepusti nam računanje.": {
+    "en": "501, Cricket or just warming up. Get your team together, choose who throws first and leave the scoring to us.",
+    "de": "501, Cricket oder einfach Aufwärmen. Stell dein Team zusammen, leg die Reihenfolge fest und überlass uns das Zählen."
+  },
+  "Otvori brojač": {
+    "en": "Open the scorer",
+    "de": "Zähler öffnen"
+  },
+  "Bez prijave. Na tvom mobitelu.": {
+    "en": "No sign-up. On your phone.",
+    "de": "Ohne Anmeldung. Auf deinem Handy."
+  },
+  "Za pokretanje brojača uključi JavaScript u pregledniku.": {
+    "en": "Enable JavaScript in your browser to use the scorer.",
+    "de": "Aktiviere JavaScript im Browser, um den Zähler zu nutzen."
+  },
+  "VIRTUALNI DVOBOJI / PK NORMAL": {
+    "en": "VIRTUAL DUELS / PK NORMAL",
+    "de": "VIRTUELLE DUELLE / PK NORMAL"
+  },
+  "TVOJA": {
+    "en": "YOUR",
+    "de": "DEIN"
+  },
+  "PROGNOZA.": {
+    "en": "PREDICTION.",
+    "de": "TIPP."
+  },
+  "Naša ekipa protiv tvoje procjene. Usporedi učinak igrača, pogledaj simulirane koeficijente i odigraj virtualni dvoboj.": {
+    "en": "Our team, your prediction. Compare player performance, explore simulated odds and play a virtual duel.",
+    "de": "Unser Team, dein Tipp. Vergleiche Spielerleistungen, sieh dir simulierte Quoten an und spiele ein virtuelles Duell."
+  },
+  "Otvori dvoboje": {
+    "en": "Open the duels",
+    "de": "Duelle öffnen"
+  },
+  "Podaci saveza. Naš model. Samo virtualni bodovi.": {
+    "en": "Federation data. Our model. Virtual points only.",
+    "de": "Verbandsdaten. Unser Modell. Nur virtuelle Punkte."
+  },
+  "Za virtualne dvoboje uključi JavaScript.": {
+    "en": "Enable JavaScript for virtual duels.",
+    "de": "Aktiviere JavaScript für virtuelle Duelle."
+  },
+  "PRIDRUŽI SE": {
+    "en": "JOIN US",
+    "de": "MACH MIT"
+  },
+  "TVOJ SLJEDEĆI": {
+    "en": "YOUR NEXT",
+    "de": "DEIN NÄCHSTER"
+  },
+  "POTEZ.": {
+    "en": "MOVE.",
+    "de": "WURF."
+  },
+  "Nazovi kapetana Rikarda": {
+    "en": "Call captain Rikard",
+    "de": "Kapitän Rikard anrufen"
+  },
+  "Imaš dobru ruku?": {
+    "en": "Got a steady hand?",
+    "de": "Hast du eine ruhige Hand?"
+  },
+  "Ili samo dobru volju?": {
+    "en": "Or just a willing spirit?",
+    "de": "Oder einfach Lust dabei zu sein?"
+  },
+  "Javi se. Krenimo od toga.": {
+    "en": "Get in touch. Let's start there.",
+    "de": "Melde dich. Damit fängt es an."
+  },
+  "KAPETAN / RIKARD MILAŠINOVIĆ": {
+    "en": "CAPTAIN / RIKARD MILAŠINOVIĆ",
+    "de": "KAPITÄN / RIKARD MILAŠINOVIĆ"
+  },
+  "MJESTO IGRANJA": {
+    "en": "PLAYING VENUE",
+    "de": "SPIELORT"
+  },
+  "Otvori kartu": {
+    "en": "Open map",
+    "de": "Karte öffnen"
+  },
+  "PIKADO KLUB / ZAGREB": {
+    "en": "DARTS CLUB / ZAGREB",
+    "de": "DARTVEREIN / ZAGREB"
+  },
+  "Normalno ime. Jasan cilj.": {
+    "en": "Normal name. Clear aim.",
+    "de": "Normaler Name. Klares Ziel."
+  },
+  "Na vrh": {
+    "en": "Back to top",
+    "de": "Nach oben"
+  },
+  "Službeni podaci / HPS": {
+    "en": "Official details / HPS",
+    "de": "Offizielle Angaben / HPS"
+  },
+  "REG. BR.": {
+    "en": "REG. NO.",
+    "de": "REG.-NR."
+  },
+  "Otvaramo virtualne dvoboje…": {
+    "en": "Opening virtual duels…",
+    "de": "Virtuelle Duelle werden geladen…"
+  },
+  "Natrag u klub": {
+    "en": "Back to the club",
+    "de": "Zurück zum Verein"
+  },
+  "Otvaramo atlas utakmica…": {
+    "en": "Opening the match atlas…",
+    "de": "Spielatlas wird geladen…"
+  },
+  "Otvaramo brojač…": {
+    "en": "Opening the scorer…",
+    "de": "Zähler wird geladen…"
+  },
+  "PIKADO KLUB": {
+    "en": "DARTS CLUB",
+    "de": "DARTVEREIN"
+  },
+  "ZAGREB, HRVATSKA": {
+    "en": "ZAGREB, CROATIA",
+    "de": "ZAGREB, KROATIEN"
+  },
+  "PRECIZNOST JE STVAR KARAKTERA.": {
+    "en": "PRECISION IS A MATTER OF CHARACTER.",
+    "de": "PRÄZISION IST CHARAKTERSACHE."
+  },
+  "— Pikado klub Zagreb": {
+    "en": "— Zagreb darts club",
+    "de": "— Dartverein Zagreb"
+  },
+  "NORMALNO IME.": {
+    "en": "A NORMAL NAME.",
+    "de": "EIN NORMALER NAME."
+  },
+  "Sve ostalo je": {
+    "en": "Everything else is",
+    "de": "Alles andere ist"
+  },
+  "stvar preciznosti.": {
+    "en": "a matter of precision.",
+    "de": "eine Frage der Präzision."
+  },
+  "Upoznaj klub": {
+    "en": "Meet the club",
+    "de": "Lerne uns kennen"
+  },
+  "MIRNA RUKA. JASAN CILJ.": {
+    "en": "STEADY HAND. CLEAR AIM.",
+    "de": "RUHIGE HAND. KLARES ZIEL."
+  },
+  "Ponovi bacanje": {
+    "en": "Replay the throw",
+    "de": "Wurf wiederholen"
+  },
+  "Preskoči uvod": {
+    "en": "Skip intro",
+    "de": "Intro überspringen"
+  },
+  "DALJE — O klubu": {
+    "en": "NEXT — The club",
+    "de": "WEITER — Der Verein"
+  },
+  "DALJE": {
+    "en": "NEXT",
+    "de": "WEITER"
+  },
+  "SPONZORI": {
+    "en": "SPONSORS",
+    "de": "SPONSOREN"
+  },
+  "UZ NAS.": {
+    "en": "WITH US.",
+    "de": "MIT UNS."
+  },
+  "ZA IGRU.": {
+    "en": "FOR THE GAME.",
+    "de": "FÜR DAS SPIEL."
+  },
+  "Podrška koja stoji iza ekipe.": {
+    "en": "The support behind our team.",
+    "de": "Der Rückhalt unseres Teams."
+  },
+  "Hvala što ste dio naše priče.": {
+    "en": "Thank you for being part of our story.",
+    "de": "Danke, dass ihr Teil unserer Geschichte seid."
+  },
+  "MJESTO I ZA VAŠ BREND": {
+    "en": "ROOM FOR YOUR BRAND TOO",
+    "de": "PLATZ FÜR DEINE MARKE"
+  },
+  "Budite dio ekipe.": {
+    "en": "Be part of the team.",
+    "de": "Werde Teil des Teams."
+  },
+  "Želite podržati PK Normal? Javite nam se i dogovorimo kako zajedno možemo doprinijeti klubu.": {
+    "en": "Want to support PK Normal? Get in touch and let's discuss how we can help the club together.",
+    "de": "Du möchtest PK Normal unterstützen? Melde dich und lass uns besprechen, wie wir den Verein gemeinsam stärken können."
+  },
+  "Postani sponzor": {
+    "en": "Become a sponsor",
+    "de": "Sponsor werden"
+  },
+  "Nazovite nas ·": {
+    "en": "Call us ·",
+    "de": "Ruf uns an ·"
+  },
+  "O klubu": {
+    "en": "The club",
+    "de": "Der Verein"
+  },
+  "Utakmice": {
+    "en": "Matches",
+    "de": "Spiele"
+  },
+  "Brojač": {
+    "en": "Scorer",
+    "de": "Zähler"
+  },
+  "Prognoze": {
+    "en": "Predictions",
+    "de": "Tipps"
+  },
+  "Sponzori": {
+    "en": "Sponsors",
+    "de": "Sponsoren"
+  },
+  "Pridruži se": {
+    "en": "Join us",
+    "de": "Mach mit"
+  },
+  "Preskoči na sadržaj": {
+    "en": "Skip to content",
+    "de": "Zum Inhalt springen"
+  },
+  "Glavna navigacija": {
+    "en": "Main navigation",
+    "de": "Hauptnavigation"
+  },
+  "IZBORNIK — otvori": {
+    "en": "MENU — open",
+    "de": "MENÜ — öffnen"
+  },
+  "IZBORNIK": {
+    "en": "MENU",
+    "de": "MENÜ"
+  },
+  "Glavni izbornik": {
+    "en": "Main menu",
+    "de": "Hauptmenü"
+  },
+  "Zatvori izbornik": {
+    "en": "Close menu",
+    "de": "Menü schließen"
+  },
+  "ZATVORI": {
+    "en": "CLOSE",
+    "de": "SCHLIESSEN"
+  },
+  "Mobilna navigacija": {
+    "en": "Mobile navigation",
+    "de": "Mobile Navigation"
+  },
+  "NORMALNO IME. JASAN CILJ.": {
+    "en": "NORMAL NAME. CLEAR AIM.",
+    "de": "NORMALER NAME. KLARES ZIEL."
+  },
+  "Otvori 3D kartu utakmica PK Normal za 2026.": {
+    "en": "Open the 2026 PK Normal 3D match map.",
+    "de": "3D-Spielkarte von PK Normal für 2026 öffnen."
+  },
+  "NOVO / ATLAS UTAKMICA 2026": {
+    "en": "NEW / MATCH ATLAS 2026",
+    "de": "NEU / SPIELATLAS 2026"
+  },
+  "GRAD JE TEREN.": {
+    "en": "THE CITY IS OUR GROUND.",
+    "de": "DIE STADT IST UNSER SPIELFELD."
+  },
+  "objavljenih utakmica. Datumi, suparnici i upute za dolazak na jednom mjestu.": {
+    "en": "published matches. Dates, opponents and directions in one place.",
+    "de": "veröffentlichte Spiele. Termine, Gegner und Anfahrtswege an einem Ort."
+  },
+  "Istraži 3D kartu": {
+    "en": "Explore the 3D map",
+    "de": "3D-Karte erkunden"
+  },
+  "Igrač 1": {
+    "en": "Player 1",
+    "de": "Spieler 1"
+  },
+  "Igrač 2": {
+    "en": "Player 2",
+    "de": "Spieler 2"
+  },
+  "Brojač pikada | PK Normal": {
+    "en": "Darts scorer — PK Normal",
+    "de": "Dartzähler — PK Normal"
+  },
+  "Pikado klub Normal | Zagreb": {
+    "en": "Normal darts club — Zagreb",
+    "de": "Dartverein Normal — Zagreb"
+  },
+  "Pravila igre": {
+    "en": "Game rules",
+    "de": "Spielregeln"
+  },
+  "Bull: vanjski 25, unutarnji 50. Promašaj ili ispala strelica: 0. Ovdje svi igraju pojedinačno; do 10 igrača. Nema vremenskog ograničenja.": {
+    "en": "Bull: outer 25, inner 50. A miss or fallen dart scores 0. Everyone plays individually here, with up to 10 players. No time limit.",
+    "de": "Bull: außen 25, innen 50. Fehlwürfe oder herausgefallene Darts zählen 0. Hier spielt jeder einzeln, mit bis zu 10 Spielern. Ohne Zeitlimit."
+  },
+  "U X01 unosite stvarno pogođeno polje, čak i kad još niste otvorili igru. Brojač primjenjuje odabrani ulaz i izlaz.": {
+    "en": "In X01, enter the field you actually hit, even before opening. The scorer applies your selected in and out rules.",
+    "de": "Gib bei X01 das tatsächlich getroffene Feld ein, auch vor dem Einstieg. Der Zähler wendet die gewählten Ein- und Ausstiegsregeln an."
+  },
+  "BROJAČ PIKADA": {
+    "en": "DARTS SCORER",
+    "de": "DARTZÄHLER"
+  },
+  "ZA CRTOM / PK NORMAL": {
+    "en": "AT THE OCHE / PK NORMAL",
+    "de": "AN DER LINIE / PK NORMAL"
+  },
+  "IGRA JE TU.": {
+    "en": "GAME ON.",
+    "de": "DAS SPIEL LÄUFT."
+  },
+  "Mirna ruka. Sljedeća strelica.": {
+    "en": "Steady hand. Next dart.",
+    "de": "Ruhige Hand. Nächster Dart."
+  },
+  "Od prvog zagrijavanja do zadnjeg doublea. Tvoj rezultat, tvoja ekipa.": {
+    "en": "From the first warm-up to the final double. Your score, your team.",
+    "de": "Vom ersten Aufwärmen bis zum letzten Doppel. Dein Ergebnis, dein Team."
+  },
+  "Spremanje nije dostupno u ovom pregledniku. Ostavite ovu stranicu otvorenom kako biste sačuvali igru.": {
+    "en": "Saving is unavailable in this browser. Keep this page open to preserve your game.",
+    "de": "Speichern ist in diesem Browser nicht möglich. Lass die Seite geöffnet, um dein Spiel zu behalten."
+  },
+  "SAČUVANO NA OVOM UREĐAJU": {
+    "en": "SAVED ON THIS DEVICE",
+    "de": "AUF DIESEM GERÄT GESPEICHERT"
+  },
+  "JOŠ JEDNO BACANJE?": {
+    "en": "ONE MORE THROW?",
+    "de": "NOCH EIN WURF?"
+  },
+  "Završena igra": {
+    "en": "Game finished",
+    "de": "Spiel beendet"
+  },
+  "Krug": {
+    "en": "Round",
+    "de": "Runde"
+  },
+  "· Na redu:": {
+    "en": "· Up next:",
+    "de": "· Am Zug:"
+  },
+  "Nastavi igru": {
+    "en": "Resume game",
+    "de": "Spiel fortsetzen"
+  },
+  "Nova igra": {
+    "en": "New game",
+    "de": "Neues Spiel"
+  },
+  "ODABERI IGRU": {
+    "en": "CHOOSE A GAME",
+    "de": "SPIEL AUSWÄHLEN"
+  },
+  "Početni rezultat": {
+    "en": "Starting score",
+    "de": "Startpunktzahl"
+  },
+  "Ulaz": {
+    "en": "Entry",
+    "de": "Einstieg"
+  },
+  "Open in · bilo koje polje": {
+    "en": "Open in · any field",
+    "de": "Open in · beliebiges Feld"
+  },
+  "Double in · dvostruko": {
+    "en": "Double in · double field",
+    "de": "Double in · Doppelfeld"
+  },
+  "Izlaz": {
+    "en": "Finish",
+    "de": "Ausstieg"
+  },
+  "Double out · dvostruko": {
+    "en": "Double out · double field",
+    "de": "Double out · Doppelfeld"
+  },
+  "Open out · bilo koje polje": {
+    "en": "Open out · any field",
+    "de": "Open out · beliebiges Feld"
+  },
+  "Master out · double ili triple": {
+    "en": "Master out · double or triple",
+    "de": "Master out · Doppel oder Triple"
+  },
+  "Broj krugova": {
+    "en": "Number of rounds",
+    "de": "Anzahl der Runden"
+  },
+  "TVOJA EKIPA": {
+    "en": "YOUR TEAM",
+    "de": "DEIN TEAM"
+  },
+  "Ime i oznaka po želji. Za trening je dovoljan jedan igrač.": {
+    "en": "Choose a name and optional tag. One player is enough for practice.",
+    "de": "Name und Kürzel frei wählbar. Zum Trainieren reicht ein Spieler."
+  },
+  "Ime igrača": {
+    "en": "Player name",
+    "de": "Spielername"
+  },
+  "Oznaka igrača": {
+    "en": "Player tag",
+    "de": "Spielerkürzel"
+  },
+  "Ukloni igrača": {
+    "en": "Remove player",
+    "de": "Spieler entfernen:"
+  },
+  "Igrač": {
+    "en": "Player",
+    "de": "Spieler"
+  },
+  "+ Dodaj igrača": {
+    "en": "+ Add player",
+    "de": "+ Spieler hinzufügen"
+  },
+  "Popis je pun": {
+    "en": "The list is full",
+    "de": "Liste ist voll"
+  },
+  "Do 10 igrača": {
+    "en": "Up to 10 players",
+    "de": "Bis zu 10 Spieler"
+  },
+  "Tko prvi baca?": {
+    "en": "Who throws first?",
+    "de": "Wer wirft zuerst?"
+  },
+  "Najbliži bullu": {
+    "en": "Closest to the bull",
+    "de": "Am nächsten am Bull"
+  },
+  "Nasumični redoslijed": {
+    "en": "Random order",
+    "de": "Zufällige Reihenfolge"
+  },
+  "Redoslijed s popisa": {
+    "en": "List order",
+    "de": "Reihenfolge der Liste"
+  },
+  "Dogovori redoslijed": {
+    "en": "Set the order",
+    "de": "Reihenfolge festlegen"
+  },
+  "TKO JE NAJBLIŽE?": {
+    "en": "WHO IS CLOSEST?",
+    "de": "WER IST AM NÄCHSTEN?"
+  },
+  "REDOSLIJED JE TU.": {
+    "en": "THE ORDER IS SET.",
+    "de": "DIE REIHENFOLGE STEHT."
+  },
+  "EKIPA JE SPREMNA.": {
+    "en": "THE TEAM IS READY.",
+    "de": "DAS TEAM IST BEREIT."
+  },
+  "Svatko baca jednu strelicu prema bullu. Strelicama uz imena složite poredak od najbližeg prema najdaljem. Izjednačeni igrači bacaju ponovno.": {
+    "en": "Everyone throws one dart at the bull. Use the arrows beside the names to order players from closest to furthest. Tied players throw again.",
+    "de": "Jeder wirft einen Dart aufs Bull. Ordne die Spieler mit den Pfeilen vom nächsten zum weitesten Treffer. Bei Gleichstand wird erneut geworfen."
+  },
+  "Prvi na popisu prvi baca. Redoslijed možete prilagoditi prije početka.": {
+    "en": "The first player on the list throws first. You can adjust the order before starting.",
+    "de": "Der erste Spieler auf der Liste wirft zuerst. Vor dem Start kannst du die Reihenfolge anpassen."
+  },
+  "Pomakni": {
+    "en": "Move",
+    "de": "Verschiebe"
+  },
+  "gore": {
+    "en": "up",
+    "de": "nach oben"
+  },
+  "dolje": {
+    "en": "down",
+    "de": "nach unten"
+  },
+  "Počni igru": {
+    "en": "Start game",
+    "de": "Spiel starten"
+  },
+  "Ponovno izvuci": {
+    "en": "Shuffle again",
+    "de": "Neu auslosen"
+  },
+  "Uredi postavke": {
+    "en": "Edit settings",
+    "de": "Einstellungen ändern"
+  },
+  "Bez prijave. Igra se sprema samo u ovom pregledniku. Nazive i rezultate ne šaljemo na poslužitelj.": {
+    "en": "No sign-up. The game is saved only in this browser. Names and results are not sent to a server.",
+    "de": "Ohne Anmeldung. Das Spiel wird nur in diesem Browser gespeichert. Namen und Ergebnisse werden nicht an einen Server gesendet."
+  },
+  "KRUG": {
+    "en": "ROUND",
+    "de": "RUNDE"
+  },
+  "Unos rezultata": {
+    "en": "Score entry",
+    "de": "Ergebniseingabe"
+  },
+  "PODIJELJENA POBJEDA": {
+    "en": "SHARED WIN",
+    "de": "GETEILTER SIEG"
+  },
+  "POBJEDNIK": {
+    "en": "WINNER",
+    "de": "SIEGER"
+  },
+  "Još jedna igra": {
+    "en": "Play again",
+    "de": "Noch ein Spiel"
+  },
+  "NA REDU /": {
+    "en": "UP NEXT /",
+    "de": "AM ZUG /"
+  },
+  "SLJEDEĆI CILJ": {
+    "en": "NEXT TARGET",
+    "de": "NÄCHSTES ZIEL"
+  },
+  "PREOSTALO": {
+    "en": "REMAINING",
+    "de": "REST"
+  },
+  "BODOVA": {
+    "en": "POINTS",
+    "de": "PUNKTE"
+  },
+  "U ovom krugu vrijedi samo": {
+    "en": "This round only counts",
+    "de": "In dieser Runde zählt nur"
+  },
+  "Za početak pogodi double.": {
+    "en": "Hit a double to open.",
+    "de": "Triff ein Doppel zum Einstieg."
+  },
+  "Strelice u ovom potezu": {
+    "en": "Darts in this turn",
+    "de": "Darts in dieser Aufnahme"
+  },
+  "Potez završen. Izvadite strelice pa nastavite.": {
+    "en": "Turn complete. Retrieve your darts, then continue.",
+    "de": "Aufnahme beendet. Darts herausnehmen und weiterspielen."
+  },
+  "Unesi": {
+    "en": "Enter dart",
+    "de": "Dart eingeben:"
+  },
+  ". strelicu ·": {
+    "en": "·",
+    "de": "·"
+  },
+  "preostalo": {
+    "en": "remaining",
+    "de": "Rest"
+  },
+  "Cricket oznake:": {
+    "en": "Cricket marks:",
+    "de": "Cricket-Markierungen:"
+  },
+  "od 3 oznake": {
+    "en": "of 3 marks",
+    "de": "von 3 Markierungen"
+  },
+  "Pogođeno polje": {
+    "en": "Field hit",
+    "de": "Getroffenes Feld"
+  },
+  "PROMAŠAJ": {
+    "en": "MISS",
+    "de": "FEHLWURF"
+  },
+  "Prikaži rezultat": {
+    "en": "Show result",
+    "de": "Ergebnis anzeigen"
+  },
+  "Sljedeći:": {
+    "en": "Next:",
+    "de": "Als Nächstes:"
+  },
+  "Poništi zadnji unos": {
+    "en": "Undo last entry",
+    "de": "Letzte Eingabe rückgängig"
+  },
+  "Za double ili triple prvo odaberi množitelj, zatim broj. Množitelj se nakon unosa vraća na single. Bull tipke uvijek vrijede 25 / 50.": {
+    "en": "For a double or triple, select the multiplier first, then the number. The multiplier returns to single after each entry. Bull buttons always score 25 / 50.",
+    "de": "Für Doppel oder Triple zuerst den Multiplikator wählen, dann die Zahl. Nach jeder Eingabe wird auf Single zurückgesetzt. Die Bull-Tasten zählen immer 25 / 50."
+  },
+  "Rezultati igrača": {
+    "en": "Player scores",
+    "de": "Spielergebnisse"
+  },
+  "REZULTAT /": {
+    "en": "SCORE /",
+    "de": "ERGEBNIS /"
+  },
+  "IGRAČ": {
+    "en": "PLAYER",
+    "de": "SPIELER"
+  },
+  "IGRAČA": {
+    "en": "PLAYERS",
+    "de": "SPIELER"
+  },
+  "strelica": {
+    "en": "darts",
+    "de": "Darts"
+  },
+  "· na redu": {
+    "en": "· up next",
+    "de": "· am Zug"
+  },
+  "Cricket oznake, tablica se može pomicati vodoravno": {
+    "en": "Cricket marks, table scrolls horizontally",
+    "de": "Cricket-Markierungen, Tabelle horizontal scrollbar"
+  },
+  "Polja / tri oznake zatvaraju broj": {
+    "en": "Fields / three marks close a number",
+    "de": "Felder / drei Markierungen schließen eine Zahl"
+  },
+  "Cilj": {
+    "en": "Target",
+    "de": "Ziel"
+  },
+  "Zadnji unosi": {
+    "en": "Recent entries",
+    "de": "Letzte Eingaben"
+  },
+  "Sljedeći igrač": {
+    "en": "Next player",
+    "de": "Nächster Spieler"
+  },
+  "Prva strelica tek dolazi.": {
+    "en": "The first dart is still to come.",
+    "de": "Der erste Dart kommt noch."
+  },
+  "Igra trenutačno nije spremljena.": {
+    "en": "The game is not currently saved.",
+    "de": "Das Spiel ist derzeit nicht gespeichert."
+  },
+  "Automatski spremljeno na ovom uređaju.": {
+    "en": "Automatically saved on this device.",
+    "de": "Automatisch auf diesem Gerät gespeichert."
+  },
+  "Možeš se vratiti u klub i nastaviti kasnije.": {
+    "en": "You can return to the club and continue later.",
+    "de": "Du kannst zum Verein zurückkehren und später weiterspielen."
+  },
+  "PK NORMAL / JEDAN CILJ.": {
+    "en": "PK NORMAL / ONE TARGET.",
+    "de": "PK NORMAL / EIN ZIEL."
+  },
+  "Povratak na stranicu kluba": {
+    "en": "Return to the club website",
+    "de": "Zurück zur Vereinsseite"
+  },
+  "NOVA IGRA?": {
+    "en": "NEW GAME?",
+    "de": "NEUES SPIEL?"
+  },
+  "Trenutni rezultat bit će zamijenjen. Želiš li nastaviti?": {
+    "en": "The current score will be replaced. Do you want to continue?",
+    "de": "Der aktuelle Spielstand wird ersetzt. Möchtest du fortfahren?"
+  },
+  "Zadrži igru": {
+    "en": "Keep game",
+    "de": "Spiel behalten"
+  },
+  "Od 301 do nule.": {
+    "en": "From 301 to zero.",
+    "de": "Von 301 auf null."
+  },
+  "Oduzimaj pogotke do točno nule. Prebačaj vraća rezultat na početak poteza. Double out traži dvostruko polje (ili bull 50); master out prihvaća i trostruko. Uz te izlaze, ostatak 1 također je prebačaj.": {
+    "en": "Subtract hits to reach exactly zero. A bust restores the score at the start of the turn. Double out requires a double (or bull 50); master out also accepts a triple. With these finishes, a remainder of 1 is also a bust.",
+    "de": "Ziehe Treffer ab, bis genau null erreicht ist. Beim Überwerfen gilt wieder der Stand zu Beginn der Aufnahme. Double out erfordert ein Doppel (oder Bull 50), Master out erlaubt auch Triple. Bei diesen Ausstiegen gilt Rest 1 ebenfalls als Überwerfen."
+  },
+  "Zatvori. Osvajaj.": {
+    "en": "Close. Score.",
+    "de": "Schließen. Punkten."
+  },
+  "Zatvori 20, 19, 18, 17, 16, 15 i bull s po tri oznake. Višak pogodaka donosi bodove dok barem jedan suparnik nije zatvorio broj. Pobjeđuje igrač koji zatvori sve i ima najmanje jednako bodova kao svaki suparnik.": {
+    "en": "Close 20, 19, 18, 17, 16, 15 and bull with three marks each. Extra hits score while at least one opponent has not closed that number. Win by closing everything with at least as many points as every opponent.",
+    "de": "Schließe 20, 19, 18, 17, 16, 15 und Bull mit je drei Markierungen. Zusätzliche Treffer punkten, solange mindestens ein Gegner die Zahl noch offen hat. Wer alles schließt und mindestens so viele Punkte wie jeder Gegner hat, gewinnt."
+  },
+  "Bodovi idu drugima.": {
+    "en": "Points go to the others.",
+    "de": "Punkte für die anderen."
+  },
+  "Cricket u kojem višak pogodaka donosi bodove svakom suparniku koji još nije zatvorio broj. Zatvori sve i imaj najmanje bodova. Jednaki bodovi dovoljni su za pobjedu uz sva zatvorena polja.": {
+    "en": "Cricket where extra hits add points to every opponent who has not closed the number. Close everything and have the lowest score. A tied score is enough to win when all your fields are closed.",
+    "de": "Cricket, bei dem zusätzliche Treffer jedem Gegner Punkte geben, der die Zahl noch offen hat. Schließe alles und habe die wenigsten Punkte. Bei komplett geschlossenen Feldern reicht Punktgleichstand zum Sieg."
+  },
+  "Cricket / bez bodova": {
+    "en": "Cricket / no score",
+    "de": "Cricket / ohne Punkte"
+  },
+  "Samo zatvaranje.": {
+    "en": "Just closing.",
+    "de": "Nur schließen."
+  },
+  "Tri oznake zatvaraju broj. Prvi zatvori sve brojeve od 15 do 20 i bull. Nema bodova; single, double i triple vrijede jednu, dvije i tri oznake.": {
+    "en": "Three marks close a number. Be the first to close 15 through 20 and bull. No points; single, double and triple count as one, two and three marks.",
+    "de": "Drei Markierungen schließen eine Zahl. Schließe als Erster 15 bis 20 und Bull. Ohne Punkte: Single, Doppel und Triple zählen als eine, zwei und drei Markierungen."
+  },
+  "Svaki pogodak vrijedi.": {
+    "en": "Every hit counts.",
+    "de": "Jeder Treffer zählt."
+  },
+  "Zbrajaj bodove kroz odabrani broj krugova. Svatko ima tri strelice po krugu. Nakon jednakog broja poteza pobjeđuje najveći zbroj. Jednak rezultat znači podijeljenu pobjedu.": {
+    "en": "Add points over your chosen number of rounds. Each player has three darts per round. After equal turns, the highest score wins. A tie means a shared win.",
+    "de": "Sammle Punkte über die gewählte Rundenzahl. Jeder hat drei Darts pro Runde. Nach gleich vielen Aufnahmen gewinnt die höchste Punktzahl. Bei Gleichstand wird der Sieg geteilt."
+  },
+  "Od 1 do 20. Pa bull.": {
+    "en": "From 1 to 20. Then bull.",
+    "de": "Von 1 bis 20. Dann Bull."
+  },
+  "Pogodi redom 1–20, zatim vanjski ili unutarnji bull. Dvostruko i trostruko polje pomiču te samo za jedan broj. Prvi koji završi niz pobjeđuje. Tri strelice po potezu.": {
+    "en": "Hit 1–20 in order, then the outer or inner bull. Doubles and triples advance you by just one number. The first to finish wins. Three darts per turn.",
+    "de": "Triff 1–20 der Reihe nach, danach das äußere oder innere Bull. Doppel und Triple bringen dich nur eine Zahl weiter. Wer zuerst fertig ist, gewinnt. Drei Darts pro Aufnahme."
+  },
+  "Tri prstena. Jedan broj.": {
+    "en": "Three rings. One number.",
+    "de": "Drei Ringe. Eine Zahl."
+  },
+  "U svakom krugu gađaj broj kruga, od 1 do odabranog završnog broja. Samo taj broj donosi bodove. Single, double i triple tog broja u istom potezu odmah donose pobjedu. Inače pobjeđuje najveći zbroj nakon svih krugova; izjednačeni dijele pobjedu.": {
+    "en": "Each round targets its number, from 1 to the chosen final round. Only that number scores. A single, double and triple of that number in one turn wins immediately. Otherwise the highest total after all rounds wins; ties share the win.",
+    "de": "In jeder Runde zählt nur ihre Zahl, von 1 bis zur gewählten Schlussrunde. Single, Doppel und Triple dieser Zahl in einer Aufnahme bringen sofort den Sieg. Sonst gewinnt nach allen Runden die höchste Summe; bei Gleichstand wird der Sieg geteilt."
+  },
+  "Gotovo. Svaka strelica se računa.": {
+    "en": "Done. Every dart counts.",
+    "de": "Fertig. Jeder Dart zählt."
+  },
+  "Pogodak za pobjedu.": {
+    "en": "The winning shot.",
+    "de": "Der Siegtreffer."
+  },
+  "Prebačaj. Rezultat se vraća na početak poteza.": {
+    "en": "Bust. The score returns to the start of the turn.",
+    "de": "Überworfen. Es gilt wieder der Stand zu Beginn der Aufnahme."
+  },
+  "Za ulaz je potrebno dvostruko polje.": {
+    "en": "A double is required to open.",
+    "de": "Zum Einstieg ist ein Doppel nötig."
+  },
+  "Sva polja zatvorena. Igra je završena.": {
+    "en": "All fields closed. Game over.",
+    "de": "Alle Felder geschlossen. Spiel beendet."
+  },
+  "Shanghai! Tri prstena, jedan broj.": {
+    "en": "Shanghai! Three rings, one number.",
+    "de": "Shanghai! Drei Ringe, eine Zahl."
+  },
+  "Cijela godina": {
+    "en": "Whole year",
+    "de": "Ganzes Jahr"
+  },
+  "Rujan": {
+    "en": "September",
+    "de": "September"
+  },
+  "Listopad": {
+    "en": "October",
+    "de": "Oktober"
+  },
+  "Studeni": {
+    "en": "November",
+    "de": "November"
+  },
+  "Prosinac": {
+    "en": "December",
+    "de": "Dezember"
+  },
+  "Karta utakmica 2026 | PK Normal": {
+    "en": "2026 match map — PK Normal",
+    "de": "Spielkarte 2026 — PK Normal"
+  },
+  "ODIGRANO": {
+    "en": "PLAYED",
+    "de": "GESPIELT"
+  },
+  "TERMIN PROŠAO": {
+    "en": "DATE PASSED",
+    "de": "TERMIN VERGANGEN"
+  },
+  "NAJAVLJENO": {
+    "en": "SCHEDULED",
+    "de": "ANGESETZT"
+  },
+  "ATLAS UTAKMICA": {
+    "en": "MATCH ATLAS",
+    "de": "SPIELATLAS"
+  },
+  "ZAGREB I SESVETE / SEZONA": {
+    "en": "ZAGREB AND SESVETE / SEASON",
+    "de": "ZAGREB UND SESVETE / SAISON"
+  },
+  "GRAD JE": {
+    "en": "THE CITY IS",
+    "de": "DIE STADT IST"
+  },
+  "TEREN.": {
+    "en": "OUR GROUND.",
+    "de": "UNSER FELD."
+  },
+  "Gdje igramo. Kada se vidimo.": {
+    "en": "Where we play. When we meet.",
+    "de": "Wo wir spielen. Wann wir uns sehen."
+  },
+  "Normalova godina, na jednoj karti.": {
+    "en": "Normal's year, on one map.",
+    "de": "Normals Jahr auf einer Karte."
+  },
+  "objavljenih utakmica": {
+    "en": "published matches",
+    "de": "veröffentlichte Spiele"
+  },
+  "lokacija na karti": {
+    "en": "mapped venues",
+    "de": "Spielorte auf der Karte"
+  },
+  "Vrsta utakmice": {
+    "en": "Match type",
+    "de": "Spielart"
+  },
+  "Sve": {
+    "en": "All",
+    "de": "Alle"
+  },
+  "Domaći": {
+    "en": "Home",
+    "de": "Heim"
+  },
+  "Gosti": {
+    "en": "Away",
+    "de": "Auswärts"
+  },
+  "Kup": {
+    "en": "Cup",
+    "de": "Pokal"
+  },
+  "Mjesec utakmice": {
+    "en": "Match month",
+    "de": "Spielmonat"
+  },
+  "Samo nadolazeće": {
+    "en": "Upcoming only",
+    "de": "Nur kommende Spiele"
+  },
+  "Karta i odabrana utakmica": {
+    "en": "Map and selected match",
+    "de": "Karte und ausgewähltes Spiel"
+  },
+  "Učitavamo kartu…": {
+    "en": "Loading the map…",
+    "de": "Karte wird geladen…"
+  },
+  "PSGZ KUP A / 1. KRUG": {
+    "en": "PSGZ CUP A / ROUND 1",
+    "de": "PSGZ POKAL A / RUNDE 1"
+  },
+  ". KOLO": {
+    "en": ". ROUND",
+    "de": ". RUNDE"
+  },
+  "2026. · vrijeme u Zagrebu": {
+    "en": "2026 · Zagreb local time",
+    "de": "2026 · Ortszeit Zagreb"
+  },
+  "Lokacija čeka potvrdu": {
+    "en": "Venue awaiting confirmation",
+    "de": "Spielort noch unbestätigt"
+  },
+  "Datum i suparnik su objavljeni. Igralište domaćina još nije navedeno u registru.": {
+    "en": "The date and opponent are published. The home venue is not yet listed in the register.",
+    "de": "Datum und Gegner sind veröffentlicht. Die Heimspielstätte steht noch nicht im Register."
+  },
+  "Oznaka je na adresi igrališta; provjeri ulaz.": {
+    "en": "The marker shows the venue address; check the entrance.",
+    "de": "Die Markierung zeigt die Adresse; prüfe den Eingang."
+  },
+  "Upute za dolazak": {
+    "en": "Get directions",
+    "de": "Anfahrt"
+  },
+  "Dodaj u kalendar": {
+    "en": "Add to calendar",
+    "de": "Zum Kalender hinzufügen"
+  },
+  "Službena utakmica / PSGZ": {
+    "en": "Official match / PSGZ",
+    "de": "Offizielles Spiel / PSGZ"
+  },
+  "Prethodna utakmica": {
+    "en": "Previous match",
+    "de": "Vorheriges Spiel"
+  },
+  "Sljedeća utakmica": {
+    "en": "Next match",
+    "de": "Nächstes Spiel"
+  },
+  "NEMA UTAKMICA": {
+    "en": "NO MATCHES",
+    "de": "KEINE SPIELE"
+  },
+  "U OVOM ODABIRU.": {
+    "en": "IN THIS SELECTION.",
+    "de": "IN DIESER AUSWAHL."
+  },
+  "Pokušaj drugi mjesec ili prikaži cijeli raspored.": {
+    "en": "Try another month or show the full schedule.",
+    "de": "Wähle einen anderen Monat oder zeige den gesamten Spielplan."
+  },
+  "Prikaži sve": {
+    "en": "Show all",
+    "de": "Alle anzeigen"
+  },
+  "KALENDAR / ODABERI UTAKMICU": {
+    "en": "CALENDAR / CHOOSE A MATCH",
+    "de": "KALENDER / SPIEL AUSWÄHLEN"
+  },
+  "OD CRTE DO CRTE.": {
+    "en": "FROM OCHE TO OCHE.",
+    "de": "VON LINIE ZU LINIE."
+  },
+  "Preuzmi odabrani raspored": {
+    "en": "Download selected schedule",
+    "de": "Ausgewählten Spielplan laden"
+  },
+  "od": {
+    "en": "of",
+    "de": "von"
+  },
+  "objavljenih utakmica · 2026.": {
+    "en": "published matches · 2026.",
+    "de": "veröffentlichten Spielen · 2026."
+  },
+  "protiv": {
+    "en": "versus",
+    "de": "gegen"
+  },
+  "1. krug": {
+    "en": "Round 1",
+    "de": "1. Runde"
+  },
+  ". kolo": {
+    "en": ". round",
+    "de": ". Runde"
+  },
+  "Adresa nije objavljena": {
+    "en": "Address not published",
+    "de": "Adresse nicht veröffentlicht"
+  },
+  "Izvori i ažurnost": {
+    "en": "Sources and freshness",
+    "de": "Quellen und Aktualität"
+  },
+  "Raspored, bez nagađanja.": {
+    "en": "Fixtures without guesswork.",
+    "de": "Spielplan ohne Rätselraten."
+  },
+  "Prikazane su objavljene utakmice u kalendarskoj 2026., iz sezone 2026/27. Provjereno": {
+    "en": "Published matches in calendar year 2026, from the 2026/27 season. Checked",
+    "de": "Veröffentlichte Spiele im Kalenderjahr 2026 aus der Saison 2026/27. Geprüft am"
+  },
+  "Ovo nije prijenos uživo; termini se mogu promijeniti. Preuzeti kalendar ne osvježava se automatski.": {
+    "en": "This is not a live feed; dates may change. Downloaded calendars do not update automatically.",
+    "de": "Dies ist keine Live-Übertragung; Termine können sich ändern. Heruntergeladene Kalender aktualisieren sich nicht automatisch."
+  },
+  "Kup se igra na neutralnom igralištu. Visine 3D zgrada služe orijentaciji.": {
+    "en": "The cup is played at a neutral venue. 3D building heights are for orientation.",
+    "de": "Der Pokal wird an einem neutralen Ort gespielt. 3D-Gebäudehöhen dienen zur Orientierung."
+  },
+  "Liga / službeni raspored": {
+    "en": "League / official fixtures",
+    "de": "Liga / offizieller Spielplan"
+  },
+  "Kup / službeni raspored": {
+    "en": "Cup / official fixtures",
+    "de": "Pokal / offizieller Spielplan"
+  },
+  "Izvor odabrane adrese": {
+    "en": "Selected address source",
+    "de": "Quelle der gewählten Adresse"
+  },
+  "Karta: OpenFreeMap / OpenStreetMap": {
+    "en": "Map: OpenFreeMap / OpenStreetMap",
+    "de": "Karte: OpenFreeMap / OpenStreetMap"
+  },
+  "PK NORMAL / SVAKI KVART, ISTI CILJ.": {
+    "en": "PK NORMAL / EVERY DISTRICT, ONE AIM.",
+    "de": "PK NORMAL / JEDES VIERTEL, EIN ZIEL."
+  },
+  "Prije utakmice? Otvori brojač": {
+    "en": "Before the match? Open the scorer",
+    "de": "Vor dem Spiel? Zähler öffnen"
+  },
+  "Karta Zagreba. Strelice pomiču kartu, plus i minus mijenjaju povećanje.": {
+    "en": "Map of Zagreb. Arrow keys pan the map; plus and minus change the zoom.",
+    "de": "Karte von Zagreb. Pfeiltasten verschieben die Karte, Plus und Minus ändern den Zoom."
+  },
+  "NA MJESTU IGRE.": {
+    "en": "AT THE VENUE.",
+    "de": "AM SPIELORT."
+  },
+  "Kontrole karte": {
+    "en": "Map controls",
+    "de": "Kartensteuerung"
+  },
+  "Cijeli grad": {
+    "en": "Whole city",
+    "de": "Ganze Stadt"
+  },
+  "Lokacija": {
+    "en": "Venue",
+    "de": "Spielort"
+  },
+  "2D prikaz": {
+    "en": "2D view",
+    "de": "2D-Ansicht"
+  },
+  "3D prikaz": {
+    "en": "3D view",
+    "de": "3D-Ansicht"
+  },
+  "Približi kartu": {
+    "en": "Zoom in",
+    "de": "Vergrößern"
+  },
+  "Udalji kartu": {
+    "en": "Zoom out",
+    "de": "Verkleinern"
+  },
+  "Postavljamo Zagreb na kartu.": {
+    "en": "Putting Zagreb on the map.",
+    "de": "Zagreb kommt auf die Karte."
+  },
+  "Raspored i detalji dostupni su odmah.": {
+    "en": "Fixtures and details are available immediately.",
+    "de": "Spielplan und Details sind sofort verfügbar."
+  },
+  "Karta trenutačno nije dostupna.": {
+    "en": "The map is currently unavailable.",
+    "de": "Die Karte ist derzeit nicht verfügbar."
+  },
+  "Utakmice, adrese i upute za dolazak i dalje su dostupne u rasporedu.": {
+    "en": "Matches, addresses and directions are still available in the schedule.",
+    "de": "Spiele, Adressen und Anfahrtswege sind weiterhin im Spielplan verfügbar."
+  },
+  "Pokušaj ponovno": {
+    "en": "Try again",
+    "de": "Erneut versuchen"
+  },
+  "Dva prsta za pomicanje na mobitelu. 3D zgrade vidljive su izbliza.": {
+    "en": "Use two fingers to pan on mobile. 3D buildings appear when zoomed in.",
+    "de": "Auf dem Handy mit zwei Fingern verschieben. 3D-Gebäude werden beim Heranzoomen sichtbar."
+  },
+  "PSGZ kup A · 1. krug.": {
+    "en": "PSGZ Cup A · Round 1.",
+    "de": "PSGZ Pokal A · 1. Runde."
+  },
+  ". kolo.": {
+    "en": ". round.",
+    "de": ". Runde."
+  },
+  "Provjereno 18. 9. 2026. Termin se može promijeniti.": {
+    "en": "Checked 18 September 2026. The date may change.",
+    "de": "Geprüft am 18. September 2026. Der Termin kann sich ändern."
+  },
+  "PK NORMAL / VIRTUALNI DVOBOJ": {
+    "en": "PK NORMAL / VIRTUAL DUEL",
+    "de": "PK NORMAL / VIRTUELLES DUELL"
+  },
+  "STATISTIKA SAVEZA. NAŠA PROCJENA.": {
+    "en": "FEDERATION STATS. OUR ESTIMATE.",
+    "de": "VERBANDSSTATISTIK. UNSERE SCHÄTZUNG."
+  },
+  "TKO IMA": {
+    "en": "WHO HAS",
+    "de": "WER HAT"
+  },
+  "BOLJU RUKU?": {
+    "en": "THE STEADIER HAND?",
+    "de": "DIE RUHIGERE HAND?"
+  },
+  "Odaberi suparnika. Usporedi našu ekipu.": {
+    "en": "Choose an opponent. Compare our team.",
+    "de": "Wähle einen Gegner. Vergleiche unser Team."
+  },
+  "Isprobaj prognozu s virtualnim bodovima.": {
+    "en": "Try your prediction with virtual points.",
+    "de": "Teste deinen Tipp mit virtuellen Punkten."
+  },
+  "Bez novca, uplata i nagrada. Simulirani ishodi nisu stvarni rezultati utakmica.": {
+    "en": "No money, deposits or prizes. Simulated outcomes are not actual match results.",
+    "de": "Kein Geld, keine Einzahlungen oder Preise. Simulierte Ausgänge sind keine tatsächlichen Spielergebnisse."
+  },
+  "Presjek:": {
+    "en": "Snapshot:",
+    "de": "Datenstand:"
+  },
+  "(Zagreb). Podaci se ne osvježavaju uživo. Mali uzorak — početak sezone.": {
+    "en": "(Zagreb). Data does not update live. Small sample — the season has just started.",
+    "de": "(Zagreb). Keine Live-Aktualisierung. Kleine Stichprobe — die Saison hat gerade begonnen."
+  },
+  "Službena tablica": {
+    "en": "Official standings",
+    "de": "Offizielle Tabelle"
+  },
+  "Izbor suparnika": {
+    "en": "Opponent selection",
+    "de": "Gegnerauswahl"
+  },
+  "01 / Protivnička ekipa": {
+    "en": "01 / Opposing team",
+    "de": "01 / Gegnerisches Team"
+  },
+  "02 / Protivnički igrač": {
+    "en": "02 / Opposing player",
+    "de": "02 / Gegnerischer Spieler"
+  },
+  "Nema zabilježenih nastupa": {
+    "en": "No recorded appearances",
+    "de": "Keine erfassten Einsätze"
+  },
+  "Prikazani su protivnički igrači sa zabilježenim nastupima u ovoj ligi. Dvoboji su hipotetski, a ne najavljena postava.": {
+    "en": "Opponents shown have recorded appearances in this league. Duels are hypothetical, not an announced lineup.",
+    "de": "Angezeigt werden Gegner mit erfassten Einsätzen in dieser Liga. Die Duelle sind hypothetisch, keine angekündigte Aufstellung."
+  },
+  "pobjeda /": {
+    "en": "wins /",
+    "de": "Siege /"
+  },
+  "poraza · susreti": {
+    "en": "losses · duels",
+    "de": "Niederlagen · Duelle"
+  },
+  "Naša ekipa": {
+    "en": "Our team",
+    "de": "Unser Team"
+  },
+  "Suparnik:": {
+    "en": "Opponent:",
+    "de": "Gegner:"
+  },
+  "poraza · legovi": {
+    "en": "losses · legs",
+    "de": "Niederlagen · Legs"
+  },
+  "Za ovu ekipu još nema pojedinačnih podataka. Koeficijenti nisu dostupni.": {
+    "en": "There is no individual data for this team yet. Odds are unavailable.",
+    "de": "Für dieses Team liegen noch keine Einzeldaten vor. Quoten sind nicht verfügbar."
+  },
+  "IGRAČ / UČINAK": {
+    "en": "PLAYER / RECORD",
+    "de": "SPIELER / BILANZ"
+  },
+  "SUPARNIK": {
+    "en": "OPPONENT",
+    "de": "GEGNER"
+  },
+  "Bez nastupa u presjeku · timska osnovica": {
+    "en": "No appearances in snapshot · team baseline",
+    "de": "Keine Einsätze im Datenstand · Teambasis"
+  },
+  "Suparnik": {
+    "en": "Opponent",
+    "de": "Gegner"
+  },
+  ", nedostaju podaci": {
+    "en": ", data unavailable",
+    "de": ", keine Daten"
+  },
+  "Nema podataka": {
+    "en": "No data",
+    "de": "Keine Daten"
+  },
+  "SAMO VIRTUALNI BODOVI": {
+    "en": "VIRTUAL POINTS ONLY",
+    "de": "NUR VIRTUELLE PUNKTE"
+  },
+  "Tvoj dvoboj.": {
+    "en": "Your duel.",
+    "de": "Dein Duell."
+  },
+  "bodova": {
+    "en": "points",
+    "de": "Punkte"
+  },
+  "Tvoj izbor:": {
+    "en": "Your pick:",
+    "de": "Dein Tipp:"
+  },
+  "Koeficijent": {
+    "en": "Odds",
+    "de": "Quote"
+  },
+  "Odaberi koeficijent uz igrača. Jedan dvoboj, jedna prognoza.": {
+    "en": "Select the odds beside a player. One duel, one prediction.",
+    "de": "Wähle die Quote neben einem Spieler. Ein Duell, ein Tipp."
+  },
+  "Ulog u bodovima (10–100)": {
+    "en": "Stake in points (10–100)",
+    "de": "Einsatz in Punkten (10–100)"
+  },
+  "Unesi cijeli broj od 10 do 100, najviše do svog salda.": {
+    "en": "Enter a whole number from 10 to 100, up to your balance.",
+    "de": "Gib eine ganze Zahl von 10 bis 100 ein, höchstens deinen Punktestand."
+  },
+  "Početni saldo: 1.000 bodova.": {
+    "en": "Starting balance: 1,000 points.",
+    "de": "Startguthaben: 1.000 Punkte."
+  },
+  "Simuliraj dvoboj": {
+    "en": "Simulate duel",
+    "de": "Duell simulieren"
+  },
+  "Ishod se nasumično izvlači prema prikazanoj procjeni. Ne čeka se stvarna utakmica. Izračun koristi puni koeficijent; prikaz je zaokružen.": {
+    "en": "The outcome is drawn randomly using the displayed estimate. It does not wait for a real match. Calculations use full odds; the display is rounded.",
+    "de": "Der Ausgang wird anhand der angezeigten Schätzung zufällig gezogen. Es wird nicht auf ein echtes Spiel gewartet. Berechnet wird mit der vollen Quote; die Anzeige ist gerundet."
+  },
+  "Preglednik ne dopušta spremanje. Bodovi vrijede samo dok je ovaj prikaz otvoren.": {
+    "en": "Your browser does not allow saving. Points last only while this view stays open.",
+    "de": "Dein Browser erlaubt kein Speichern. Die Punkte bleiben nur erhalten, solange diese Ansicht geöffnet ist."
+  },
+  "Obrisati povijest simulacija i vratiti 1.000 virtualnih bodova?": {
+    "en": "Delete simulation history and restore 1,000 virtual points?",
+    "de": "Simulationsverlauf löschen und 1.000 virtuelle Punkte wiederherstellen?"
+  },
+  "Nova igra. Saldo je 1.000 bodova.": {
+    "en": "New game. Your balance is 1,000 points.",
+    "de": "Neues Spiel. Dein Guthaben beträgt 1.000 Punkte."
+  },
+  "Vrati početnih 1.000 bodova": {
+    "en": "Restore the starting 1,000 points",
+    "de": "Auf 1.000 Startpunkte zurücksetzen"
+  },
+  "Odredi ulog ↓": {
+    "en": "Set your stake ↓",
+    "de": "Einsatz festlegen ↓"
+  },
+  "Kako računamo?": {
+    "en": "How do we calculate?",
+    "de": "Wie rechnen wir?"
+  },
+  "Ovo je naš eksperimentalni model, ne koeficijent saveza niti provjerena prognoza. Koristimo pobjede i poraze u pojedinačnim susretima (75 %) te legove (25 %), uz ekipni učinak kao osnovicu. Mali broj nastupa ublažavamo prema toj osnovici; igrači bez nastupa dobivaju samo ekipnu procjenu.": {
+    "en": "This is our experimental model, not federation odds or a validated forecast. It uses individual duel wins and losses (75%) and legs (25%), with team performance as a baseline. Small samples are pulled toward that baseline; players without appearances receive only a team-based estimate.",
+    "de": "Dies ist unser experimentelles Modell, keine Verbandsquote oder validierte Prognose. Es nutzt Siege und Niederlagen in Einzelduellen (75 %) sowie Legs (25 %), mit der Teamleistung als Basis. Kleine Stichproben werden zur Basis hin abgeschwächt; Spieler ohne Einsätze erhalten nur eine Teamschätzung."
+  },
+  "Formula, ograničenja i izvori": {
+    "en": "Formula, limitations and sources",
+    "de": "Formel, Grenzen und Quellen"
+  },
+  "Ekipna osnovica susreta: (pobjede + 8) / (susreti + 16); legova: (dobiveni + 16) / (legovi + 32). Igraču dodajemo 8 susreta i 16 legova te osnovice. Snaga S = 0,75 × omjer susreta + 0,25 × omjer legova. Za A protiv B: p = A(1−B) / [A(1−B) + B(1−A)], ograničeno na 15–85 %. Koeficijent = 1/p, bez marže.": {
+    "en": "Team duel baseline: (wins + 8) / (duels + 16); legs: (won + 16) / (legs + 32). Add 8 duels and 16 legs of that baseline to each player. Strength S = 0.75 × duel ratio + 0.25 × leg ratio. For A against B: p = A(1−B) / [A(1−B) + B(1−A)], limited to 15–85%. Odds = 1/p, with no margin.",
+    "de": "Teambasis für Duelle: (Siege + 8) / (Duelle + 16); Legs: (gewonnene + 16) / (Legs + 32). Jedem Spieler werden 8 Duelle und 16 Legs dieser Basis zugerechnet. Stärke S = 0,75 × Duellquote + 0,25 × Legquote. Für A gegen B: p = A(1−B) / [A(1−B) + B(1−A)], begrenzt auf 15–85 %. Quote = 1/p, ohne Marge."
+  },
+  "Model nije kalibriran na povijesnim ishodima i ne korigira kvalitetu ranijih protivnika, postavu ni prednost domaćina. Ekipni bodovi i kazne ne ulaze u model. Nule neodigranih utakmica nisu rezultati. Svaki novi presjek može promijeniti procjenu.": {
+    "en": "The model is not calibrated against historical outcomes and does not adjust for past opponent strength, lineups or home advantage. Team points and penalties are excluded. Zeros for unplayed matches are not results. Each new snapshot may change the estimate.",
+    "de": "Das Modell ist nicht anhand historischer Ergebnisse kalibriert und berücksichtigt weder die Stärke früherer Gegner noch Aufstellung oder Heimvorteil. Teampunkte und Strafen fließen nicht ein. Nullen bei ungespielten Partien sind keine Ergebnisse. Jeder neue Datenstand kann die Schätzung ändern."
+  },
+  "PSGZ: rezultati ekipa i učinak igrača ↗": {
+    "en": "PSGZ: team results and player performance ↗",
+    "de": "PSGZ: Teamergebnisse und Spielerleistung ↗"
+  },
+  "HPS: registrirana ekipa Normal ↗": {
+    "en": "HPS: registered Team Normal ↗",
+    "de": "HPS: registriertes Team Normal ↗"
+  },
+  "Tvoje simulacije.": {
+    "en": "Your simulations.",
+    "de": "Deine Simulationen."
+  },
+  "Zadnjih 20 dvoboja, spremljeno samo u ovom pregledniku. Ovo nisu službeni rezultati.": {
+    "en": "Last 20 duels, saved only in this browser. These are not official results.",
+    "de": "Die letzten 20 Duelle, nur in diesem Browser gespeichert. Dies sind keine offiziellen Ergebnisse."
+  },
+  "Izbor:": {
+    "en": "Pick:",
+    "de": "Tipp:"
+  },
+  "· ulog": {
+    "en": "· stake",
+    "de": "· Einsatz"
+  },
+  "· koef.": {
+    "en": "· odds",
+    "de": "· Quote"
+  },
+  "Pogodak": {
+    "en": "Correct pick",
+    "de": "Richtiger Tipp"
+  },
+  "Promašaj": {
+    "en": "Incorrect pick",
+    "de": "Falscher Tipp"
+  },
+  "Ulog mora biti od 10 do 100 bodova i unutar tvog salda.": {
+    "en": "Stake must be 10–100 points and within your balance.",
+    "de": "Der Einsatz muss 10–100 Punkte betragen und innerhalb deines Guthabens liegen."
+  },
+  "Neispravna procjena.": {
+    "en": "Invalid estimate.",
+    "de": "Ungültige Schätzung."
+  },
+  "4. liga · skupina B": {
+    "en": "Division 4 · Group B",
+    "de": "4. Liga · Gruppe B"
+  },
+  "Igrališta lige prema registru HPS-a. Moguće promjene provjeri na službenoj stranici utakmice.": {
+    "en": "League venues follow the HPS register. Check the official match page for possible changes.",
+    "de": "Ligaspielorte laut HPS-Register. Mögliche Änderungen findest du auf der offiziellen Spielseite."
+  },
+  "Igralište PKZ Voltage": {
+    "en": "PKZ Voltage venue",
+    "de": "Spielstätte PKZ Voltage"
+  },
+  "DOMAĆI": {
+    "en": "HOME",
+    "de": "HEIM"
+  },
+  "GOSTI": {
+    "en": "AWAY",
+    "de": "AUSWÄRTS"
+  },
+  "KUP / NEUTRALNO": {
+    "en": "CUP / NEUTRAL",
+    "de": "POKAL / NEUTRAL"
+  },
+  "12. kolovoza 2026.": {
+    "en": "12 August 2026",
+    "de": "12. August 2026"
+  },
+  "Predsjednik / kapetan": {
+    "en": "President / captain",
+    "de": "Präsident / Kapitän"
+  },
+  "{0} — {1}, službena stranica": {
+    "en": "{0} — {1}, official website",
+    "de": "{0} — {1}, offizielle Website"
+  },
+  "Logotip {0}": {
+    "en": "{0} logo",
+    "de": "Logo von {0}"
+  },
+  "Simulacija: pogodak! Povrat {0} bodova, uključujući ulog.": {
+    "en": "Simulation: correct pick! {0} points returned, including your stake.",
+    "de": "Simulation: richtig getippt! {0} Punkte zurück, inklusive Einsatz."
+  },
+  "Simulacija: promašaj. Uloženo {0} bodova.": {
+    "en": "Simulation: incorrect pick. {0} points staked.",
+    "de": "Simulation: falsch getippt. {0} Punkte eingesetzt."
+  },
+  "{0}–{1} u susretima · legovi {2}:{3}": {
+    "en": "{0}–{1} in duels · legs {2}:{3}",
+    "de": "{0}–{1} in Duellen · Legs {2}:{3}"
+  },
+  "{0} pobjeđuje u dvoboju {1} protiv {2}{3}": {
+    "en": "{0} wins the duel {1} versus {2}{3}",
+    "de": "{0} gewinnt das Duell {1} gegen {2}{3}"
+  },
+  ", koeficijent {0}": {
+    "en": ", odds {0}",
+    "de": ", Quote {0}"
+  },
+  "Mogući povrat: {0} bodova (s ulogom).": {
+    "en": "Potential return: {0} points (including stake).",
+    "de": "Mögliche Rückzahlung: {0} Punkte (inklusive Einsatz)."
+  },
+  "Virtualni dvoboji | PK Normal": {
+    "en": "Virtual duels — PK Normal",
+    "de": "Virtuelle Duelle — PK Normal"
+  },
+  "Jezik stranice": {
+    "en": "Site language",
+    "de": "Sprache der Website"
+  },
+  "Pikado klub Normal iz Zagreba. Upoznaj ekipu, prati utakmice, broji rezultate i istraži virtualne dvoboje.": {
+    "en": "Normal darts club in Zagreb. Meet the team, follow matches, keep score and explore virtual duels.",
+    "de": "Dartverein Normal aus Zagreb. Lerne das Team kennen, verfolge Spiele, zähle Punkte und entdecke virtuelle Duelle."
+  },
+  "Pomakni {name} gore": {
+    "en": "Move {name} up",
+    "de": "{name} nach oben verschieben"
+  },
+  "Pomakni {name} dolje": {
+    "en": "Move {name} down",
+    "de": "{name} nach unten verschieben"
+  },
+  "Prikaži izvore karte": {
+    "en": "Toggle map attribution",
+    "de": "Kartenquellen einblenden"
+  },
+  "Karta": {
+    "en": "Map",
+    "de": "Karte"
+  },
+  "Za povećanje karte koristi Ctrl i kotačić": {
+    "en": "Use Ctrl + scroll to zoom the map",
+    "de": "Mit Strg und Mausrad die Karte zoomen"
+  },
+  "Za povećanje karte koristi ⌘ i kotačić": {
+    "en": "Use ⌘ + scroll to zoom the map",
+    "de": "Mit ⌘ und Mausrad die Karte zoomen"
+  },
+  "Pomakni kartu s dva prsta": {
+    "en": "Use two fingers to move the map",
+    "de": "Karte mit zwei Fingern verschieben"
+  },
+  "{wins} pobjeda / {losses} poraza · susreti {won}:{lost}": {
+    "en": "Wins: {wins} / losses: {losses} · duels {won}:{lost}",
+    "de": "Siege: {wins} / Niederlagen: {losses} · Duelle {won}:{lost}"
+  },
+  "{wins} pobjeda / {losses} poraza · legovi {won}:{lost}": {
+    "en": "Wins: {wins} / losses: {losses} · legs {won}:{lost}",
+    "de": "Siege: {wins} / Niederlagen: {losses} · Legs {won}:{lost}"
+  },
+  "NORMALNO.": {
+    "en": "NORMAL.",
+    "de": "NORMAL."
+  },
+  "ZA NOSITI.": {
+    "en": "TO WEAR.",
+    "de": "ZUM TRAGEN."
+  },
+  "Za crtu. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.": {
+    "en": "For the oche. For the sofa. For everything between. Explore 12 ideas for our first merch collection.",
+    "de": "Für die Abwurflinie. Für das Sofa. Für alles dazwischen. Entdecke 12 Ideen für unsere erste Merch-Kollektion."
+  },
+  "Istraži kolekciju": {
+    "en": "Explore the collection",
+    "de": "Kollektion entdecken"
+  },
+  "Koncept kolekcije · još nije u prodaji": {
+    "en": "Concept collection · not yet for sale",
+    "de": "Konzeptkollektion · noch nicht im Verkauf"
+  },
+  "Moj izbor": {
+    "en": "My favourites",
+    "de": "Meine Favoriten"
+  },
+  "KOLEKCIJA U NASTAJANJU / 001": {
+    "en": "COLLECTION IN THE MAKING / 001",
+    "de": "KOLLEKTION IN ENTSTEHUNG / 001"
+  },
+  "SASVIM": {
+    "en": "PERFECTLY",
+    "de": "VÖLLIG"
+  },
+  "NENORMALAN.": {
+    "en": "ABNORMAL.",
+    "de": "UNNORMAL."
+  },
+  "Za crtu. Za kauč. Za sve između.": {
+    "en": "For the oche. For the sofa. For everything between.",
+    "de": "Für die Abwurflinie. Für das Sofa. Für alles dazwischen."
+  },
+  "Klupski duh koji ne ostaje u klubu.": {
+    "en": "Club spirit that comes home with you.",
+    "de": "Vereinsgeist, der mit nach Hause kommt."
+  },
+  "Double out — koncept crnog klupskog ogrtača i papuča": {
+    "en": "Double out — black club bathrobe and slippers concept",
+    "de": "Double out — Konzept eines schwarzen Vereinsbademantels mit Hausschuhen"
+  },
+  "Iz igre. U ogrtač.": {
+    "en": "Out of the game. Into the robe.",
+    "de": "Raus aus dem Spiel. Rein in den Bademantel."
+  },
+  "DOBRE IDEJE. JOŠ NE PROIZVODI.": {
+    "en": "GOOD IDEAS. NOT PRODUCTS YET.",
+    "de": "GUTE IDEEN. NOCH KEINE PRODUKTE."
+  },
+  "Ovo je koncept službenog PK Normal merchshopa. Svi prikazi su AI mockupovi; artikli, materijali i izvedbe su prijedlozi. Cijene, zalihe i datum prodaje još nisu određeni. Nema naručivanja ni naplate.": {
+    "en": "This is a concept for the official PK Normal merchshop. All images are AI mockups; products, materials and designs are proposals. Prices, stock and launch date are undecided. No orders or payments.",
+    "de": "Dies ist ein Konzept für den offiziellen PK Normal Merchshop. Alle Bilder sind KI-Mockups; Artikel, Materialien und Ausführungen sind Vorschläge. Preise, Bestand und Verkaufsstart stehen noch nicht fest. Keine Bestellungen oder Zahlungen."
+  },
+  "DOBAR ĐIR.": {
+    "en": "YOUR OWN STYLE.",
+    "de": "DEIN EIGENER STIL."
+  },
+  "OD GLAVE DO PETE.": {
+    "en": "FROM HEAD TO TOE.",
+    "de": "VON KOPF BIS FUSS."
+  },
+  "IDEJA / JEDNA EKIPA": {
+    "en": "IDEAS / ONE TEAM",
+    "de": "IDEEN / EIN TEAM"
+  },
+  "Kategorije proizvoda": {
+    "en": "Product categories",
+    "de": "Produktkategorien"
+  },
+  "Za nositi": {
+    "en": "To wear",
+    "de": "Zum Tragen"
+  },
+  "Za crtu": {
+    "en": "At the oche",
+    "de": "An der Abwurflinie"
+  },
+  "Izvan igre": {
+    "en": "Off duty",
+    "de": "Nach dem Spiel"
+  },
+  "Tvoj izbor ostaje samo u ovom pregledniku. Nije narudžba niti rezervacija.": {
+    "en": "Your favourites stay in this browser. This is not an order or reservation.",
+    "de": "Deine Favoriten bleiben in diesem Browser. Dies ist keine Bestellung oder Reservierung."
+  },
+  "Pogledaj koncept": {
+    "en": "View concept",
+    "de": "Konzept ansehen"
+  },
+  "KONCEPT": {
+    "en": "CONCEPT",
+    "de": "KONZEPT"
+  },
+  "Ukloni iz izbora": {
+    "en": "Remove from favourites",
+    "de": "Aus Favoriten entfernen"
+  },
+  "Spremi u izbor": {
+    "en": "Save to favourites",
+    "de": "Zu Favoriten hinzufügen"
+  },
+  "Ovdje još nema favorita. Spremi ideju srcem ili odaberi drugu kategoriju.": {
+    "en": "No favourites here yet. Save an idea using the heart or choose another category.",
+    "de": "Hier gibt es noch keine Favoriten. Speichere eine Idee mit dem Herz oder wähle eine andere Kategorie."
+  },
+  "KLUB SE NE NOSI": {
+    "en": "CLUB SPIRIT GOES",
+    "de": "VEREINSGEIST TRÄGT MAN"
+  },
+  "SAMO NA DRESU.": {
+    "en": "BEYOND THE JERSEY.",
+    "de": "AUCH OHNE TRIKOT."
+  },
+  "Normal uniforma": {
+    "en": "Normal uniform",
+    "de": "Normal-Uniform"
+  },
+  "Oversized majica": {
+    "en": "Oversized T-shirt",
+    "de": "Oversize-T-Shirt"
+  },
+  "Dress code: svoj đir.": {
+    "en": "Dress code: be yourself.",
+    "de": "Dresscode: dein eigener Stil."
+  },
+  "Ogrtač + papuče": {
+    "en": "Bathrobe + slippers",
+    "de": "Bademantel + Hausschuhe"
+  },
+  "Vruća sezona / 2027": {
+    "en": "Hot season / 2027",
+    "de": "Heiße Saison / 2027"
+  },
+  "Godišnji kalendar": {
+    "en": "Yearly calendar",
+    "de": "Jahreskalender"
+  },
+  "Dvanaest mjeseci. Malo manje dresa.": {
+    "en": "Twelve months. A little less jersey.",
+    "de": "Zwölf Monate. Etwas weniger Trikot."
+  },
+  "Produžeci": {
+    "en": "Extra time",
+    "de": "Verlängerung"
+  },
+  "Još jednu. Pa doma.": {
+    "en": "One more. Then home.",
+    "de": "Noch eine. Dann nach Hause."
+  },
+  "Tri razloga": {
+    "en": "Three reasons",
+    "de": "Drei Gründe"
+  },
+  "Pikado putni set": {
+    "en": "Darts travel set",
+    "de": "Darts-Reiseset"
+  },
+  "Tvoj mali arsenal.": {
+    "en": "Your little arsenal.",
+    "de": "Dein kleines Arsenal."
+  },
+  "Prva runda": {
+    "en": "First round",
+    "de": "Erste Runde"
+  },
+  "Šalica + podmetač": {
+    "en": "Mug + coaster",
+    "de": "Tasse + Untersetzer"
+  },
+  "Prvo kava. Onda preciznost.": {
+    "en": "Coffee first. Precision next.",
+    "de": "Erst Kaffee. Dann Präzision."
+  },
+  "Sve nosim": {
+    "en": "Carry it all",
+    "de": "Alles dabei"
+  },
+  "Platnena torba": {
+    "en": "Canvas tote",
+    "de": "Stofftasche"
+  },
+  "Za opremu. I usputni kruh.": {
+    "en": "For your gear. And groceries.",
+    "de": "Für die Ausrüstung. Und den Einkauf."
+  },
+  "Mirna ruka": {
+    "en": "Steady hand",
+    "de": "Ruhige Hand"
+  },
+  "Mirisna svijeća": {
+    "en": "Scented candle",
+    "de": "Duftkerze"
+  },
+  "Upali fokus. Ugasi dramu.": {
+    "en": "Light up focus. Put out drama.",
+    "de": "Fokus an. Drama aus."
+  },
+  "Čvrst stav": {
+    "en": "Firm footing",
+    "de": "Fester Stand"
+  },
+  "Sportske čarape": {
+    "en": "Sports socks",
+    "de": "Sportsocken"
+  },
+  "Obje noge iza crte.": {
+    "en": "Both feet behind the line.",
+    "de": "Beide Füße hinter der Linie."
+  },
+  "Glava u igri": {
+    "en": "Head in the game",
+    "de": "Kopf im Spiel"
+  },
+  "Šilterica": {
+    "en": "Baseball cap",
+    "de": "Baseballkappe"
+  },
+  "Fokus pod šiltom.": {
+    "en": "Focus under the brim.",
+    "de": "Fokus unter dem Schirm."
+  },
+  "Kiša? Normalno.": {
+    "en": "Rain? Normal.",
+    "de": "Regen? Normal."
+  },
+  "Kišobran": {
+    "en": "Umbrella",
+    "de": "Regenschirm"
+  },
+  "Promaši lokvu.": {
+    "en": "Miss the puddle.",
+    "de": "Verfehl die Pfütze."
+  },
+  "Iza crte, molim": {
+    "en": "Behind the line, please",
+    "de": "Hinter die Linie, bitte"
+  },
+  "Otirač": {
+    "en": "Doormat",
+    "de": "Fußmatte"
+  },
+  "Kućni teren počinje ovdje.": {
+    "en": "Home advantage starts here.",
+    "de": "Hier beginnt der Heimvorteil."
+  },
+  "Isprana crna, veliki natpis i mali crveni cilj. Ideja za majicu koja ide na trening i ostaje na tebi poslije.": {
+    "en": "Washed black, bold lettering and a small red target. A T-shirt idea for training and everything afterwards.",
+    "de": "Verwaschenes Schwarz, große Schrift und ein kleines rotes Ziel. Eine T-Shirt-Idee fürs Training und alles danach."
+  },
+  "Crni frotir, crveni rub i klupski vez. Koncept kompleta za ozbiljno neozbiljan oporavak na kauču.": {
+    "en": "Black terry, red trim and club embroidery. A set concept for seriously unserious recovery on the sofa.",
+    "de": "Schwarzer Frottee, rote Kanten und Vereinsstickerei. Ein Set-Konzept für herrlich unernsthafte Erholung auf dem Sofa."
+  },
+  "Razigran, seksi kalendar u sportskom editorijalnom stilu. AI prikaz izmišljenog odraslog modela, ne člana kluba. Stvarno izdanje tražilo bi dobrovoljne modele i njihovu suglasnost.": {
+    "en": "A playful, sexy calendar with a sports editorial look. AI depiction of a fictional adult model, not a club member. A real edition would require volunteer models and their consent.",
+    "de": "Ein verspielter, sexy Kalender im Sport-Editorial-Stil. KI-Darstellung eines fiktiven erwachsenen Models, keines Vereinsmitglieds. Eine echte Ausgabe würde freiwillige Models und deren Einwilligung erfordern."
+  },
+  "Crna majica s kapuljačom i diskretnim klupskim potpisom. Za hladan put kući nakon vrućeg meča.": {
+    "en": "A black hoodie with subtle club branding. For the cold trip home after a heated match.",
+    "de": "Ein schwarzer Hoodie mit dezentem Vereinsbranding. Für den kalten Heimweg nach einem heißen Match."
+  },
+  "Vizija putne kutije sa strelicama, rezervnim perima i ručnikom. Oblik, težina i sadržaj tek bi se definirali za proizvodnju.": {
+    "en": "A travel case concept with darts, spare flights and a towel. Shape, weight and contents would be defined before production.",
+    "de": "Ein Reisekoffer-Konzept mit Darts, Ersatzflights und Handtuch. Form, Gewicht und Inhalt würden vor der Produktion festgelegt."
+  },
+  "Crna šalica, crvena unutrašnjost i podmetač u obliku mete. Mali jutarnji ritual s velikim klupskim slovima.": {
+    "en": "A black mug, red interior and a target-shaped coaster. A small morning ritual with bold club lettering.",
+    "de": "Eine schwarze Tasse, rote Innenseite und ein Untersetzer in Zielscheibenform. Ein kleines Morgenritual mit großer Vereinsschrift."
+  },
+  "Prirodno platno, crne ručke i tipografija koju ne možeš promašiti. Klupska torba za sasvim normalne obaveze.": {
+    "en": "Natural canvas, black handles and lettering you cannot miss. A club tote for perfectly normal errands.",
+    "de": "Naturfarbenes Canvas, schwarze Griffe und unübersehbare Schrift. Eine Vereinstasche für ganz normale Erledigungen."
+  },
+  "Koncept svijeće u crnom staklu za atmosferu nakon meča. Zamišljeni miris: cedar i crni papar. Miris i sastav nisu potvrđeni.": {
+    "en": "A candle concept in black glass for the post-match mood. Imagined scent: cedar and black pepper. Fragrance and ingredients are unconfirmed.",
+    "de": "Ein Kerzenkonzept im schwarzen Glas für die Stimmung nach dem Match. Duftidee: Zeder und schwarzer Pfeffer. Duft und Inhaltsstoffe stehen noch nicht fest."
+  },
+  "Svijetle rebraste čarape s crvenom linijom i klupskim natpisom. Diskretan znak da i stopala igraju za ekipu.": {
+    "en": "Light ribbed socks with a red stripe and club lettering. A subtle sign that your feet play for the team too.",
+    "de": "Helle Rippensocken mit rotem Streifen und Vereinsschrift. Ein dezentes Zeichen, dass auch die Füße fürs Team spielen."
+  },
+  "Isprana crna šilterica s bijelim vezom i crvenim detaljem. Minimalan dizajn za maksimalno često nošenje.": {
+    "en": "A washed-black cap with white embroidery and a red detail. Minimal design for maximum everyday wear.",
+    "de": "Eine verwaschen schwarze Kappe mit weißer Stickerei und rotem Detail. Minimales Design für den täglichen Einsatz."
+  },
+  "Crna kupola, radijalne linije i klupski potpis. Ideja za gostovanja na kojima prognoza nije na našoj strani.": {
+    "en": "A black canopy, radial lines and club branding. An idea for away days when the forecast is not on our side.",
+    "de": "Ein schwarzer Schirm, radiale Linien und Vereinsbranding. Eine Idee für Auswärtsspiele, wenn die Wettervorhersage gegen uns ist."
+  },
+  "Otirač zamišljen kao linija bacanja. Za ulaz koji odmah daje do znanja kakva ekipa živi unutra.": {
+    "en": "A doormat imagined as a throwing line. An entrance that immediately tells visitors what kind of team lives inside.",
+    "de": "Eine Fußmatte als Abwurflinie. Ein Eingang, der sofort zeigt, welches Team hier wohnt."
+  },
+  "Karusel": {
+    "en": "Carousel",
+    "de": "Karussell"
+  },
+  "Povuci lijevo / desno. Tipkovnica: ← / →.": {
+    "en": "Swipe left / right. Keyboard: ← / →.",
+    "de": "Nach links / rechts wischen. Tastatur: ← / →."
+  },
+  "Prethodni opis": {
+    "en": "Previous description",
+    "de": "Vorherige Beschreibung"
+  },
+  "Sljedeći opis": {
+    "en": "Next description",
+    "de": "Nächste Beschreibung"
+  },
+  "Precizni": {
+    "en": "Precise",
+    "de": "Präzise"
+  },
+  "Kad ruka i plan govore istim jezikom.": {
+    "en": "When hand and plan speak the same language.",
+    "de": "Wenn Hand und Plan dieselbe Sprache sprechen."
+  },
+  "Skoro precizni": {
+    "en": "Almost precise",
+    "de": "Fast präzise"
+  },
+  "Plan je bio dobar. Meta ima svoju verziju.": {
+    "en": "The plan was good. The board has its own version.",
+    "de": "Der Plan war gut. Die Scheibe hat ihre eigene Version."
+  },
+  "Sabrani": {
+    "en": "Focused",
+    "de": "Gesammelt"
+  },
+  "Udah. Pogled. Jedno bacanje.": {
+    "en": "Breathe. Look. One throw.",
+    "de": "Atmen. Schauen. Ein Wurf."
+  },
+  "Samosvjesni": {
+    "en": "Self-aware",
+    "de": "Selbstbewusst"
+  },
+  "Znamo kako izgledamo dok računamo ostatak.": {
+    "en": "We know how we look while counting the remainder.",
+    "de": "Wir wissen, wie wir beim Restrechnen aussehen."
+  },
+  "Uporni": {
+    "en": "Persistent",
+    "de": "Beharrlich"
+  },
+  "Loša serija nije kraj večeri.": {
+    "en": "A bad visit is not the end of the evening.",
+    "de": "Eine schlechte Aufnahme beendet nicht den Abend."
+  },
+  "Normalni": {
+    "en": "Normal",
+    "de": "Normal"
+  },
+  "Ime smo riješili. Ostalo još uvježbavamo.": {
+    "en": "We settled the name. Still practising the rest.",
+    "de": "Der Name steht. Den Rest üben wir noch."
+  },
+  "Strpljivi": {
+    "en": "Patient",
+    "de": "Geduldig"
+  },
+  "Dobar osjećaj ne dolazi na zapovijed.": {
+    "en": "A good feeling does not arrive on command.",
+    "de": "Ein gutes Gefühl kommt nicht auf Kommando."
+  },
+  "Umjereno skromni": {
+    "en": "Moderately modest",
+    "de": "Mäßig bescheiden"
+  },
+  "Pogodak ćemo spomenuti. Samo nekoliko puta.": {
+    "en": "We will mention that shot. Just a few times.",
+    "de": "Den Treffer erwähnen wir. Nur ein paarmal."
+  },
+  "Ekipni": {
+    "en": "Team-minded",
+    "de": "Teamorientiert"
+  },
+  "Bacaš sam. Veseliš se s nekim.": {
+    "en": "You throw alone. You celebrate with someone.",
+    "de": "Du wirfst allein. Du freust dich mit anderen."
+  },
+  "Natjecateljski": {
+    "en": "Competitive",
+    "de": "Wettkampffreudig"
+  },
+  "Prijateljski pozdrav. Ozbiljan pogled prema meti.": {
+    "en": "A friendly greeting. A serious look at the board.",
+    "de": "Ein freundlicher Gruß. Ein ernster Blick zur Scheibe."
+  },
+  "Pribrani": {
+    "en": "Composed",
+    "de": "Besonnen"
+  },
+  "Mirna ruka počinje malo prije izbačaja.": {
+    "en": "A steady hand starts before the release.",
+    "de": "Eine ruhige Hand beginnt vor dem Abwurf."
+  },
+  "Povremeno tihi": {
+    "en": "Occasionally quiet",
+    "de": "Manchmal still"
+  },
+  "Uglavnom dok strelica putuje.": {
+    "en": "Mostly while the dart is in flight.",
+    "de": "Meistens, solange der Dart fliegt."
+  },
+  "Odlučni": {
+    "en": "Determined",
+    "de": "Entschlossen"
+  },
+  "Kad staneš za crtu, stani iza svog izbora.": {
+    "en": "Step up to the line. Stand by your choice.",
+    "de": "Stell dich an die Linie. Steh zu deiner Entscheidung."
+  },
+  "Samokritični": {
+    "en": "Self-critical",
+    "de": "Selbstkritisch"
+  },
+  "Analiza je spremna i prije treće strelice.": {
+    "en": "The analysis is ready before the third dart.",
+    "de": "Die Analyse steht schon vor dem dritten Dart."
+  },
+  "Opušteni": {
+    "en": "Relaxed",
+    "de": "Entspannt"
+  },
+  "Ramena dolje. Očekivanja po dogovoru.": {
+    "en": "Shoulders down. Expectations negotiable.",
+    "de": "Schultern runter. Erwartungen nach Absprache."
+  },
+  "Pomalo napeti": {
+    "en": "Slightly tense",
+    "de": "Etwas angespannt"
+  },
+  "Samo tamo gdje se vidi rezultat.": {
+    "en": "Only where the score is visible.",
+    "de": "Nur dort, wo man den Spielstand sieht."
+  },
+  "Dosljedni": {
+    "en": "Consistent",
+    "de": "Konsequent"
+  },
+  "Vraćamo se pokretu koji želimo ponoviti.": {
+    "en": "We return to the movement we want to repeat.",
+    "de": "Wir kehren zu der Bewegung zurück, die wir wiederholen wollen."
+  },
+  "Nedosljedni": {
+    "en": "Inconsistent",
+    "de": "Unbeständig"
+  },
+  "Ponekad ponovimo i onaj drugi.": {
+    "en": "Sometimes we repeat the other one too.",
+    "de": "Manchmal wiederholen wir auch die andere."
+  },
+  "Solidarni": {
+    "en": "Supportive",
+    "de": "Solidarisch"
+  },
+  "Tuđi dobar pogodak zaslužuje naš pljesak.": {
+    "en": "Someone else's good shot deserves our applause.",
+    "de": "Ein guter Treffer der anderen verdient unseren Applaus."
+  },
+  "Ambiciozni": {
+    "en": "Ambitious",
+    "de": "Ehrgeizig"
+  },
+  "Meta je mala. Planovi nisu.": {
+    "en": "Small target. Big plans.",
+    "de": "Kleines Ziel. Große Pläne."
+  },
+  "Prisutni": {
+    "en": "Present",
+    "de": "Gegenwärtig"
+  },
+  "Sljedeća strelica još nije na redu.": {
+    "en": "The next dart can wait its turn.",
+    "de": "Der nächste Dart ist noch nicht dran."
+  },
+  "Rječito tihi": {
+    "en": "Eloquently quiet",
+    "de": "Beredsam still"
+  },
+  "Pogled nakon promašaja kaže dovoljno.": {
+    "en": "The look after a miss says enough.",
+    "de": "Der Blick nach dem Fehlwurf sagt genug."
+  },
+  "Znatiželjni": {
+    "en": "Curious",
+    "de": "Neugierig"
+  },
+  "Uvijek postoji nešto što možemo naučiti.": {
+    "en": "There is always something we can learn.",
+    "de": "Es gibt immer etwas zu lernen."
+  },
+  "Realni": {
+    "en": "Realistic",
+    "de": "Realistisch"
+  },
+  "Želja i rezultat vode se odvojeno.": {
+    "en": "Wishes and results are kept separately.",
+    "de": "Wünsche und Ergebnisse werden getrennt geführt."
+  },
+  "Optimistični": {
+    "en": "Optimistic",
+    "de": "Optimistisch"
+  },
+  "Još su dvije strelice u ruci.": {
+    "en": "Still two darts in hand.",
+    "de": "Noch zwei Darts in der Hand."
+  },
+  "Oprezno sretni": {
+    "en": "Cautiously happy",
+    "de": "Vorsichtig glücklich"
+  },
+  "Prvo provjerimo gdje se zapravo zabola.": {
+    "en": "First, let's check where it actually landed.",
+    "de": "Erst prüfen wir, wo er wirklich steckt."
+  },
+  "Pošteni": {
+    "en": "Fair",
+    "de": "Fair"
+  },
+  "Rezultat vrijedi i kad nam ne odgovara.": {
+    "en": "The score counts even when it does not suit us.",
+    "de": "Das Ergebnis zählt auch, wenn es uns nicht gefällt."
+  },
+  "Srčani": {
+    "en": "Wholehearted",
+    "de": "Mit Herz dabei"
+  },
+  "Do zadnje strelice, bez pola volje.": {
+    "en": "Full commitment, right down to the last dart.",
+    "de": "Voller Einsatz bis zum letzten Dart."
+  },
+  "Prizemljeni": {
+    "en": "Grounded",
+    "de": "Bodenständig"
+  },
+  "Nakon velikog pogotka opet skupljaš strelice.": {
+    "en": "After a great shot, you still collect your darts.",
+    "de": "Nach dem großen Treffer holst du trotzdem deine Darts."
+  },
+  "Malo glasni": {
+    "en": "A little loud",
+    "de": "Etwas laut"
+  },
+  "Dobra serija rijetko prođe neopaženo.": {
+    "en": "A good visit rarely goes unnoticed.",
+    "de": "Eine gute Aufnahme bleibt selten unbemerkt."
+  },
+  "Usredotočeni": {
+    "en": "Concentrated",
+    "de": "Konzentriert"
+  },
+  "U ovom trenutku dovoljan je jedan cilj.": {
+    "en": "One target is enough for this moment.",
+    "de": "Für diesen Moment reicht ein Ziel."
+  },
+  "Rastreseni": {
+    "en": "Distracted",
+    "de": "Zerstreut"
+  },
+  "Fokus je tu negdje. Sad će.": {
+    "en": "Our focus is around here somewhere. Any minute now.",
+    "de": "Der Fokus ist irgendwo hier. Kommt gleich."
+  },
+  "Ustrajni": {
+    "en": "Steadfast",
+    "de": "Ausdauernd"
+  },
+  "Napredak se ne mora vidjeti u svakoj seriji.": {
+    "en": "Progress need not show in every visit.",
+    "de": "Fortschritt zeigt sich nicht in jeder Aufnahme."
+  },
+  "Dobro raspoloženi": {
+    "en": "Good-humoured",
+    "de": "Gut gelaunt"
+  },
+  "Lakše je kad ti je dobro s ekipom.": {
+    "en": "It is easier when you enjoy your team's company.",
+    "de": "Es geht leichter, wenn man sich im Team wohlfühlt."
+  },
+  "Ozbiljni": {
+    "en": "Serious",
+    "de": "Ernsthaft"
+  },
+  "Igra zaslužuje punu pažnju.": {
+    "en": "The game deserves our full attention.",
+    "de": "Das Spiel verdient unsere volle Aufmerksamkeit."
+  },
+  "Ne preozbiljni": {
+    "en": "Not too serious",
+    "de": "Nicht zu ernst"
+  },
+  "Mi ipak možemo podnijeti vlastitu šalu.": {
+    "en": "We can still take a joke about ourselves.",
+    "de": "Einen Witz über uns selbst vertragen wir trotzdem."
+  },
+  "Spremni": {
+    "en": "Ready",
+    "de": "Bereit"
+  },
+  "Strelice u ruci. Ostatak po redu.": {
+    "en": "Darts in hand. One thing at a time.",
+    "de": "Darts in der Hand. Alles der Reihe nach."
+  },
+  "Skoro spremni": {
+    "en": "Almost ready",
+    "de": "Fast bereit"
+  },
+  "Samo još da izračunamo.": {
+    "en": "Just let us finish the arithmetic.",
+    "de": "Nur noch kurz ausrechnen."
+  },
+  "Pažljivi": {
+    "en": "Considerate",
+    "de": "Aufmerksam"
+  },
+  "Dok drugi baca, pustimo ga da baca.": {
+    "en": "When someone is throwing, let them throw.",
+    "de": "Wer gerade wirft, darf in Ruhe werfen."
+  },
+  "Druželjubivi": {
+    "en": "Sociable",
+    "de": "Gesellig"
+  },
+  "Razgovor se nastavlja iza crte.": {
+    "en": "The conversation continues behind the line.",
+    "de": "Das Gespräch geht hinter der Linie weiter."
+  },
+  "Mirni": {
+    "en": "Calm",
+    "de": "Ruhig"
+  },
+  "Ne mora svaki promašaj dobiti komentar.": {
+    "en": "Not every miss needs a commentary.",
+    "de": "Nicht jeder Fehlwurf braucht einen Kommentar."
+  },
+  "Iznutra bučni": {
+    "en": "Loud inside",
+    "de": "Innerlich laut"
+  },
+  "Izvana samo lagano kimanje.": {
+    "en": "On the outside, just a small nod.",
+    "de": "Von außen nur ein leichtes Nicken."
+  },
+  "Predani": {
+    "en": "Dedicated",
+    "de": "Engagiert"
+  },
+  "Volimo igru i kad nam ne vraća uslugu.": {
+    "en": "We love the game even when it does not return the favour.",
+    "de": "Wir mögen das Spiel auch, wenn es nichts zurückgibt."
+  },
+  "Zaigrani": {
+    "en": "Playful",
+    "de": "Verspielt"
+  },
+  "Ozbiljan pristup ne isključuje gušt.": {
+    "en": "Taking it seriously still leaves room for fun.",
+    "de": "Ernsthafter Einsatz lässt Platz für Spaß."
+  },
+  "Pouzdani": {
+    "en": "Dependable",
+    "de": "Verlässlich"
+  },
+  "Ekipa treba oslonac, ne samo dobru seriju.": {
+    "en": "A team needs support, not just a good visit.",
+    "de": "Ein Team braucht Rückhalt, nicht nur eine gute Aufnahme."
+  },
+  "Tvrdoglavi": {
+    "en": "Stubborn",
+    "de": "Stur"
+  },
+  "Možda baš sljedeća sjedne kako treba.": {
+    "en": "Perhaps the next one will land just right.",
+    "de": "Vielleicht sitzt genau der nächste richtig."
+  },
+  "Fleksibilni": {
+    "en": "Flexible",
+    "de": "Flexibel"
+  },
+  "Plan B također smije biti dobar plan.": {
+    "en": "Plan B is allowed to be a good plan too.",
+    "de": "Auch Plan B darf ein guter Plan sein."
+  },
+  "Nestrpljivi": {
+    "en": "Impatient",
+    "de": "Ungeduldig"
+  },
+  "Red čekamo. U sebi već bacamo.": {
+    "en": "Waiting our turn. Already throwing in our heads.",
+    "de": "Wir warten. Im Kopf werfen wir schon."
+  },
+  "Pristojni": {
+    "en": "Polite",
+    "de": "Höflich"
+  },
+  "Dobar pogodak priznaje se i protivniku.": {
+    "en": "We acknowledge an opponent's good shot too.",
+    "de": "Auch ein guter Treffer des Gegners verdient Anerkennung."
+  },
+  "Borbeni": {
+    "en": "Fighting",
+    "de": "Kämpferisch"
+  },
+  "Rezultat se ne mijenja odustajanjem.": {
+    "en": "Giving up will not change the score.",
+    "de": "Aufgeben ändert den Spielstand nicht."
+  },
+  "Staloženi": {
+    "en": "Level-headed",
+    "de": "Gelassen"
+  },
+  "Najprije dah. Onda reakcija.": {
+    "en": "Breathe first. React second.",
+    "de": "Erst atmen. Dann reagieren."
+  },
+  "Lako zapaljivi": {
+    "en": "Easily fired up",
+    "de": "Leicht entflammbar"
+  },
+  "Za dobru atmosferu, da ne bude zabune.": {
+    "en": "For a good atmosphere, just to be clear.",
+    "de": "Für gute Stimmung, damit das klar ist."
+  },
+  "Otvoreni": {
+    "en": "Open-minded",
+    "de": "Offen"
+  },
+  "I za novi savjet i za novu ekipu.": {
+    "en": "To new advice and new company.",
+    "de": "Für neue Tipps und neue Leute."
+  },
+  "Zatvoreni za izlike": {
+    "en": "Closed to excuses",
+    "de": "Ausredenfrei"
+  },
+  "Barem dok ne smislimo posebno dobru.": {
+    "en": "At least until we think of a really good one.",
+    "de": "Zumindest bis uns eine besonders gute einfällt."
+  },
+  "Pozorni": {
+    "en": "Attentive",
+    "de": "Achtsam"
+  },
+  "Sitnice u pokretu nisu sitnice u igri.": {
+    "en": "Small details in movement matter in the game.",
+    "de": "Kleine Bewegungsdetails sind im Spiel keine Kleinigkeit."
+  },
+  "Malo praznovjerni": {
+    "en": "A bit superstitious",
+    "de": "Etwas abergläubisch"
+  },
+  "Nije do majice. Ali neka ostane ista.": {
+    "en": "It is not the shirt. But let's wear the same one.",
+    "de": "Es liegt nicht am Shirt. Aber nehmen wir dasselbe."
+  },
+  "Samouvjereni": {
+    "en": "Confident",
+    "de": "Selbstsicher"
+  },
+  "Znamo kamo želimo baciti.": {
+    "en": "We know where we want to throw.",
+    "de": "Wir wissen, wohin wir werfen wollen."
+  },
+  "Previše uvjereni": {
+    "en": "Overconfident",
+    "de": "Zu selbstsicher"
+  },
+  "Strelica nije bila na dogovoru.": {
+    "en": "The dart was not at the briefing.",
+    "de": "Der Dart war bei der Besprechung nicht dabei."
+  },
+  "Iskreni": {
+    "en": "Honest",
+    "de": "Ehrlich"
+  },
+  "To nije bilo tamo gdje smo ciljali.": {
+    "en": "That was not where we were aiming.",
+    "de": "Dahin hatten wir nicht gezielt."
+  },
+  "Diplomatični": {
+    "en": "Diplomatic",
+    "de": "Diplomatisch"
+  },
+  "Recimo da je bacanje bilo zanimljivo.": {
+    "en": "Let's call that an interesting throw.",
+    "de": "Nennen wir den Wurf interessant."
+  },
+  "Temeljiti": {
+    "en": "Thorough",
+    "de": "Gründlich"
+  },
+  "Ponavljanje ima smisla kad pratiš što radiš.": {
+    "en": "Repetition helps when you notice what you are doing.",
+    "de": "Wiederholung hilft, wenn man dabei aufmerksam bleibt."
+  },
+  "Improvizirani": {
+    "en": "Improvised",
+    "de": "Improvisiert"
+  },
+  "Ponekad plan nastane nakon prve strelice.": {
+    "en": "Sometimes the plan starts after the first dart.",
+    "de": "Manchmal entsteht der Plan erst nach dem ersten Dart."
+  },
+  "Smireni": {
+    "en": "Unhurried",
+    "de": "Unaufgeregt"
+  },
+  "Ritam se traži bez žurbe.": {
+    "en": "Finding your rhythm takes no rushing.",
+    "de": "Den eigenen Rhythmus findet man ohne Hast."
+  },
+  "Blago dramatični": {
+    "en": "Mildly dramatic",
+    "de": "Leicht dramatisch"
+  },
+  "Taj uzdah bio je dio tehnike.": {
+    "en": "That sigh was part of the technique.",
+    "de": "Der Seufzer gehörte zur Technik."
+  },
+  "Kolegijalni": {
+    "en": "Collegial",
+    "de": "Kollegial"
+  },
+  "Savjet nudimo. Tuđu ruku ne vodimo.": {
+    "en": "We offer advice. We do not steer someone else's hand.",
+    "de": "Wir geben Tipps. Die fremde Hand führen wir nicht."
+  },
+  "Samostalni": {
+    "en": "Independent",
+    "de": "Selbstständig"
+  },
+  "Za crtom odluku donosiš sam.": {
+    "en": "At the line, the decision is yours.",
+    "de": "An der Linie entscheidest du selbst."
+  },
+  "Povezani": {
+    "en": "Connected",
+    "de": "Verbunden"
+  },
+  "Iza crte opet smo ekipa.": {
+    "en": "Behind the line, we are a team again.",
+    "de": "Hinter der Linie sind wir wieder ein Team."
+  },
+  "Ponosni": {
+    "en": "Proud",
+    "de": "Stolz"
+  },
+  "Dobar osjećaj ne mora biti veliki govor.": {
+    "en": "A good feeling does not need a speech.",
+    "de": "Ein gutes Gefühl braucht keine große Rede."
+  },
+  "Nenametljivi": {
+    "en": "Unassuming",
+    "de": "Zurückhaltend"
+  },
+  "Neka pogodak odradi svoje.": {
+    "en": "Let the shot speak for itself.",
+    "de": "Lassen wir den Treffer sprechen."
+  },
+  "Primjetni": {
+    "en": "Noticeable",
+    "de": "Auffällig"
+  },
+  "Pogotovo kad pokušavamo biti nenametljivi.": {
+    "en": "Especially when trying to be unassuming.",
+    "de": "Besonders, wenn wir unauffällig sein wollen."
+  },
+  "Disciplinirani": {
+    "en": "Disciplined",
+    "de": "Diszipliniert"
+  },
+  "Isti stav. Ista pažnja. Novi pokušaj.": {
+    "en": "Same stance. Same attention. A new attempt.",
+    "de": "Gleicher Stand. Gleiche Aufmerksamkeit. Neuer Versuch."
+  },
+  "Spontani": {
+    "en": "Spontaneous",
+    "de": "Spontan"
+  },
+  "Veselje ne vježbamo unaprijed.": {
+    "en": "We do not rehearse the celebrations.",
+    "de": "Die Freude üben wir nicht vorher."
+  },
+  "Promišljeni": {
+    "en": "Thoughtful",
+    "de": "Bedacht"
+  },
+  "Ponekad je zastati najbolji potez.": {
+    "en": "Sometimes pausing is the best move.",
+    "de": "Manchmal ist Innehalten der beste Zug."
+  },
+  "Brzopleti": {
+    "en": "Hasty",
+    "de": "Voreilig"
+  },
+  "Račun je došao sekundu nakon izbačaja.": {
+    "en": "The calculation arrived a second after the dart left.",
+    "de": "Die Rechnung kam eine Sekunde nach dem Abwurf."
+  },
+  "Razumni": {
+    "en": "Sensible",
+    "de": "Vernünftig"
+  },
+  "Nije svako bacanje osobna drama.": {
+    "en": "Not every throw is a personal drama.",
+    "de": "Nicht jeder Wurf ist ein persönliches Drama."
+  },
+  "Nerazumno uporni": {
+    "en": "Absurdly persistent",
+    "de": "Unvernünftig beharrlich"
+  },
+  "Ali o tom jednom još ćemo razgovarati.": {
+    "en": "But we will be discussing that one again.",
+    "de": "Über diesen einen reden wir aber noch."
+  },
+  "Topli": {
+    "en": "Warm",
+    "de": "Herzlich"
+  },
+  "Dobra ekipa ostavlja prostor za svakoga.": {
+    "en": "A good team leaves room for everyone.",
+    "de": "Ein gutes Team lässt Platz für alle."
+  },
+  "Hladnokrvni": {
+    "en": "Cool-headed",
+    "de": "Kaltblütig"
+  },
+  "Barem na službenoj fotografiji u glavi.": {
+    "en": "At least in the official photo in our heads.",
+    "de": "Zumindest auf dem offiziellen Foto in unserem Kopf."
+  },
+  "Obzirni": {
+    "en": "Respectful",
+    "de": "Rücksichtsvoll"
+  },
+  "Tuđi ritam nije naš za prekidanje.": {
+    "en": "Someone else's rhythm is not ours to interrupt.",
+    "de": "Den Rhythmus der anderen haben wir nicht zu stören."
+  },
+  "Skloni šali": {
+    "en": "Fond of jokes",
+    "de": "Scherzfreudig"
+  },
+  "Najradije onoj koju možemo podnijeti i sami.": {
+    "en": "Especially the ones we can take ourselves.",
+    "de": "Am liebsten die Witze, die wir selbst vertragen."
+  },
+  "Skromni": {
+    "en": "Modest",
+    "de": "Bescheiden"
+  },
+  "Dobar pogodak. Idemo dalje.": {
+    "en": "Good shot. Moving on.",
+    "de": "Guter Treffer. Weiter geht's."
+  },
+  "Potajno ponosni": {
+    "en": "Secretly proud",
+    "de": "Heimlich stolz"
+  },
+  "Idemo dalje, ali jesu li svi vidjeli?": {
+    "en": "Moving on, but did everyone see that?",
+    "de": "Weiter geht's. Haben es aber alle gesehen?"
+  },
+  "Oštri": {
+    "en": "Sharp",
+    "de": "Scharf"
+  },
+  "Pažnja ide ravno prema meti.": {
+    "en": "Our attention goes straight to the board.",
+    "de": "Die Aufmerksamkeit geht direkt zur Scheibe."
+  },
+  "Meki na ekipu": {
+    "en": "Soft on teammates",
+    "de": "Weich fürs Team"
+  },
+  "Tuđi loš dan nije razlog za težak komentar.": {
+    "en": "Someone else's bad day needs no harsh remarks.",
+    "de": "Ein schlechter Tag braucht keine harten Kommentare."
+  },
+  "Izdržljivi": {
+    "en": "Resilient",
+    "de": "Belastbar"
+  },
+  "Strpljenje također treba kondiciju.": {
+    "en": "Patience needs stamina too.",
+    "de": "Auch Geduld braucht Kondition."
+  },
+  "Osjetljivi na žicu": {
+    "en": "Wire-sensitive",
+    "de": "Drahtempfindlich"
+  },
+  "Tako blizu ima poseban zvuk.": {
+    "en": "So close has a sound of its own.",
+    "de": "So knapp hat einen ganz eigenen Klang."
+  },
+  "Praktični": {
+    "en": "Practical",
+    "de": "Praktisch"
+  },
+  "Prvo zbroj. Onda filozofija.": {
+    "en": "Arithmetic first. Philosophy second.",
+    "de": "Erst rechnen. Dann philosophieren."
+  },
+  "Filozofski nastrojeni": {
+    "en": "Philosophical",
+    "de": "Philosophisch"
+  },
+  "Što je promašaj, ako ne neočekivan pogodak?": {
+    "en": "What is a miss but an unexpected hit?",
+    "de": "Was ist ein Fehlwurf anderes als ein unerwarteter Treffer?"
+  },
+  "Uigrani": {
+    "en": "In sync",
+    "de": "Eingespielt"
+  },
+  "Zajednički ritam gradi se dolascima.": {
+    "en": "A shared rhythm grows by showing up.",
+    "de": "Gemeinsamer Rhythmus entsteht durchs Zusammenkommen."
+  },
+  "Još neuigrani": {
+    "en": "Still syncing",
+    "de": "Noch uneingespielt"
+  },
+  "I to je dobar razlog da se opet okupimo.": {
+    "en": "Another good reason to get together again.",
+    "de": "Noch ein guter Grund, wieder zusammenzukommen."
+  },
+  "Zainteresirani": {
+    "en": "Interested",
+    "de": "Interessiert"
+  },
+  "Slušamo i kad tema nije naša serija.": {
+    "en": "We listen even when it is not about our visit.",
+    "de": "Wir hören auch zu, wenn es nicht um unsere Aufnahme geht."
+  },
+  "Selektivno zaboravni": {
+    "en": "Selectively forgetful",
+    "de": "Selektiv vergesslich"
+  },
+  "Lošu seriju puštamo. Dobra ostaje u arhivi.": {
+    "en": "Bad visits go. Good ones enter the archive.",
+    "de": "Schlechte Aufnahmen gehen. Gute kommen ins Archiv."
+  },
+  "Odvažni": {
+    "en": "Bold",
+    "de": "Mutig"
+  },
+  "Nekad treba vjerovati vlastitoj odluci.": {
+    "en": "Sometimes you have to trust your own decision.",
+    "de": "Manchmal muss man der eigenen Entscheidung vertrauen."
+  },
+  "Oprezni": {
+    "en": "Cautious",
+    "de": "Vorsichtig"
+  },
+  "Hrabrost i računica mogu zajedno.": {
+    "en": "Courage and calculation can go together.",
+    "de": "Mut und Berechnung passen zusammen."
+  },
+  "Velikodušni": {
+    "en": "Generous",
+    "de": "Großzügig"
+  },
+  "Pljesak se ne troši dijeljenjem.": {
+    "en": "Sharing applause does not use it up.",
+    "de": "Applaus wird durchs Teilen nicht weniger."
+  },
+  "Škrti na izlikama": {
+    "en": "Light on excuses",
+    "de": "Sparsam mit Ausreden"
+  },
+  "Pokušavamo. Zasad solidno.": {
+    "en": "We are trying. Fairly well so far.",
+    "de": "Wir versuchen es. Bisher ganz ordentlich."
+  },
+  "Komunikativni": {
+    "en": "Talkative",
+    "de": "Redselig"
+  },
+  "Tri strelice. Poslije cijeli razgovor.": {
+    "en": "Three darts. Then a whole conversation.",
+    "de": "Drei Darts. Danach ein ganzes Gespräch."
+  },
+  "Kratkorječni": {
+    "en": "Brief",
+    "de": "Wortkarg"
+  },
+  "Kad ide dobro, dovoljan je osmijeh.": {
+    "en": "When it goes well, a smile is enough.",
+    "de": "Wenn es läuft, reicht ein Lächeln."
+  },
+  "Detaljni": {
+    "en": "Detail-minded",
+    "de": "Detailverliebt"
+  },
+  "Milimetar nije baš mala stvar.": {
+    "en": "A millimetre is not exactly nothing.",
+    "de": "Ein Millimeter ist nicht gerade wenig."
+  },
+  "Širokih pogleda": {
+    "en": "Broad-minded",
+    "de": "Weitsichtig"
+  },
+  "Osim kad gledamo točno jednu točku.": {
+    "en": "Except when looking at exactly one spot.",
+    "de": "Außer wenn wir genau einen Punkt anschauen."
+  },
+  "Radoznali": {
+    "en": "Inquisitive",
+    "de": "Wissbegierig"
+  },
+  "Zašto je ovo bacanje sjelo bolje?": {
+    "en": "Why did that throw work better?",
+    "de": "Warum saß dieser Wurf besser?"
+  },
+  "Sumnjičavi": {
+    "en": "Sceptical",
+    "de": "Skeptisch"
+  },
+  "Je li stvarno unutra ili samo lijepo izgleda?": {
+    "en": "Is it really in, or does it just look nice?",
+    "de": "Ist er wirklich drin oder sieht es nur schön aus?"
+  },
+  "Vedri": {
+    "en": "Cheerful",
+    "de": "Heiter"
+  },
+  "Jedna serija ne mora odrediti cijelu večer.": {
+    "en": "One visit need not define the whole evening.",
+    "de": "Eine Aufnahme muss nicht den ganzen Abend bestimmen."
+  },
+  "Mrzovoljni na tren": {
+    "en": "Briefly grumpy",
+    "de": "Kurz mürrisch"
+  },
+  "Prođe dok dođemo po strelice.": {
+    "en": "It passes by the time we collect the darts.",
+    "de": "Bis zum Einsammeln der Darts ist es vorbei."
+  },
+  "Zahvalni": {
+    "en": "Grateful",
+    "de": "Dankbar"
+  },
+  "Dobra igra traži i dobrog suigrača.": {
+    "en": "A good game needs a good playing partner too.",
+    "de": "Zu einem guten Spiel gehört auch ein guter Mitspieler."
+  },
+  "Zahtjevni prema sebi": {
+    "en": "Self-demanding",
+    "de": "Anspruchsvoll mit uns"
+  },
+  "Bez potrebe da budemo teški drugima.": {
+    "en": "Without making things hard for everyone else.",
+    "de": "Ohne es den anderen schwer zu machen."
+  },
+  "Blagi prema drugima": {
+    "en": "Kind to others",
+    "de": "Mild mit anderen"
+  },
+  "Svatko zna kako izgleda loše bacanje.": {
+    "en": "Everyone knows what a bad throw feels like.",
+    "de": "Jeder kennt das Gefühl eines schlechten Wurfs."
+  },
+  "Strogi prema zbroju": {
+    "en": "Strict with sums",
+    "de": "Streng beim Rechnen"
+  },
+  "Matematika ne prima dojmove.": {
+    "en": "Arithmetic does not accept impressions.",
+    "de": "Mathematik nimmt keine Eindrücke entgegen."
+  },
+  "Racionalni": {
+    "en": "Rational",
+    "de": "Rational"
+  },
+  "Brojke pogledamo prije velike odluke.": {
+    "en": "We check the numbers before a big decision.",
+    "de": "Vor der großen Entscheidung schauen wir auf die Zahlen."
+  },
+  "Emotivni": {
+    "en": "Emotional",
+    "de": "Emotional"
+  },
+  "A onda pogodak ipak malo proslavimo.": {
+    "en": "And then we still celebrate the shot a little.",
+    "de": "Und dann feiern wir den Treffer trotzdem ein bisschen."
+  },
+  "Nadahnuti": {
+    "en": "Inspired",
+    "de": "Inspiriert"
+  },
+  "Ponekad pokret jednostavno klikne.": {
+    "en": "Sometimes the movement just clicks.",
+    "de": "Manchmal passt die Bewegung einfach."
+  },
+  "Bez inspiracije": {
+    "en": "Uninspired",
+    "de": "Uninspiriert"
+  },
+  "Tada se oslonimo na ono što smo vježbali.": {
+    "en": "Then we rely on what we have practised.",
+    "de": "Dann verlassen wir uns auf das Geübte."
+  },
+  "Spretni": {
+    "en": "Skilful",
+    "de": "Geschickt"
+  },
+  "Lijepo je kad ruka posluša.": {
+    "en": "It is nice when the hand listens.",
+    "de": "Schön, wenn die Hand gehorcht."
+  },
+  "Nespretni povremeno": {
+    "en": "Sometimes clumsy",
+    "de": "Manchmal ungeschickt"
+  },
+  "I skupljanje strelica ima svojih trenutaka.": {
+    "en": "Even collecting darts has its moments.",
+    "de": "Auch beim Einsammeln gibt es besondere Momente."
+  },
+  "Precijenjeni u glavi": {
+    "en": "Mentally overrated",
+    "de": "Im Kopf überschätzt"
+  },
+  "Na zamišljenom turniru igramo izvrsno.": {
+    "en": "We play brilliantly at the imaginary tournament.",
+    "de": "Beim gedachten Turnier spielen wir ausgezeichnet."
+  },
+  "Podcijenjeni u najavi": {
+    "en": "Understated beforehand",
+    "de": "Vorher unterschätzt"
+  },
+  "Najbolje je pustiti da igra kaže svoje.": {
+    "en": "Best to let the game speak for itself.",
+    "de": "Am besten lassen wir das Spiel sprechen."
+  },
+  "Neumorni": {
+    "en": "Tireless",
+    "de": "Unermüdlich"
+  },
+  "Još jedna serija zvuči sasvim razumno.": {
+    "en": "One more visit sounds entirely reasonable.",
+    "de": "Noch eine Aufnahme klingt völlig vernünftig."
+  },
+  "Razumno umorni": {
+    "en": "Reasonably tired",
+    "de": "Vernünftig müde"
+  },
+  "I odmor je dio dobrog povratka.": {
+    "en": "Rest is part of a good return too.",
+    "de": "Auch Erholung gehört zu einer guten Rückkehr."
+  },
+  "Prijateljski": {
+    "en": "Friendly",
+    "de": "Freundlich"
+  },
+  "Za stolom ima mjesta za razgovor.": {
+    "en": "There is room for conversation at the table.",
+    "de": "Am Tisch ist Platz für ein Gespräch."
+  },
+  "Sportski nastrojeni": {
+    "en": "Sporting",
+    "de": "Sportlich"
+  },
+  "Za crtom ima mjesta za poštenu borbu.": {
+    "en": "At the line, there is room for a fair contest.",
+    "de": "An der Linie ist Platz für einen fairen Wettkampf."
+  },
+  "Pedantni": {
+    "en": "Meticulous",
+    "de": "Penibel"
+  },
+  "Provjera rezultata nije manjak povjerenja.": {
+    "en": "Checking the score is not a lack of trust.",
+    "de": "Den Spielstand zu prüfen ist kein Misstrauen."
+  },
+  "Ležerni": {
+    "en": "Easy-going",
+    "de": "Lässig"
+  },
+  "Ritual može stati i bez velike ceremonije.": {
+    "en": "A ritual does not need a grand ceremony.",
+    "de": "Ein Ritual kommt ohne große Zeremonie aus."
+  },
+  "Temeljno normalni": {
+    "en": "Basically normal",
+    "de": "Grundsätzlich normal"
+  },
+  "Uz nekoliko sitnih odstupanja oko pikada.": {
+    "en": "With a few small darts-related exceptions.",
+    "de": "Mit ein paar kleinen Ausnahmen beim Darts."
+  },
+  "Simpatično čudni": {
+    "en": "Endearingly odd",
+    "de": "Liebenswert seltsam"
+  },
+  "Svatko ima svoj mali ritual.": {
+    "en": "Everyone has their little ritual.",
+    "de": "Jeder hat sein kleines Ritual."
+  },
+  "Neobično obični": {
+    "en": "Unusually ordinary",
+    "de": "Ungewöhnlich gewöhnlich"
+  },
+  "Ljudi, strelice i dobar razlog za izlazak.": {
+    "en": "People, darts and a good reason to go out.",
+    "de": "Menschen, Darts und ein guter Grund auszugehen."
+  },
+  "Obično neobični": {
+    "en": "Ordinarily unusual",
+    "de": "Gewöhnlich ungewöhnlich"
+  },
+  "Ovisi koga pitate nakon utakmice.": {
+    "en": "Depends who you ask after the match.",
+    "de": "Kommt darauf an, wen man nach dem Spiel fragt."
+  },
+  "Prilično sigurni": {
+    "en": "Fairly certain",
+    "de": "Ziemlich sicher"
+  },
+  "U smjer. Sektor još pregovaramo.": {
+    "en": "About the direction. Still negotiating the segment.",
+    "de": "Bei der Richtung. Das Feld ist noch Verhandlungssache."
+  },
+  "Ugodno iznenađeni": {
+    "en": "Pleasantly surprised",
+    "de": "Angenehm überrascht"
+  },
+  "Da, i to smo upravo mi bacili.": {
+    "en": "Yes, we really just threw that.",
+    "de": "Ja, das haben gerade wirklich wir geworfen."
+  },
+  "Tiho ambiciozni": {
+    "en": "Quietly ambitious",
+    "de": "Still ehrgeizig"
+  },
+  "Ne moraju se svi planovi čuti unaprijed.": {
+    "en": "Not every plan needs announcing in advance.",
+    "de": "Nicht jeder Plan muss vorher laut werden."
+  },
+  "Glasno zadovoljni": {
+    "en": "Loudly pleased",
+    "de": "Laut zufrieden"
+  },
+  "Ovaj se pogodak ipak čuo.": {
+    "en": "That shot did get a reaction.",
+    "de": "Dieser Treffer war dann doch zu hören."
+  },
+  "Dobronamjerni": {
+    "en": "Well-meaning",
+    "de": "Wohlmeinend"
+  },
+  "Šala vrijedi samo dok je svima dobra.": {
+    "en": "A joke only works while everyone enjoys it.",
+    "de": "Ein Witz funktioniert nur, solange ihn alle mögen."
+  },
+  "Pomalo zajedljivi": {
+    "en": "Slightly sarcastic",
+    "de": "Etwas bissig"
+  },
+  "Najprije na vlastiti račun.": {
+    "en": "At our own expense first.",
+    "de": "Zuerst auf eigene Kosten."
+  },
+  "Nepokolebljivi": {
+    "en": "Unwavering",
+    "de": "Unbeirrt"
+  },
+  "Jedna loša strelica ne vodi iduću.": {
+    "en": "One bad dart does not guide the next.",
+    "de": "Ein schlechter Dart führt nicht den nächsten."
+  },
+  "Pokolebljivi nakratko": {
+    "en": "Briefly wavering",
+    "de": "Kurz verunsichert"
+  },
+  "Samo dok ponovno namjestimo stav.": {
+    "en": "Only until we reset our stance.",
+    "de": "Nur bis wir den Stand neu gefunden haben."
+  },
+  "Sablasno mirni": {
+    "en": "Eerily calm",
+    "de": "Unheimlich ruhig"
+  },
+  "U glavi pritom radi cijela komentatorska kabina.": {
+    "en": "Meanwhile, an entire commentary booth is working in our heads.",
+    "de": "Im Kopf arbeitet derweil eine ganze Kommentatorenkabine."
+  },
+  "Iznenađujuće nježni": {
+    "en": "Surprisingly gentle",
+    "de": "Erstaunlich sanft"
+  },
+  "Prema opremi, i nakon promašaja.": {
+    "en": "With the equipment, even after a miss.",
+    "de": "Zur Ausrüstung, auch nach dem Fehlwurf."
+  },
+  "Uredno zbunjeni": {
+    "en": "Neatly confused",
+    "de": "Ordentlich verwirrt"
+  },
+  "Sve je jasno osim koliko je ostalo.": {
+    "en": "Everything is clear except what is left.",
+    "de": "Alles klar, außer dem Restpunktestand."
+  },
+  "Matematički budni": {
+    "en": "Numerically alert",
+    "de": "Rechnerisch wach"
+  },
+  "Dobar izlaz počinje dobrim računom.": {
+    "en": "A good checkout starts with good arithmetic.",
+    "de": "Ein guter Checkout beginnt mit gutem Rechnen."
+  },
+  "Računski usporeni": {
+    "en": "Slow at sums",
+    "de": "Rechnerisch langsam"
+  },
+  "Molimo trenutak. Obrada je u tijeku.": {
+    "en": "One moment please. Processing.",
+    "de": "Einen Moment bitte. Wird verarbeitet."
+  },
+  "Brzi na pljesku": {
+    "en": "Quick to applaud",
+    "de": "Schnell beim Applaus"
+  },
+  "Tuđi pogodak ne mora čekati naš komentar.": {
+    "en": "Someone else's shot need not wait for our comment.",
+    "de": "Der Treffer der anderen muss nicht auf unseren Kommentar warten."
+  },
+  "Spori na odustajanju": {
+    "en": "Slow to quit",
+    "de": "Langsam beim Aufgeben"
+  },
+  "Još imamo što pokazati sebi.": {
+    "en": "We still have something to show ourselves.",
+    "de": "Wir wollen uns selbst noch etwas zeigen."
+  },
+  "Vjerni ritmu": {
+    "en": "True to rhythm",
+    "de": "Rhythmustreue"
+  },
+  "Ne ubrzavamo samo zato što je napeto.": {
+    "en": "Tension is no reason to rush.",
+    "de": "Anspannung ist kein Grund zur Eile."
+  },
+  "Otporni na paniku": {
+    "en": "Panic-resistant",
+    "de": "Panikresistent"
+  },
+  "Jedna po jedna strelica.": {
+    "en": "One dart at a time.",
+    "de": "Ein Dart nach dem anderen."
+  },
+  "Skloni analiziranju": {
+    "en": "Analytical",
+    "de": "Analysefreudig"
+  },
+  "Snimke nema. Analiza svejedno traje.": {
+    "en": "No recording. The analysis goes on anyway.",
+    "de": "Keine Aufnahme. Die Analyse läuft trotzdem."
+  },
+  "Dostupni za savjet": {
+    "en": "Available for advice",
+    "de": "Beratungsbereit"
+  },
+  "Pogotovo ako ste ga stvarno tražili.": {
+    "en": "Especially if you actually asked for it.",
+    "de": "Besonders, wenn ihr wirklich danach gefragt habt."
+  },
+  "Nedostupni usred bacanja": {
+    "en": "Unavailable mid-throw",
+    "de": "Beim Wurf abwesend"
+  },
+  "Vraćamo se u razgovor za tri strelice.": {
+    "en": "Back to the conversation in three darts.",
+    "de": "In drei Darts sind wir wieder im Gespräch."
+  },
+  "Dobri u namjeri": {
+    "en": "Well-intentioned",
+    "de": "Gut gemeint"
+  },
+  "Izvedba ponekad traži dopunu.": {
+    "en": "The execution sometimes needs an addendum.",
+    "de": "Die Ausführung braucht manchmal einen Nachtrag."
+  },
+  "Bolji u pokušaju": {
+    "en": "Better at trying",
+    "de": "Besser beim Versuchen"
+  },
+  "Važno je opet stati za crtu.": {
+    "en": "What matters is stepping up again.",
+    "de": "Wichtig ist, wieder an die Linie zu treten."
+  },
+  "Najbolji zajedno": {
+    "en": "Best together",
+    "de": "Zusammen am besten"
+  },
+  "Dobra večer nije samo zbroj pogodaka.": {
+    "en": "A good evening is more than a sum of shots.",
+    "de": "Ein guter Abend ist mehr als die Summe der Treffer."
+  },
+  "Daleko od savršenih": {
+    "en": "Far from perfect",
+    "de": "Längst nicht perfekt"
+  },
+  "Zato nam trening još ima smisla.": {
+    "en": "That is why practice still makes sense.",
+    "de": "Deshalb hat Training noch Sinn."
+  },
+  "Blizu zamišljenih": {
+    "en": "Close to imagined",
+    "de": "Fast wie gedacht"
+  },
+  "U glavi je putanja izgledala baš ovako. Skoro.": {
+    "en": "In our heads, the flight looked just like this. Almost.",
+    "de": "Im Kopf sah die Flugbahn genau so aus. Fast."
+  },
+  "Svjesni granica": {
+    "en": "Aware of limits",
+    "de": "Grenzbewusst"
+  },
+  "Crta je jedna od njih.": {
+    "en": "The throwing line is one of them.",
+    "de": "Die Abwurflinie ist eine davon."
+  },
+  "Skloni napretku": {
+    "en": "Improvement-minded",
+    "de": "Fortschrittsfreudig"
+  },
+  "Malo bolje također je bolje.": {
+    "en": "A little better is still better.",
+    "de": "Ein bisschen besser ist auch besser."
+  },
+  "Spremni učiti": {
+    "en": "Ready to learn",
+    "de": "Lernbereit"
+  },
+  "Dobar savjet nema klupske boje.": {
+    "en": "Good advice has no club colours.",
+    "de": "Ein guter Tipp hat keine Vereinsfarben."
+  },
+  "Spremni priznati": {
+    "en": "Ready to admit",
+    "de": "Anerkennend"
+  },
+  "Protivnik je to odigrao odlično.": {
+    "en": "The opponent played that brilliantly.",
+    "de": "Das hat der Gegner ausgezeichnet gespielt."
+  },
+  "Spremni ponoviti": {
+    "en": "Ready to repeat",
+    "de": "Wiederholungsbereit"
+  },
+  "Dobar pokret zaslužuje još jedan pokušaj.": {
+    "en": "A good movement deserves another try.",
+    "de": "Eine gute Bewegung verdient einen weiteren Versuch."
+  },
+  "Nespremni za kraj": {
+    "en": "Not ready to leave",
+    "de": "Noch nicht fertig"
+  },
+  "Večer je nekako prebrzo prošla.": {
+    "en": "The evening somehow went too quickly.",
+    "de": "Der Abend ging irgendwie zu schnell vorbei."
+  },
+  "Nenormalno uporni": {
+    "en": "Abnormally persistent",
+    "de": "Unnormal beharrlich"
+  },
+  "U granicama našeg imena, naravno.": {
+    "en": "Within the limits of our name, of course.",
+    "de": "Natürlich im Rahmen unseres Namens."
+  },
+  "Normalno nesavršeni": {
+    "en": "Normally imperfect",
+    "de": "Normal unvollkommen"
+  },
+  "Bez toga bi priče bile znatno kraće.": {
+    "en": "Otherwise the stories would be much shorter.",
+    "de": "Sonst wären die Geschichten deutlich kürzer."
+  },
+  "Ponekad briljantni": {
+    "en": "Sometimes brilliant",
+    "de": "Manchmal brillant"
+  },
+  "Taj trenutak vrijedi zapamtiti.": {
+    "en": "That moment is worth remembering.",
+    "de": "Diesen Moment darf man sich merken."
+  },
+  "Češće ljudski": {
+    "en": "More often human",
+    "de": "Öfter menschlich"
+  },
+  "I ostali trenuci pripadaju igri.": {
+    "en": "The other moments belong to the game too.",
+    "de": "Auch die anderen Momente gehören zum Spiel."
+  },
+  "Zdravo ambiciozni": {
+    "en": "Healthily ambitious",
+    "de": "Gesund ehrgeizig"
+  },
+  "Želimo bolje, a želimo i uživati.": {
+    "en": "We want to improve. We also want to enjoy it.",
+    "de": "Wir wollen besser werden und dabei Spaß haben."
+  },
+  "Umjereno teatralni": {
+    "en": "Moderately theatrical",
+    "de": "Mäßig theatralisch"
+  },
+  "Ruke u zrak samo kad stvarno treba. Uglavnom.": {
+    "en": "Arms up only when truly needed. Mostly.",
+    "de": "Arme hoch nur, wenn es wirklich nötig ist. Meistens."
+  },
+  "Diskretno nervozni": {
+    "en": "Discreetly nervous",
+    "de": "Diskret nervös"
+  },
+  "Nitko ne mora znati što radi lijevo koljeno.": {
+    "en": "Nobody needs to know what the left knee is doing.",
+    "de": "Niemand muss wissen, was das linke Knie macht."
+  },
+  "Vidljivo zadovoljni": {
+    "en": "Visibly pleased",
+    "de": "Sichtlich zufrieden"
+  },
+  "Osmijeh se teško skriva iza tri strelice.": {
+    "en": "A smile is hard to hide behind three darts.",
+    "de": "Ein Lächeln lässt sich hinter drei Darts schwer verstecken."
+  },
+  "Neizlječivo znatiželjni": {
+    "en": "Incurably curious",
+    "de": "Unheilbar neugierig"
+  },
+  "A što ako malo promijenimo hvat?": {
+    "en": "What if we change the grip a little?",
+    "de": "Was, wenn wir den Griff etwas ändern?"
+  },
+  "Popravljivo neprecizni": {
+    "en": "Fixably imprecise",
+    "de": "Verbesserbar unpräzise"
+  },
+  "Zato postoji sljedeći trening.": {
+    "en": "That is what the next practice is for.",
+    "de": "Dafür gibt es das nächste Training."
+  },
+  "Ugodno tvrdoglavi": {
+    "en": "Pleasantly stubborn",
+    "de": "Angenehm hartnäckig"
+  },
+  "Vraćamo se jer nam je stalo.": {
+    "en": "We come back because we care.",
+    "de": "Wir kommen wieder, weil es uns wichtig ist."
+  },
+  "Natprosječno razgovorljivi": {
+    "en": "Above-average chatty",
+    "de": "Überdurchschnittlich gesprächig"
+  },
+  "Statistiku nismo vodili. Dojam je jak.": {
+    "en": "No statistics kept. A strong impression, though.",
+    "de": "Keine Statistik geführt. Der Eindruck ist stark."
+  },
+  "Ispodprosječno vidoviti": {
+    "en": "Below-average psychic",
+    "de": "Wenig hellseherisch"
+  },
+  "Zato rezultat čekamo prije slavlja.": {
+    "en": "That is why we wait for the score before celebrating.",
+    "de": "Deshalb warten wir vor dem Feiern auf das Ergebnis."
+  },
+  "Ozbiljno zaigrani": {
+    "en": "Seriously playful",
+    "de": "Ernsthaft verspielt"
+  },
+  "Može nam biti važno i zabavno istodobno.": {
+    "en": "It can matter to us and still be fun.",
+    "de": "Es darf uns wichtig sein und zugleich Spaß machen."
+  },
+  "Zaigrano ozbiljni": {
+    "en": "Playfully serious",
+    "de": "Verspielt ernsthaft"
+  },
+  "Osmijeh ostaje. Pogled ide prema meti.": {
+    "en": "The smile stays. The eyes go to the board.",
+    "de": "Das Lächeln bleibt. Der Blick geht zur Scheibe."
+  },
+  "Dovoljno hrabri": {
+    "en": "Brave enough",
+    "de": "Mutig genug"
+  },
+  "Za pokušaj koji ne jamči uspjeh.": {
+    "en": "For an attempt with no guarantee of success.",
+    "de": "Für einen Versuch ohne Erfolgsgarantie."
+  },
+  "Dovoljno skromni": {
+    "en": "Modest enough",
+    "de": "Bescheiden genug"
+  },
+  "Za priznanje da još ima prostora.": {
+    "en": "To admit there is room to improve.",
+    "de": "Um zuzugeben, dass noch Platz nach oben ist."
+  },
+  "Dovoljno svoji": {
+    "en": "Ourselves enough",
+    "de": "Eigenständig genug"
+  },
+  "Tuđi stil ne mora pristajati našoj ruci.": {
+    "en": "Someone else's style need not suit our hand.",
+    "de": "Ein fremder Stil muss nicht zu unserer Hand passen."
+  },
+  "Nimalo robotski": {
+    "en": "Not at all robotic",
+    "de": "Gar nicht robotisch"
+  },
+  "Isti pokret, svaki put malo drukčiji čovjek.": {
+    "en": "Same movement. A slightly different person each time.",
+    "de": "Gleiche Bewegung. Jedes Mal ein etwas anderer Mensch."
+  },
+  "Sasvim prisutni": {
+    "en": "Fully present",
+    "de": "Ganz gegenwärtig"
+  },
+  "Sad smo ovdje. Ova je strelica na redu.": {
+    "en": "We are here now. This dart is next.",
+    "de": "Jetzt sind wir hier. Dieser Dart ist dran."
+  },
+  "Uvijek svoji": {
+    "en": "Always ourselves",
+    "de": "Immer wir selbst"
+  },
+  "Dobar dan ili loš, ime ostaje isto.": {
+    "en": "Good day or bad, the name stays the same.",
+    "de": "Guter Tag oder schlechter, der Name bleibt gleich."
+  },
+  "Još uvijek normalni": {
+    "en": "Still normal",
+    "de": "Noch immer normal"
+  },
+  "Nakon ovoliko pridjeva to je već hrabra tvrdnja.": {
+    "en": "After this many adjectives, that is quite a claim.",
+    "de": "Nach so vielen Adjektiven ist das eine mutige Behauptung."
+  },
+  "Savršeno normalni": {
+    "en": "Perfectly normal",
+    "de": "Völlig normal"
+  },
+  "Sto osamdeset opisa kasnije, još uvijek uvjeravamo sebe.": {
+    "en": "One hundred and eighty descriptions later, still convincing ourselves.",
+    "de": "Hundertachtzig Beschreibungen später überzeugen wir noch immer uns selbst."
+  }
+}
