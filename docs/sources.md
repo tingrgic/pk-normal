@@ -168,3 +168,9 @@ brand color variant. The sponsorship inquiry CTA remains available.
 - Confidence: confirmed as design concepts only; no claim of manufactured products, inventory, prices, launch date or actual club-member calendar participation.
 - Mockup provenance: built-in image_gen; exact prompts in `docs/merch-image-prompts.json`.
 - These proposals introduce no new factual club data and require no federation attribution.
+
+### Map readability update — 2026-09-26
+
+https://tiles.openfreemap.org/styles/positron — official OpenFreeMap base style,
+checked 2026-09-26; high confidence, primary technical source. Custom road, water,
+park and building colors improve contrast; no geographical or match facts changed.

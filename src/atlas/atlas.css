@@ -163,3 +163,41 @@
  .atlas-footer { flex-direction:column; align-items:start; gap:10px; }
 }
 @media(prefers-reduced-motion:no-preference) { .atlas-fixture,.atlas-filters button { transition:background .2s; } }
+
+/* Daylight cartography, framed by the club's graphite identity. */
+.atlas-map { background:#eeece4; }
+.atlas-map-caption { top:22px; left:22px; text-shadow:0 1px 4px #fff; color:#283831; }
+.atlas-map-caption .mono { color:#45564c; }
+.atlas-map-caption strong { font-size:28px; max-width:16ch; }
+.atlas-venue-picker { position:absolute; top:20px; right:20px; display:grid; gap:5px; width:min(220px,42%); color:#283831; }
+.atlas-venue-picker > span { font-size:10px; letter-spacing:.06em; text-transform:uppercase; }
+.atlas-venue-picker select { border:1px solid #919b8e; color:#25352e; background:#fffdf6; width:100%; border-radius:0; padding:12px; font:600 12px var(--body); min-height:44px; }
+.atlas-map-controls { top:auto; bottom:68px; left:50%; right:auto; transform:translateX(-50%); flex-direction:row; width:max-content; max-width:calc(100% - 32px); background:#fffdf6; border:1px solid #899589; color:#25352e; box-shadow:0 4px 18px #23372518; }
+.atlas-map-controls button { border-bottom:0; border-right:1px solid #d1d6cc; min-width:44px; padding:10px 14px; font-size:12px; }
+.atlas-map-controls button:last-child { border-right:0; }
+.atlas-map-controls button:hover { background:#e1e8db; }
+.atlas-map-controls button:focus-visible,.atlas-venue-picker select:focus-visible { outline:2px solid #b52d21; outline-offset:2px; }
+.atlas-map-help { background:#fffdf6eb; color:#344239; bottom:30px; }
+.atlas-pin > span { background:#fffdf6; border-color:#536452; box-shadow:0 2px 8px #27372433; }
+.atlas-pin:after { background:#536452; }
+.atlas-pin small { background:#fffdf6; color:#25352e; border-color:#899589; box-shadow:0 2px 8px #27372418; }
+.atlas-pin.selected > span { outline-color:#9f261e; }
+.atlas-pin:focus-visible { outline-color:#9f261e; }
+@media(max-width:760px) {
+ .atlas-map { height:460px; min-height:460px; }
+ .atlas-map-caption { top:16px; left:14px; }
+ .atlas-map-caption strong { font-size:23px; max-width:8ch; line-height:1; margin-top:6px; }
+ .atlas-map-caption .mono { font-size:8px; }
+ .atlas-venue-picker { top:16px; right:12px; width:48%; }
+ .atlas-venue-picker select { padding:10px 7px; font-size:11px; }
+ .atlas-map-controls { bottom:73px; max-width:calc(100% - 16px); }
+ .atlas-map-controls button { padding:9px 7px; min-width:44px; font-size:10px; min-height:46px; }
+ .atlas-map-controls button:nth-last-child(-n+3) { min-width:44px; }
+ .atlas-map-help { bottom:32px; font-size:9px; }
+}
+@media(max-width:760px) {
+ .atlas-map-controls { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); width:calc(100% - 24px); }
+ .atlas-map-controls button { font-size:11px; min-height:44px; }
+ .atlas-map-controls button:nth-child(-n+3) { border-bottom:1px solid #d1d6cc; }
+ .atlas-map-controls button:nth-child(3n) { border-right:0; }
+}

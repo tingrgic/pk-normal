@@ -157,4 +157,13 @@ captures. Real-provider smoke script: `node scripts/atlas-qa.mjs`.
 - [x] Landing, shop, counter and atlas open under the project subpath without runtime errors or missing local assets.
 - [x] Merch images now use Vite's base URL for repository-hosted Pages compatibility.
 - [x] Existing Pages workflow derives base path and canonical URL from configure-pages.
-- [ ] Publication pending authenticated GitHub account access; no repository or public site created yet.
+- [x] Published to https://tingrgic.github.io/pk-normal/ through successful GitHub Actions run 35915346373; HTTPS returns 200.
+
+## Daylight map refinement — 2026-09-26
+- [x] Warm paper terrain, blue water, sage parks and sandstone 3D buildings visually reviewed.
+- [x] Desktop 1440 and phone 390/430 screenshots inspected with real map tiles.
+- [x] Venue selector, marker selection, north reset, 2D/3D and city overview exercised.
+- [x] Eleven atlas/language tests pass, including nine sizes and English/German accessibility.
+- [x] Real-provider desktop/mobile axe checks pass without runtime errors.
+- [x] Production build passes TypeScript and compressed bundle budgets.
+- [x] Mobile toolbar uses two rows of comfortable controls to accommodate translated labels.

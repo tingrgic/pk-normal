@@ -70,3 +70,15 @@ The shared HR / EN / DE switch translates filters, UI and map accessibility/help
 text. Calendar downloads use the selected language for descriptions and unknown
 venues while retaining official names, addresses, UIDs and UTC timestamps.
 Displayed dates keep Europe/Zagreb time in each locale. See `docs/i18n.md`.
+
+## Readability refinement — 26 September 2026
+
+The map now uses OpenFreeMap's Positron base with warm paper ground, muted blue
+water, sage parks and softly lit sandstone buildings. Road labels use dark ink and
+light halos. Venue views use a lower 45° pitch; the city overview is a north-up flat
+map. A labelled venue selector provides direct access even where markers overlap.
+The floating bottom toolbar keeps controls away from venues and adds north reset;
+phone maps are 460px tall with 44px minimum control targets. Camera padding resets
+when returning to a venue, so the selected marker remains centered after overview.
+All new control labels are translated into English and German. Map style changes do
+not alter fixture data, venue coordinates, attribution or source freshness.

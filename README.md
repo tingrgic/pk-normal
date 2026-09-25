@@ -112,7 +112,7 @@ Three.js is a deferred chunk; the warning about its uncompressed bundle size is 
 - Physical iPhone/Android GPU performance has not been measured; browser emulation is not a hardware guarantee.
 - No live fixture feed or backend is connected. Official links remain the source of current competition information.
 - No licensed club portraits or official crest were available; the site uses original typography and equipment geometry.
-- A final production domain is required to generate canonical/sitemap URLs.
+- Canonical and sitemap URLs use the configured GitHub Pages address; update SITE_URL if moving to a custom domain.
 - Calling opens the visitor's telephone app. This site does not collect membership applications.
 
 ## Brojač pikada
