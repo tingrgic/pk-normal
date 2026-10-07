@@ -267,6 +267,10 @@ export default function App() {
               <a className="club-email" href={club.emailHref}>
                 {club.email}
               </a>
+              <a className="club-instagram" href={club.instagramHref} target="_blank" rel="noreferrer">
+                <span className="mono">{t("VIŠE IZ KLUBA")}</span>
+                {club.instagram}<Arrow />
+              </a>
             </div>
             <div className="venue">
               <span className="mono">{t("MJESTO IGRANJA")}</span>
@@ -300,6 +304,8 @@ export default function App() {
         </div>
         <div className="footer-bottom">
           <span>© 2026 PK Normal</span>
+          <a href={club.instagramHref} target="_blank" rel="noreferrer">{club.instagram}<Arrow />
+          </a>
           <a href={club.sources.club} target="_blank" rel="noreferrer">{t("Službeni podaci / HPS ")}<Arrow />
           </a>
           <span>{t("REG. BR. ")}{club.registration}</span>

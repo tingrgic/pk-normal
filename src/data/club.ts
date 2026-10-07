@@ -6,6 +6,8 @@ export const club = {
   registration: "21015646",
   email: "pikadonormal@gmail.com",
   emailHref: "mailto:pikadonormal@gmail.com",
+  instagram: "@pikadonormal",
+  instagramHref: "https://www.instagram.com/pikadonormal/",
   venue: "CB Quattro",
   address: "Zagrebačka 26, Sesvete",
   sources: {

@@ -54,6 +54,10 @@ for (const [width, height] of [
       "href",
       "mailto:pikadonormal@gmail.com",
     );
+    await expect(page.locator(".club-instagram")).toHaveAttribute(
+      "href",
+      "https://www.instagram.com/pikadonormal/",
+    );
     const a = await page.locator(".hero-caption").boundingBox();
     const b = await page.locator(".hero-bottom").boundingBox();
     expect(a!.y + a!.height).toBeLessThan(b!.y + 2);

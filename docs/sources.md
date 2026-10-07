@@ -185,6 +185,8 @@ phrases about “crta”, using dart-shaped map markers, and removing the virtua
 100-point stake cap. The mailto target matches the supplied address; no message
 was sent and mailbox delivery is not independently verified.
 
+| Club Instagram `@pikadonormal` | Owner-provided in this conversation; https://www.instagram.com/pikadonormal/ | 2026-10-07 | High: owner-provided, not federation-verified | Owner-provided |
+
 ### Landing illustration geography — 2026-10-07
 
 - Source: https://overpass-api.de/api/interpreter (OpenStreetMap geographic data,
