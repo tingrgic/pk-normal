@@ -184,3 +184,11 @@ The supplied screenshots explicitly request removing the personal phone and repe
 phrases about “crta”, using dart-shaped map markers, and removing the virtual
 100-point stake cap. The mailto target matches the supplied address; no message
 was sent and mailbox delivery is not independently verified.
+
+### Landing illustration geography — 2026-10-07
+
+- Source: https://overpass-api.de/api/interpreter (OpenStreetMap geographic data,
+  via Overpass); checked 2026-10-07; high confidence for a simplified overview.
+- Features: primary/secondary/trunk roads in Zagreb–Sesvete and the named Sava river.
+  Projection and query bounds are documented in docs/atlas.md. Venue facts unchanged.
+- License: ODbL, https://www.openstreetmap.org/copyright; visible attribution provided.

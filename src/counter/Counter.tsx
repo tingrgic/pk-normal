@@ -78,7 +78,7 @@ export default function Counter() {
     </header>
     <main id="counter-main" className="counter-main">
       <div className={"counter-heading" + (playing ? " is-session" : "")}>
-        <div><p className="mono red">{t("ZA CRTOM / PK NORMAL")}</p><h1 ref={heading} tabIndex={-1}>{playing ? t(modeName(session.config)) : t("TI BACAJ.")}<span>{playing ? t("IGRA JE TU.") : t("MI BROJIMO.")}</span></h1></div>
+        <div><p className="mono red">{t("PIKADO / PK NORMAL")}</p><h1 ref={heading} tabIndex={-1}>{playing ? t(modeName(session.config)) : t("TI BACAJ.")}<span>{playing ? t("IGRA JE TU.") : t("MI BROJIMO.")}</span></h1></div>
         <p>{playing ? t("Mirna ruka. Sljedeća strelica.") : t("Od prvog zagrijavanja do zadnjeg doublea. Tvoj rezultat, tvoja ekipa.")}</p>
       </div>
       {storageError && <p role="status" className="counter-alert">{t("Spremanje nije dostupno u ovom pregledniku. Ostavite ovu stranicu otvorenom kako biste sačuvali igru.")}</p>}

@@ -606,7 +606,7 @@ export const rhythm = [
   },
   {
     "name": "Svjesni granica",
-    "text": "Crta je jedna od njih."
+    "text": "Poštovanje protivnika nema iznimke."
   },
   {
     "name": "Skloni napretku",

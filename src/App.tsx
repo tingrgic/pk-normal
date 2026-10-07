@@ -192,7 +192,7 @@ export default function App() {
         >
           <Label number="04">{t("NATJECANJA")}</Label>
           <div className="competition-content">
-            <h2 id="competition-title" data-reveal>{t("ZA CRTOM.")}<br />
+            <h2 id="competition-title" data-reveal>{t("SPREMNI.")}<br />
               <span className="outline-type">{t("U IGRI.")}</span>
             </h2>
             <div className="competition-details">

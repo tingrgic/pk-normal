@@ -119,9 +119,9 @@
     "en": "COMPETITIONS",
     "de": "WETTBEWERBE"
   },
-  "ZA CRTOM.": {
-    "en": "AT THE OCHE.",
-    "de": "AN DER LINIE."
+  "SPREMNI.": {
+    "en": "READY.",
+    "de": "BEREIT."
   },
   "U IGRI.": {
     "en": "IN THE GAME.",
@@ -483,9 +483,9 @@
     "en": "DARTS SCORER",
     "de": "DARTZÄHLER"
   },
-  "ZA CRTOM / PK NORMAL": {
-    "en": "AT THE OCHE / PK NORMAL",
-    "de": "AN DER LINIE / PK NORMAL"
+  "PIKADO / PK NORMAL": {
+    "en": "DARTS / PK NORMAL",
+    "de": "DARTS / PK NORMAL"
   },
   "IGRA JE TU.": {
     "en": "GAME ON.",
@@ -1103,9 +1103,9 @@
     "en": "CALENDAR / CHOOSE A MATCH",
     "de": "KALENDER / SPIEL AUSWÄHLEN"
   },
-  "OD CRTE DO CRTE.": {
-    "en": "FROM OCHE TO OCHE.",
-    "de": "VON LINIE ZU LINIE."
+  "IZ MEČA U MEČ.": {
+    "en": "MATCH BY MATCH.",
+    "de": "SPIEL FÜR SPIEL."
   },
   "Preuzmi odabrani raspored": {
     "en": "Download selected schedule",
@@ -3071,9 +3071,9 @@
     "en": "Aware of limits",
     "de": "Grenzbewusst"
   },
-  "Crta je jedna od njih.": {
-    "en": "The throwing line is one of them.",
-    "de": "Die Abwurflinie ist eine davon."
+  "Poštovanje protivnika nema iznimke.": {
+    "en": "Respect for opponents has no exceptions.",
+    "de": "Respekt vor Gegnern kennt keine Ausnahmen."
   },
   "Skloni napretku": {
     "en": "Improvement-minded",

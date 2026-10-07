@@ -90,3 +90,14 @@ The static local SVG is anchored at its tip (four-pixel bottom offset); numbered
 44px-or-larger buttons, keyboard focus, labels and selected state are retained.
 Red flights mark the selected venue; other darts are neutral. No animation or
 new external asset request is needed. Coordinates and map attribution are unchanged.
+
+## Landing map context — 2026-10-07
+
+The landing illustration uses local `public/maps/zagreb-context.svg`: simplified
+OSM primary, secondary and trunk roads plus the Sava river. Source: Overpass API
+`https://overpass-api.de/api/interpreter`, retrieved 2026-10-07. Road query bounds:
+45.76,15.88,45.86,16.13; Sava query bounds: 45.74,15.85,45.88,16.14. Coordinates
+are projected with x=(longitude−15.875)×2000, y=(45.852−latitude)×2870 for both
+geography and venue markers. Paths are simplified at 0.65 SVG units. This is a
+geographic overview, not an administrative boundary or navigation map. Attribution
+links to OSM copyright outside the main map link. No runtime map request is added.

@@ -1397,3 +1397,11 @@ html:not(:lang(hr)) .join h2 { font-size:clamp(64px,9vw,160px); }
 .merch-invite img { width:100%; height:auto; display:block; }
 @media(min-width:701px) and (max-width:1200px) { .desktop-nav { display:none; }.menu-toggle { display:flex; align-items:center; gap:16px; min-height:44px; font-size:12px; }.menu-toggle span { color:var(--color-accent); font-size:24px; } }
 @media(max-width:700px) { .merch-invite { grid-template-columns:1fr; gap:32px; }.merch-invite > a { margin-left:48px; }.merch-invite h2 { font-size:clamp(64px,16vw,100px); } }
+
+.atlas-teaser-wrap { position:relative; }
+.atlas-teaser-map-labels text { fill:#a09f9a; font:600 15px var(--body); letter-spacing:2px; paint-order:stroke; stroke:#090909; stroke-width:5px; stroke-linejoin:round; }
+.atlas-teaser-map-labels .atlas-teaser-map-eyebrow { font-size:11px; letter-spacing:2.5px; }
+.atlas-teaser-map-labels .atlas-teaser-river-label { fill:#91afb5; font-size:12px; letter-spacing:4px; }
+.atlas-teaser-home-label { fill:#f0eee8; font:600 12px var(--body); paint-order:stroke; stroke:#090909; stroke-width:4px; }
+.atlas-teaser-attribution { position:absolute; bottom:0; left:0; display:flex; align-items:center; min-height:44px; color:var(--color-muted); font-size:10px; }
+@media(max-width:700px) { .atlas-teaser-wrap .atlas-teaser { padding-bottom:52px; } }
