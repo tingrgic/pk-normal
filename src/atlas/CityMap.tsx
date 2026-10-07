@@ -69,13 +69,14 @@ export default function CityMap({ selected, visibleVenues, onSelect }: Props) {
      for(const v of venues) {
        const button=document.createElement('button');button.type='button';button.className='atlas-pin';
        button.setAttribute('aria-label',t(v.name)+' · '+v.address);button.title=t(v.name);
+       const dart=document.createElement('img');dart.src=import.meta.env.BASE_URL+'dart-marker.svg';dart.alt='';dart.width=64;dart.height=80;button.append(dart);
        const num=document.createElement('span');num.textContent=v.number;button.append(num);
        const label=document.createElement('small');label.textContent=t(v.name);button.append(label);
        button.addEventListener('click',()=>latest.current.onSelect(v.id));
        button.hidden=!latest.current.visibleVenues.includes(v.id);
        button.classList.toggle('selected',v.id===latest.current.selected);
        button.setAttribute('aria-pressed',String(v.id===latest.current.selected));
-       const marker=new Marker({element:button,anchor:'bottom'}).setLngLat(v.coordinates).addTo(instance);
+       const marker=new Marker({element:button,anchor:'bottom',offset:[0,4]}).setLngLat(v.coordinates).addTo(instance);
        pins.current.push({id:v.id,marker,button});
      }
     } catch { if(!disposed)setStatus('error'); }

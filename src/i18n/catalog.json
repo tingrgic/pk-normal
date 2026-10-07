@@ -31,10 +31,6 @@
     "en": "Team",
     "de": "Team"
   },
-  "Za crtom nikad nisi sam.": {
-    "en": "You are never alone at the oche.",
-    "de": "An der Abwurflinie bist du nie allein."
-  },
   "Bacaš sam. Igraš s ekipom. I dobar pogodak uvijek ima s kim proslaviti.": {
     "en": "You throw on your own. You play as a team. And there is always someone to celebrate a great shot with.",
     "de": "Du wirfst allein. Du spielst im Team. Und einen guten Treffer feierst du gemeinsam."
@@ -66,10 +62,6 @@
   "Od": {
     "en": "Since",
     "de": "Seit dem"
-  },
-  "dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog da se uvijek vratimo za crtu.": {
-    "en": "we have been part of the Zagreb Darts Federation. For us, darts is a good reason to get together. And an even better reason to keep coming back to the oche.",
-    "de": "gehören wir dem Zagreber Dartverband an. Darts ist für uns ein guter Grund, zusammenzukommen. Und ein noch besserer, immer wieder an die Abwurflinie zurückzukehren."
   },
   "Normal je dio PSGZ-a": {
     "en": "Normal is part of PSGZ",
@@ -235,10 +227,6 @@
     "en": "MOVE.",
     "de": "WURF."
   },
-  "Nazovi kapetana Rikarda": {
-    "en": "Call captain Rikard",
-    "de": "Kapitän Rikard anrufen"
-  },
   "Imaš dobru ruku?": {
     "en": "Got a steady hand?",
     "de": "Hast du eine ruhige Hand?"
@@ -250,10 +238,6 @@
   "Javi se. Krenimo od toga.": {
     "en": "Get in touch. Let's start there.",
     "de": "Melde dich. Damit fängt es an."
-  },
-  "KAPETAN / RIKARD MILAŠINOVIĆ": {
-    "en": "CAPTAIN / RIKARD MILAŠINOVIĆ",
-    "de": "KAPITÄN / RIKARD MILAŠINOVIĆ"
   },
   "MJESTO IGRANJA": {
     "en": "PLAYING VENUE",
@@ -386,10 +370,6 @@
   "Postani sponzor": {
     "en": "Become a sponsor",
     "de": "Sponsor werden"
-  },
-  "Nazovite nas ·": {
-    "en": "Call us ·",
-    "de": "Ruf uns an ·"
   },
   "O klubu": {
     "en": "The club",
@@ -1403,14 +1383,6 @@
     "en": "Select the odds beside a player. One duel, one prediction.",
     "de": "Wähle die Quote neben einem Spieler. Ein Duell, ein Tipp."
   },
-  "Ulog u bodovima (10–100)": {
-    "en": "Stake in points (10–100)",
-    "de": "Einsatz in Punkten (10–100)"
-  },
-  "Unesi cijeli broj od 10 do 100, najviše do svog salda.": {
-    "en": "Enter a whole number from 10 to 100, up to your balance.",
-    "de": "Gib eine ganze Zahl von 10 bis 100 ein, höchstens deinen Punktestand."
-  },
   "Početni saldo: 1.000 bodova.": {
     "en": "Starting balance: 1,000 points.",
     "de": "Startguthaben: 1.000 Punkte."
@@ -1498,10 +1470,6 @@
   "Promašaj": {
     "en": "Incorrect pick",
     "de": "Falscher Tipp"
-  },
-  "Ulog mora biti od 10 do 100 bodova i unutar tvog salda.": {
-    "en": "Stake must be 10–100 points and within your balance.",
-    "de": "Der Einsatz muss 10–100 Punkte betragen und innerhalb deines Guthabens liegen."
   },
   "Neispravna procjena.": {
     "en": "Invalid estimate.",
@@ -1627,10 +1595,6 @@
     "en": "TO WEAR.",
     "de": "ZUM TRAGEN."
   },
-  "Za crtu. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.": {
-    "en": "For the oche. For the sofa. For everything between. Explore 12 ideas for our first merch collection.",
-    "de": "Für die Abwurflinie. Für das Sofa. Für alles dazwischen. Entdecke 12 Ideen für unsere erste Merch-Kollektion."
-  },
   "Istraži kolekciju": {
     "en": "Explore the collection",
     "de": "Kollektion entdecken"
@@ -1654,10 +1618,6 @@
   "NENORMALAN.": {
     "en": "ABNORMAL.",
     "de": "UNNORMAL."
-  },
-  "Za crtu. Za kauč. Za sve između.": {
-    "en": "For the oche. For the sofa. For everything between.",
-    "de": "Für die Abwurflinie. Für das Sofa. Für alles dazwischen."
   },
   "Klupski duh koji ne ostaje u klubu.": {
     "en": "Club spirit that comes home with you.",
@@ -1698,10 +1658,6 @@
   "Za nositi": {
     "en": "To wear",
     "de": "Zum Tragen"
-  },
-  "Za crtu": {
-    "en": "At the oche",
-    "de": "An der Abwurflinie"
   },
   "Izvan igre": {
     "en": "Off duty",
@@ -1831,10 +1787,6 @@
     "en": "Sports socks",
     "de": "Sportsocken"
   },
-  "Obje noge iza crte.": {
-    "en": "Both feet behind the line.",
-    "de": "Beide Füße hinter der Linie."
-  },
   "Glava u igri": {
     "en": "Head in the game",
     "de": "Kopf im Spiel"
@@ -1858,10 +1810,6 @@
   "Promaši lokvu.": {
     "en": "Miss the puddle.",
     "de": "Verfehl die Pfütze."
-  },
-  "Iza crte, molim": {
-    "en": "Behind the line, please",
-    "de": "Hinter die Linie, bitte"
   },
   "Otirač": {
     "en": "Doormat",
@@ -2034,10 +1982,6 @@
   "Odlučni": {
     "en": "Determined",
     "de": "Entschlossen"
-  },
-  "Kad staneš za crtu, stani iza svog izbora.": {
-    "en": "Step up to the line. Stand by your choice.",
-    "de": "Stell dich an die Linie. Steh zu deiner Entscheidung."
   },
   "Samokritični": {
     "en": "Self-critical",
@@ -2251,10 +2195,6 @@
     "en": "Sociable",
     "de": "Gesellig"
   },
-  "Razgovor se nastavlja iza crte.": {
-    "en": "The conversation continues behind the line.",
-    "de": "Das Gespräch geht hinter der Linie weiter."
-  },
   "Mirni": {
     "en": "Calm",
     "de": "Ruhig"
@@ -2459,17 +2399,9 @@
     "en": "Independent",
     "de": "Selbstständig"
   },
-  "Za crtom odluku donosiš sam.": {
-    "en": "At the line, the decision is yours.",
-    "de": "An der Linie entscheidest du selbst."
-  },
   "Povezani": {
     "en": "Connected",
     "de": "Verbunden"
-  },
-  "Iza crte opet smo ekipa.": {
-    "en": "Behind the line, we are a team again.",
-    "de": "Hinter der Linie sind wir wieder ein Team."
   },
   "Ponosni": {
     "en": "Proud",
@@ -2891,10 +2823,6 @@
     "en": "Sporting",
     "de": "Sportlich"
   },
-  "Za crtom ima mjesta za poštenu borbu.": {
-    "en": "At the line, there is room for a fair contest.",
-    "de": "An der Linie ist Platz für einen fairen Wettkampf."
-  },
   "Pedantni": {
     "en": "Meticulous",
     "de": "Penibel"
@@ -3114,10 +3042,6 @@
   "Bolji u pokušaju": {
     "en": "Better at trying",
     "de": "Besser beim Versuchen"
-  },
-  "Važno je opet stati za crtu.": {
-    "en": "What matters is stepping up again.",
-    "de": "Wichtig ist, wieder an die Linie zu treten."
   },
   "Najbolji zajedno": {
     "en": "Best together",
@@ -3382,5 +3306,85 @@
   "Sjever gore": {
     "en": "North up",
     "de": "Norden oben"
+  },
+  "U ekipi nikad nisi sam.": {
+    "en": "You are never alone in the team.",
+    "de": "Im Team bist du nie allein."
+  },
+  "dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog za novu partiju.": {
+    "en": "we have been part of the Zagreb Darts Association. For us, darts is a good reason to get together. And an even better reason for another game.",
+    "de": "sind wir Teil des Dartsverbands der Stadt Zagreb. Für uns ist Darts ein guter Grund, zusammenzukommen. Und ein noch besserer für eine neue Partie."
+  },
+  "Za igru. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.": {
+    "en": "For the game. For the sofa. For everything in between. Explore 12 ideas for our first merch collection.",
+    "de": "Fürs Spiel. Fürs Sofa. Für alles dazwischen. Entdecke 12 Ideen für unsere erste Merch-Kollektion."
+  },
+  "Za igru. Za kauč. Za sve između.": {
+    "en": "For the game. For the sofa. For everything in between.",
+    "de": "Fürs Spiel. Fürs Sofa. Für alles dazwischen."
+  },
+  "Za igru": {
+    "en": "For the game",
+    "de": "Fürs Spiel"
+  },
+  "Stabilno do zadnjeg bacanja.": {
+    "en": "Steady until the final throw.",
+    "de": "Standfest bis zum letzten Wurf."
+  },
+  "Dobro došli u ekipu": {
+    "en": "Welcome to the team",
+    "de": "Willkommen im Team"
+  },
+  "Svako bacanje je tvoj izbor.": {
+    "en": "Every throw is your choice.",
+    "de": "Jeder Wurf ist deine Entscheidung."
+  },
+  "Razgovor se nastavlja nakon igre.": {
+    "en": "The conversation continues after the game.",
+    "de": "Das Gespräch geht nach dem Spiel weiter."
+  },
+  "O svom bacanju odlučuješ sam.": {
+    "en": "You decide how to throw.",
+    "de": "Du entscheidest über deinen Wurf."
+  },
+  "Nakon igre opet smo ekipa.": {
+    "en": "After the game, we are a team again.",
+    "de": "Nach dem Spiel sind wir wieder ein Team."
+  },
+  "U pikadu ima mjesta za poštenu borbu.": {
+    "en": "Darts has room for fair competition.",
+    "de": "Im Darts ist Platz für fairen Wettbewerb."
+  },
+  "Važno je ponovno zaigrati.": {
+    "en": "What matters is playing again.",
+    "de": "Wichtig ist, wieder zu spielen."
+  },
+  "Pošalji e-mail klubu": {
+    "en": "Email the club",
+    "de": "Schreib dem Verein eine E-Mail"
+  },
+  "KLUPSKI KONTAKT": {
+    "en": "CLUB CONTACT",
+    "de": "VEREINSKONTAKT"
+  },
+  "Pišite nam ·": {
+    "en": "Email us ·",
+    "de": "Schreibt uns ·"
+  },
+  "Ulog u bodovima (najmanje 10)": {
+    "en": "Stake in points (minimum 10)",
+    "de": "Einsatz in Punkten (mindestens 10)"
+  },
+  "Unesi cijeli broj od najmanje 10, najviše do svog salda.": {
+    "en": "Enter a whole number of at least 10, up to your balance.",
+    "de": "Gib eine ganze Zahl ab 10 ein, höchstens deinen Punktestand."
+  },
+  "Ulog mora biti cijeli broj od najmanje 10 bodova i unutar tvog salda.": {
+    "en": "Stake must be a whole number of at least 10 points and within your balance.",
+    "de": "Der Einsatz muss eine ganze Zahl ab 10 Punkten sein und innerhalb deines Guthabens liegen."
+  },
+  "Broj bodova prelazi podržanu preciznost.": {
+    "en": "The points total exceeds supported precision.",
+    "de": "Die Punktzahl überschreitet die unterstützte Genauigkeit."
   }
 }

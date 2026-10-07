@@ -27,7 +27,7 @@ The HPS text endpoint was accessed directly with HTTPS on 2026-09-16 after the s
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------- | ---------- | ---------- | ------------------------- |
 | Active club PK NORMAL; president and registration number above                                                                                         | https://hps-dart.hr/pk-normal                | 2026-09-16 | High       | Official HPS              |
 | Nine players: Rikard Milašinović, Tin Grgić, Ivan Štimac, Stjepan Prusac, Franko Čegec, Mihovil Marjanović, Ivan Žugec, Franko Ermakora, Filip Jakelić | https://hps-dart.hr/normal                   | 2026-09-16 | High       | Official HPS roster       |
-| Rikard Milašinović is captain; public captain phone 091 3963 623                                                                                       | https://hps-dart.hr/normal                   | 2026-09-16 | High       | Official HPS team contact |
+| Rikard Milašinović is captain; previous public captain contact (removed at owner request)                                                                                       | https://hps-dart.hr/normal                   | 2026-09-16 | High       | Official HPS team contact |
 | Team playing address CB QUATTRO, ZAGREBAČKA 26, SESVETE                                                                                                | https://hps-dart.hr/normal                   | 2026-09-16 | High       | Official HPS team address |
 | Player profile links                                                                                                                                   | https://hps-dart.hr/normal (links in roster) | 2026-09-16 | High       | Official HPS              |
 
@@ -129,8 +129,7 @@ fallback; the UI explicitly describes 3D heights as orientation aids, not measur
 Both official pages and the logo returned HTTP 200 when retrieved. The original
 200×192 PNG is hosted locally at `public/sponsors/hidra.png`, without recoloring or
 redrawing. Brand pages establish branding only; sponsorship and its contributions
-are owner-provided facts, not claims verified by PSGZ/HPS. The sponsorship CTA uses
-the existing sourced club telephone number; no additional contact is invented.
+are owner-provided facts, not claims verified by PSGZ/HPS. The sponsorship CTA now uses the owner-provided club email recorded below.
 
 ## Virtual duels — checked 18 September 2026
 
@@ -174,3 +173,14 @@ brand color variant. The sponsorship inquiry CTA remains available.
 https://tiles.openfreemap.org/styles/positron — official OpenFreeMap base style,
 checked 2026-09-26; high confidence, primary technical source. Custom road, water,
 park and building colors improve contrast; no geographical or match facts changed.
+
+## Owner contact and copy revision — 2026-10-07
+
+| Fact / change | Source URL or record | Checked | Confidence | Type |
+|---|---|---|---|---|
+| Club email pikadonormal@gmail.com replaces personal phone in all site contact links | Owner-supplied Photo 1.jpg / Photo 2.jpg in this conversation; no public URL | 2026-10-07 | High: owner-provided, not federation-verified | Owner-provided |
+
+The supplied screenshots explicitly request removing the personal phone and repeated
+phrases about “crta”, using dart-shaped map markers, and removing the virtual
+100-point stake cap. The mailto target matches the supplied address; no message
+was sent and mailbox delivery is not independently verified.

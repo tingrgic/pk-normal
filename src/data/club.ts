@@ -3,8 +3,8 @@ export const club = {
   city: "Zagreb",
   admission: "12. kolovoza 2026.",
   registration: "21015646",
-  phone: "091 3963 623",
-  phoneHref: "tel:+385913963623",
+  email: "pikadonormal@gmail.com",
+  emailHref: "mailto:pikadonormal@gmail.com",
   venue: "CB Quattro",
   address: "Zagrebačka 26, Sesvete",
   sources: {

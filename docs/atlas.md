@@ -82,3 +82,11 @@ phone maps are 460px tall with 44px minimum control targets. Camera padding rese
 when returning to a venue, so the selected marker remains centered after overview.
 All new control labels are translated into English and German. Map style changes do
 not alter fixture data, venue coordinates, attribution or source freshness.
+
+## Dart markers — 2026-10-07
+
+Owner-requested dart silhouettes replace round map pins and landing map dots.
+The static local SVG is anchored at its tip (four-pixel bottom offset); numbered
+44px-or-larger buttons, keyboard focus, labels and selected state are retained.
+Red flights mark the selected venue; other darts are neutral. No animation or
+new external asset request is needed. Coordinates and map attribution are unchanged.

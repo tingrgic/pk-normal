@@ -16,7 +16,7 @@ test('merch filters, favourites persistence, dialog focus and club return', asyn
   await expect(page.locator('.merch-product')).toHaveCount(1);
   await page.reload();
   await expect(page.getByRole('button', { name: 'Moj izbor' })).toContainText('01');
-  await page.getByRole('button', { name: 'Za crtu', exact: true }).click();
+  await page.getByRole('button', { name: 'Za igru', exact: true }).click();
   await expect(page.locator('.merch-product')).toHaveCount(1);
   await page.getByRole('button', { name: 'Sve', exact: true }).click();
   const results = await new AxeBuilder({ page }).analyze();

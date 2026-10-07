@@ -89,7 +89,7 @@ export default function App() {
             </h2>
             <div className="about-copy" data-reveal>
               <p className="lead">{t("Mi smo PK Normal.")}<br />{t("Zagrebačka ekipa s jasnim ciljem.")}</p>
-              <p>{t("Od ")}{t(club.admission)}{t(" dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog da se uvijek vratimo za crtu.")}</p>
+              <p>{t("Od ")}{t(club.admission)}{t(" dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog za novu partiju.")}</p>
               <a
                 className="text-link"
                 href={club.sources.admission}
@@ -231,7 +231,7 @@ export default function App() {
           <div className="odds-invite-copy"><p>{t("Naša ekipa protiv tvoje procjene. Usporedi učinak igrača, pogledaj simulirane koeficijente i odigraj virtualni dvoboj.")}</p><a className="text-link" id="dvoboji" href="#dvoboji">{t("Otvori dvoboje ")}<Arrow /></a><small>{t("Podaci saveza. Naš model. Samo virtualni bodovi.")}</small><noscript>{t("Za virtualne dvoboje uključi JavaScript.")}</noscript></div>
         </section>
         <section className="merch-invite section" id="merch" aria-labelledby="merch-invite-title">
-          <div><p className="mono">PK NORMAL / MERCHSHOP</p><h2 id="merch-invite-title">{t("NORMALNO.")}<br /><em>{t("ZA NOSITI.")}</em></h2><p>{t("Za crtu. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.")}</p><a className="text-link" id="shop" href="#shop">{t("Istraži kolekciju")} <Arrow /></a><small>{t("Koncept kolekcije · još nije u prodaji")}</small></div>
+          <div><p className="mono">PK NORMAL / MERCHSHOP</p><h2 id="merch-invite-title">{t("NORMALNO.")}<br /><em>{t("ZA NOSITI.")}</em></h2><p>{t("Za igru. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.")}</p><a className="text-link" id="shop" href="#shop">{t("Istraži kolekciju")} <Arrow /></a><small>{t("Koncept kolekcije · još nije u prodaji")}</small></div>
           <a href="#shop" tabIndex={-1} aria-hidden="true"><img src={import.meta.env.BASE_URL + "images/merch/robe-cutout.webp"} alt="" width="960" height="960" loading="lazy" /></a>
         </section>
         <Sponsors />
@@ -247,8 +247,8 @@ export default function App() {
             </h2>
             <a
               className="join-arrow"
-              href={club.phoneHref}
-              aria-label={t("Nazovi kapetana Rikarda")}
+              href={club.emailHref}
+              aria-label={t("Pošalji e-mail klubu")}
             >
               <Arrow />
             </a>
@@ -258,9 +258,9 @@ export default function App() {
               <strong>{t("Javi se. Krenimo od toga.")}</strong>
             </p>
             <div>
-              <span className="mono">{t("KAPETAN / RIKARD MILAŠINOVIĆ")}</span>
-              <a className="phone" href={club.phoneHref}>
-                {club.phone}
+              <span className="mono">{t("KLUPSKI KONTAKT")}</span>
+              <a className="club-email" href={club.emailHref}>
+                {club.email}
               </a>
             </div>
             <div className="venue">

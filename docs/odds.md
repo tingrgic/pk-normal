@@ -48,8 +48,8 @@ If an opposing team has no recorded players, odds and play are unavailable.
 
 ## Virtual game
 
-Start with 1,000 points. Pick either player in one duel, stake an integer 10–100
-within the balance, and explicitly trigger a simulation. Browser randomness draws
+Start with 1,000 points. Pick either player in one duel, stake an integer of at least 10
+up to the full balance (no fixed upper stake cap), and explicitly trigger a simulation. Browser randomness draws
 a binary outcome from the selected probability. Payout includes stake and rounds
 stake × full-precision odds to the nearest point. The UI discloses rounded odds.
 Only the last 20 simulations are retained, with frozen picks, odds and payouts.
@@ -66,3 +66,7 @@ HTTP previews work too. A fresh browser or reset is a new local game.
 sample handling; payout math, stakes, save validation, bounded history; source
 reconciliation; all nine players, no-data team, selection, persistence, reset,
 blocked storage, keyboard operation, nine viewports and desktop/mobile axe audits.
+
+Owner-requested change, 2026-10-07: removed the 100-point stake cap and the
+100-million saved-balance cap. Version 1 saves remain compatible. Arithmetic
+must remain within JavaScript safe integers; unsafe payouts are rejected.

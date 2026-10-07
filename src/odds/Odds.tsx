@@ -25,13 +25,17 @@ export default function Odds() {
   const [message, setMessage] = useState<{ key: string; values?: Record<string, string | number> }>({ key: '' });
   useEffect(()=>{try{localStorage.setItem(SAVE_KEY,JSON.stringify(game));}catch{setStorageError(true);}},[game]);
   const amount = Number(stake);
-  const valid = Number.isInteger(amount) && amount >= 10 && amount <= 100 && amount <= game.balance;
+  const valid = Number.isSafeInteger(amount) && amount >= 10 && amount <= game.balance;
   function simulate() {
     if (!pick || !valid) return;
     const random = crypto.getRandomValues(new Uint32Array(1))[0] / 4294967296;
-    const next = play(game,pick,amount,random,`${Date.now()}-${crypto.getRandomValues(new Uint32Array(1))[0]}`);
-    setGame(next); setPick(null);
-    setMessage(next.history[0].won ? { key: "Simulacija: pogodak! Povrat {0} bodova, uključujući ulog.", values: {0: next.history[0].payout} } : { key: "Simulacija: promašaj. Uloženo {0} bodova.", values: {0: amount} });
+    try {
+      const next = play(game,pick,amount,random,`${Date.now()}-${crypto.getRandomValues(new Uint32Array(1))[0]}`);
+      setGame(next); setPick(null);
+      setMessage(next.history[0].won ? { key: "Simulacija: pogodak! Povrat {0} bodova, uključujući ulog.", values: {0: next.history[0].payout} } : { key: "Simulacija: promašaj. Uloženo {0} bodova.", values: {0: amount} });
+    } catch (error) {
+      setMessage({ key: error instanceof Error ? error.message : "Neispravna procjena." });
+    }
   }
   return (
     <main className="odds-page" id="main">
@@ -67,8 +71,8 @@ export default function Odds() {
           <p className="mono">{t("SAMO VIRTUALNI BODOVI")}</p><h2 id="odds-slip-title">{t("Tvoj dvoboj.")}</h2>
           <p className="odds-balance">{game.balance.toLocaleString(locale)} <span>{t("bodova")}</span></p>
           {pick ? <><p className="odds-slip-pair">{pick.player}<br /><span>{t("protiv ")}{pick.opponent}</span></p><p className="odds-pick">{t("Tvoj izbor: ")}<strong>{pick.side==='home'?pick.player:pick.opponent}</strong><br />{t("Koeficijent ")}{fmt(pick.odds)}</p></> : <p className="odds-slip-hint">{t("Odaberi koeficijent uz igrača. Jedan dvoboj, jedna prognoza.")}</p>}
-          <label htmlFor="odds-stake">{t("Ulog u bodovima (10–100)")}</label><input id="odds-stake" type="number" min="10" max={Math.min(100,game.balance)} step="1" inputMode="numeric" value={stake} onChange={e=>setStake(e.target.value)} aria-invalid={!valid} aria-describedby="odds-stake-note" />
-          <p id="odds-stake-note" className="odds-note">{!valid ? t("Unesi cijeli broj od 10 do 100, najviše do svog salda.") : pick ? t("Mogući povrat: {0} bodova (s ulogom).", {0: Math.round(amount*pick.odds)}) : t("Početni saldo: 1.000 bodova.")}</p>
+          <label htmlFor="odds-stake">{t("Ulog u bodovima (najmanje 10)")}</label><input id="odds-stake" type="number" min="10" max={game.balance} step="1" inputMode="numeric" value={stake} onChange={e=>setStake(e.target.value)} aria-invalid={!valid} aria-describedby="odds-stake-note" />
+          <p id="odds-stake-note" className="odds-note">{!valid ? t("Unesi cijeli broj od najmanje 10, najviše do svog salda.") : pick ? t("Mogući povrat: {0} bodova (s ulogom).", {0: Math.round(amount*pick.odds)}) : t("Početni saldo: 1.000 bodova.")}</p>
           <button className="odds-play" disabled={!pick || !valid} onClick={simulate}>{t("Simuliraj dvoboj ")}<Arrow /></button>
           <p className="odds-note">{t("Ishod se nasumično izvlači prema prikazanoj procjeni. Ne čeka se stvarna utakmica. Izračun koristi puni koeficijent; prikaz je zaokružen.")}</p>
           <p role="status" className="odds-status">{t(message.key, message.values)}</p>

@@ -50,7 +50,7 @@ export const rhythm = [
   },
   {
     "name": "Odlučni",
-    "text": "Kad staneš za crtu, stani iza svog izbora."
+    "text": "Svako bacanje je tvoj izbor."
   },
   {
     "name": "Samokritični",
@@ -158,7 +158,7 @@ export const rhythm = [
   },
   {
     "name": "Druželjubivi",
-    "text": "Razgovor se nastavlja iza crte."
+    "text": "Razgovor se nastavlja nakon igre."
   },
   {
     "name": "Mirni",
@@ -262,11 +262,11 @@ export const rhythm = [
   },
   {
     "name": "Samostalni",
-    "text": "Za crtom odluku donosiš sam."
+    "text": "O svom bacanju odlučuješ sam."
   },
   {
     "name": "Povezani",
-    "text": "Iza crte opet smo ekipa."
+    "text": "Nakon igre opet smo ekipa."
   },
   {
     "name": "Ponosni",
@@ -478,7 +478,7 @@ export const rhythm = [
   },
   {
     "name": "Sportski nastrojeni",
-    "text": "Za crtom ima mjesta za poštenu borbu."
+    "text": "U pikadu ima mjesta za poštenu borbu."
   },
   {
     "name": "Pedantni",
@@ -590,7 +590,7 @@ export const rhythm = [
   },
   {
     "name": "Bolji u pokušaju",
-    "text": "Važno je opet stati za crtu."
+    "text": "Važno je ponovno zaigrati."
   },
   {
     "name": "Najbolji zajedno",

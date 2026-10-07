@@ -795,12 +795,12 @@ small {
 .join-bottom .mono {
   font-size: 12px;
 }
-.phone {
+.club-email {
   display: block;
   font-family: var(--display);
-  font-size: clamp(28px, 3.4vw, 56px);
+  font-size: clamp(24px, 2.5vw, 40px);
   line-height: 1.3;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
   padding: 10px 0;
 }
 .venue p {
@@ -1162,8 +1162,8 @@ small {
   .join-bottom .mono {
     font-size: 12px;
   }
-  .phone {
-    font-size: 48px;
+  .club-email {
+    font-size: clamp(26px, 7vw, 40px);
     padding: 7px 0;
     line-height: 1.2;
   }

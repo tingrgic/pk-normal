@@ -50,9 +50,9 @@ for (const [width, height] of [
     await expect(
       page.getByRole("heading", { name: "SVATKO SVOJ. ZAJEDNO NORMAL." }),
     ).toBeVisible();
-    await expect(page.locator(".phone")).toHaveAttribute(
+    await expect(page.locator(".club-email")).toHaveAttribute(
       "href",
-      "tel:+385913963623",
+      "mailto:pikadonormal@gmail.com",
     );
     const a = await page.locator(".hero-caption").boundingBox();
     const b = await page.locator(".hero-bottom").boundingBox();
@@ -130,7 +130,7 @@ test("WebGL failure preserves content and static visual", async ({ page }) => {
         (img: HTMLImageElement) => img.complete && img.naturalWidth > 0,
       ),
   ).toBeTruthy();
-  await expect(page.locator(".phone")).toBeVisible();
+  await expect(page.locator(".club-email")).toBeVisible();
 });
 test("no JavaScript still serves full content and poster", async ({
   browser,
@@ -142,7 +142,7 @@ test("no JavaScript still serves full content and poster", async ({
   const page = await context.newPage();
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-  await expect(page.locator(".phone")).toBeVisible();
+  await expect(page.locator(".club-email")).toBeVisible();
   await expect(page.locator(".scene-poster")).toBeVisible();
   await expect(page.locator(".roster a")).toHaveCount(7);
   await context.close();

@@ -34,12 +34,8 @@
 .atlas-map-controls button:disabled { opacity:.4; cursor:not-allowed; }
 .atlas-map-help { position:absolute; left:16px; bottom:38px; background:#10140fdb; padding:6px 9px; margin:0; font-size:10px; color:#d1d5c8; max-width:calc(100% - 32px); pointer-events:none; }
 .atlas .maplibregl-ctrl-attrib { font-family:var(--body); font-size:10px; }
-.atlas-pin { border:0; background:none; padding:0 0 12px; min-width:44px; min-height:54px; cursor:pointer; overflow:visible; color:#10110f; }
+.atlas-pin { border:0; background:none; padding:0; width:64px; height:80px; min-width:44px; min-height:44px; cursor:pointer; overflow:visible; color:#10110f; }
 .atlas-pin[hidden] { display:none!important; }
-.atlas-pin > span { display:grid; place-items:center; width:38px; height:38px; margin:auto; background:#dddac8; border:2px solid #171c14; border-radius:50%; font:600 17px var(--display); box-shadow:0 3px 15px #0006; }
-.atlas-pin:after { content:''; position:absolute; bottom:1px; left:calc(50% - 1px); height:14px; width:2px; background:#dddac8; }
-.atlas-pin.selected > span { background:var(--color-accent); color:#090909; outline:1px solid #f7b9ac; outline-offset:4px; }
-.atlas-pin.selected:after { background:var(--color-accent); }
 .atlas-pin small { display:none; position:absolute; top:-31px; left:50%; transform:translateX(-50%); background:#0b100bea; color:#f1f2e8; padding:5px 9px; white-space:nowrap; font-size:11px; border:1px solid #545e43; }
 .atlas-pin.selected small,.atlas-pin:focus-visible small,.atlas-pin:hover small { display:block; }
 .atlas-pin:focus-visible { outline:2px solid white; outline-offset:5px; }
@@ -178,10 +174,7 @@
 .atlas-map-controls button:hover { background:#e1e8db; }
 .atlas-map-controls button:focus-visible,.atlas-venue-picker select:focus-visible { outline:2px solid #b52d21; outline-offset:2px; }
 .atlas-map-help { background:#fffdf6eb; color:#344239; bottom:30px; }
-.atlas-pin > span { background:#fffdf6; border-color:#536452; box-shadow:0 2px 8px #27372433; }
-.atlas-pin:after { background:#536452; }
 .atlas-pin small { background:#fffdf6; color:#25352e; border-color:#899589; box-shadow:0 2px 8px #27372418; }
-.atlas-pin.selected > span { outline-color:#9f261e; }
 .atlas-pin:focus-visible { outline-color:#9f261e; }
 @media(max-width:760px) {
  .atlas-map { height:460px; min-height:460px; }
@@ -201,3 +194,10 @@
  .atlas-map-controls button:nth-child(-n+3) { border-bottom:1px solid #d1d6cc; }
  .atlas-map-controls button:nth-child(3n) { border-right:0; }
 }
+
+/* The dart tip, not the label, is anchored to the venue coordinate. */
+.atlas-pin > img { display:block; width:64px; height:80px; filter:grayscale(1); }
+.atlas-pin.selected > img { filter:none; }
+.atlas-pin > span { position:absolute; top:28px; right:0; display:grid; place-items:center; width:24px; height:24px; background:#fffdf6; color:#25352e; border:1px solid #536452; font:600 15px var(--display); }
+.atlas-pin.selected > span { background:#ed382b; color:#090909; border-color:#090909; }
+.atlas-pin small { top:-26px; }

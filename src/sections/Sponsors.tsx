@@ -30,8 +30,8 @@ export default function Sponsors() {
         <div><p className="mono">{t("MJESTO I ZA VAŠ BREND")}</p><h3>{t("Budite dio ekipe.")}</h3></div>
         <div className="sponsors-invite-copy">
           <p>{t("Želite podržati PK Normal? Javite nam se i dogovorimo kako zajedno možemo doprinijeti klubu.")}</p>
-          <a className="text-link" href={club.phoneHref}>{t("Postani sponzor ")}<Arrow /></a>
-          <span className="sponsors-contact">{t("Nazovite nas · ")}{club.phone}</span>
+          <a className="text-link" href={club.emailHref}>{t("Postani sponzor ")}<Arrow /></a>
+          <span className="sponsors-contact">{t("Pišite nam · ")}{club.email}</span>
         </div>
       </div>
     </section>

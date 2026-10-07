@@ -21,7 +21,16 @@ test('virtual ledger: deterministic payout, no overspending, bounded history and
  expect(win.balance).toBe(1020); expect(win.history[0].payout).toBe(40);
  const lose=play(win,pick,100,.9,'lose'); expect(lose.balance).toBe(920);
  expect(restore(JSON.stringify(lose))).toEqual(lose);
- for(const stake of [0,9,101,NaN,10.5]) expect(()=>play(newGame(),pick,stake,.2,'bad')).toThrow();
+ for (const stake of [101, 500, 1000]) {
+  const game = play(newGame(), pick, stake, .1, 'large');
+  expect(game.balance).toBe(1000 + stake);
+  expect(restore(JSON.stringify(game))).toEqual(game);
+ }
+ expect(play(newGame(), pick, 1000, .9, 'all-in').balance).toBe(0);
+ const large = play({...newGame(), balance: 100000001}, pick, 100000001, .1, 'large-save');
+ expect(restore(JSON.stringify(large))).toEqual(large);
+ expect(() => play({...newGame(), balance: Number.MAX_SAFE_INTEGER}, pick, Number.MAX_SAFE_INTEGER, .1, 'overflow')).toThrow();
+ for(const stake of [0,9,1001,NaN,Infinity,10.5,Number.MAX_SAFE_INTEGER+1]) expect(()=>play(newGame(),pick,stake,.2,'bad')).toThrow();
  expect(()=>play({...newGame(),balance:10},pick,20,.2,'bad')).toThrow();
  expect(()=>play(newGame(),pick,20,1,'bad')).toThrow();
  expect(restore('{broken')).toEqual(newGame());
@@ -44,7 +53,7 @@ test('all nine players, selection, play, refresh persistence, empty data and res
  await expect(page.locator('.odds-row')).toHaveCount(9);
  await expect(page.locator('.odds-player').filter({hasText:'Bez nastupa'})).toHaveCount(5);
  await page.locator('.odds-row').nth(1).getByRole('button').first().click();
- await page.getByLabel('Ulog u bodovima').fill('20');
+ await page.getByLabel('Ulog u bodovima').fill('1000');
  await page.getByRole('button',{name:'Simuliraj dvoboj'}).click();
  await expect(page.getByRole('status')).toContainText('Simulacija:');
  await expect(page.locator('.odds-history li')).toHaveCount(1);
