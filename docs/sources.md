@@ -192,3 +192,44 @@ was sent and mailbox delivery is not independently verified.
 - Features: primary/secondary/trunk roads in Zagreb–Sesvete and the named Sava river.
   Projection and query bounds are documented in docs/atlas.md. Venue facts unchanged.
 - License: ODbL, https://www.openstreetmap.org/copyright; visible attribution provided.
+
+## Full season refresh — 2026-10-07
+
+Official PSGZ league API and cup draw rechecked; 20 league fixtures plus one cup fixture. All entries carry their source and check date. Four completed Normal results: 9:7, 4:12, 13:3, 4:12 (home:away). Future 0:0 placeholders remain null. Odds source updated to 11 teams / 68 players.
+
+| Team | Playing address | Source | Checked | Confidence / type |
+|---|---|---|---|---|
+| a1-thriller | CB A1, CIRKOVCI 72 | https://hps-dart.hr/a1-thriller | 2026-10-07 | High: published address; official HPS |
+| bbf-bully-boys | BBF Savska cesta 150 | https://hps-dart.hr/bbf-bully-boys | 2026-10-07 | High: published address; official HPS |
+| black-m | CB BLACK M, ZAGREBAČKA CESTA 76, SESVETE | https://hps-dart.hr/black-m | 2026-10-07 | High: published address; official HPS |
+| bulldog-giants | CB MARKO, SESVETSKA CESTA 61 | https://hps-dart.hr/bulldog-giants | 2026-10-07 | High: published address; official HPS |
+| exterium-ii | CB EXTERIUM, POLJAČKA 52 | https://hps-dart.hr/exterium-ii | 2026-10-07 | High: published address; official HPS |
+| hollywood-promili | Not published; no inferred venue | https://hps-dart.hr/hollywood-promili | 2026-10-07 | High: source field blank; official HPS |
+| kocka-felga-cvrcak | CB DeGusto, Ilica 506, Vrapče | https://hps-dart.hr/kocka-felga-cvrcak | 2026-10-07 | High: published address; official HPS |
+| mozart-diamanti | Not published; no inferred venue | https://hps-dart.hr/mozart-diamanti | 2026-10-07 | High: source field blank; official HPS |
+| normal | CB QUATTRO, ZAGREBAČKA 26, SESVETE | https://hps-dart.hr/normal | 2026-10-07 | High: published address; official HPS |
+| pkz-voltage | Ulica Dragutina Golika 44, 10000 Zagreb | https://hps-dart.hr/pkz-voltage | 2026-10-07 | High: published address; official HPS |
+| vrapce-2 | CB 9, MAJKE TEREZIJE 6, VRAPČE | https://hps-dart.hr/vrapce-2 | 2026-10-07 | High: published address; official HPS |
+| zagreb | CB X, LERMANOVA 49 | https://hps-dart.hr/zagreb | 2026-10-07 | High: published address; official HPS |
+
+CB 9 coordinates: https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ulica+Majke+Terezije+6%2C+Zagreb%2C+Croatia&f=json&outFields=Addr_type%2CMatch_addr — checked 2026-10-07, score 100, secondary ArcGIS geocoder, address precision (not surveyed entrance).
+
+CB Black M coordinates: https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Zagreba%C4%8Dka+cesta+76%2C+Sesvete%2C+Croatia&f=json&outFields=Addr_type%2CMatch_addr — checked 2026-10-07, score 100, secondary ArcGIS geocoder, address precision (not surveyed entrance).
+
+CB Marko coordinates: https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sesvetska+cesta+61%2C+Zagreb%2C+Croatia&f=json&outFields=Addr_type%2CMatch_addr — checked 2026-10-07, score 100, secondary ArcGIS geocoder, address precision (not surveyed entrance).
+
+The cup location remains Pivana, Ilica 222, as confirmed by https://psgz.hr/masters-serija-elektronskog-i-klasicnog-pikada-ekipni-kup on 2026-10-07. A1 Thriller’s own address is not used for this neutral cup fixture. Hollywood Promili and Mozart Diamanti have blank HPS playing-address fields; neither gets an inferred map marker. Sponsor listing removed at owner request; no assertion that a commercial agreement ended.
+
+### Snapshot reconciliation note — 2026-10-07
+The PSGZ published team and individual tables do not fully reconcile for BBF Bully
+Boys, Black M, Hollywood Promili, Mozart Diamanti, Vrapče 2 and Zagreb. Some duel
+totals differ by one; Hollywood published team legs are 44/34 versus individual
+68/48 and Vrapče team legs are 43/38 versus individual 57/62. Source values are
+preserved, not silently repaired. This discrepancy is disclosed in the simulator.
+Normal reconciles at 18/46 duels and 56/100 legs across four matches.
+
+The official Ner column contains two draw outcomes; their sum is retained as draws in the team record. Played = wins + draws + losses. This differs from player duel results, which remain W/L.
+
+## Owner-requested presentation and local tools — 2026-10-07
+
+Source: owner instructions in this conversation (no public URL); high confidence, owner-provided creative/product choices. Revised club copy, fixed 180-item identity set with shuffled order, smaller roster cards, sponsor invitation, inline tools, and local counter statistics do not assert new federation facts. Counter average/opportunity definitions are documented in docs/counter.md and in the UI.

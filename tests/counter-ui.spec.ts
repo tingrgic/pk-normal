@@ -3,7 +3,7 @@ import AxeBuilder from "@axe-core/playwright";
 test.beforeEach(async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto("/#brojac");
-  await expect(page.getByRole("heading", { level: 1 })).toContainText("TI BACAJ");
+  await expect(page.locator(".counter-heading h2")).toContainText("TI BACAJ");
 });
 test("phone: name customization, bull order, score, undo, handover, refresh, resume and navigation", async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
@@ -30,7 +30,7 @@ test("phone: name customization, bull order, score, undo, handover, refresh, res
   await page.getByRole("link", { name: "Natrag u klub" }).click();
   await expect(page.locator(".hero")).toBeVisible();
   await page.goto("/#brojac");
-  await page.getByRole("button", { name: "Nastavi igru" }).click();
+  await expect(page.locator(".counter")).toBeVisible();
   await expect(page.locator(".current-player h2")).toHaveText("Ana");
   expect(errors).toEqual([]);
 });
@@ -75,11 +75,13 @@ test("Shanghai instant win, undo winning dart and confirmed reset", async ({ pag
   await page.getByRole("button", { name: "Triple ×3" }).click();
   await page.getByRole("button", { name: "T1", exact: true }).click();
   await expect(page.locator(".winner-panel")).toContainText("Shanghai!");
+  await expect(page.locator(".counter-summary")).toBeVisible();
+  await page.locator(".counter-summary").getByRole("button", {name:"Zatvori",exact:true}).click();
   await page.getByRole("button", { name: "Poništi zadnji unos" }).click();
   await expect(page.locator(".winner-panel")).toHaveCount(0);
   await expect(page.locator(".current-total strong")).toHaveText("3");
   await page.getByRole("button", { name: "Nova igra", exact: true }).click();
   await page.getByRole("dialog").getByRole("button", { name: "Nova igra", exact: true }).click();
-  await expect(page.getByRole("heading", { level: 1 })).toContainText("TI BACAJ");
+  await expect(page.locator(".counter-heading h2")).toContainText("TI BACAJ");
   expect(await page.evaluate(() => localStorage.getItem("pk-normal-counter-v1"))).toBeNull();
 });

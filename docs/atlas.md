@@ -101,3 +101,16 @@ are projected with x=(longitude−15.875)×2000, y=(45.852−latitude)×2870 for
 geography and venue markers. Paths are simplified at 0.65 SVG units. This is a
 geographic overview, not an administrative boundary or navigation map. Attribution
 links to OSM copyright outside the main map link. No runtime map request is added.
+
+## Full-season inline atlas — 2026-10-07
+
+The atlas expands in the homepage. The existing fixtures-2026.json filename now
+stores the full published 2026/27 season: 20 league fixtures and one neutral cup
+fixture. Every fixture has a checked date. Four official results are now recorded;
+future zero placeholders stay null. Month filtering includes January–March and
+calendar timestamps derive from the current snapshot date. All twelve team pages
+(including the cup opponent) were checked; the address directory stores provenance.
+Three additional address-level geocodes cover Vrapče 2, Black M and Bulldog Giants.
+Mozart Diamanti and Hollywood Promili remain explicitly unknown. The overview
+bounds include the easternmost new venue. The “Prati nas live” link goes to the
+federation match page, while local scores remain a dated snapshot.

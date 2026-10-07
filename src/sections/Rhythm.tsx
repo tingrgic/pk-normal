@@ -1,13 +1,22 @@
-import { useRef, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { rhythm } from "../data/rhythm";
 import { useLanguage } from "../i18n/Language";
 
 export default function Rhythm() {
   const { t } = useLanguage();
+  const [order, setOrder] = useState(() => rhythm.map((_, i) => i));
+  useEffect(() => {
+    const next = rhythm.map((_, i) => i);
+    for (let i = next.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [next[i], next[j]] = [next[j], next[i]];
+    }
+    setOrder(next);
+  }, []);
   const [index, setIndex] = useState(0);
   const gesture = useRef<{ id: number; x: number; y: number } | null>(null);
   const move = (step: number) => setIndex(current => (current + step + rhythm.length) % rhythm.length);
-  const current = rhythm[index];
+  const current = rhythm[order[index]];
   const words = t(current.name).split(" ");
   const number = String(index + 1).padStart(3, "0");
 
@@ -15,7 +24,7 @@ export default function Rhythm() {
     <section className="identity section" aria-labelledby="rhythm-label">
       <div className="identity-top">
         <h2 id="rhythm-label" className="section-label mono"><span>02 /</span> {t("NAŠ RITAM")}</h2>
-        <p className="mono">{t("NORMALNO JE IMATI SVOJ ĐIR.")}</p>
+        <p className="mono">{t("NORMAL JE IMATI SVOJ ĐIR.")}</p>
       </div>
       <div className="identity-swipe" role="group" aria-roledescription={t("Karusel")}
         aria-label={t("Naš pristup igri")} aria-describedby="rhythm-instructions" tabIndex={0}

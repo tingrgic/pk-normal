@@ -37,7 +37,7 @@ for (const [width, height] of [[390,844],[430,932],[844,390],[932,430],[768,1024
     await expect(page.getByRole('heading',{level:1})).toHaveCount(1);
     await page.screenshot({path:`docs/qa/merch-${width}x${height}.png`,fullPage:true});
     await page.getByRole('button',{name:'English',exact:true}).click();
-    await expect(page.getByRole('heading',{level:1})).toContainText('ABNORMAL');
+    await expect(page.locator('#merch-title')).toContainText('ABNORMAL');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();
     await page.getByRole('button',{name:'Deutsch',exact:true}).click();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBeTruthy();

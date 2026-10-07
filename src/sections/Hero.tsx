@@ -15,9 +15,14 @@ export default function Hero() {
   const [phase, setPhase] = useState<CinemaPhase>("loading");
   const [reduced, setReduced] = useState(false);
   const [fallback, setFallback] = useState(false);
+  const [requested, setRequested] = useState(false);
   useEffect(() => {
-    // The prerendered landing page briefly hydrates before a tool route mounts.
-    if (!isClubPage()) return;
+    if (!isClubPage() && !requested) {
+      setReduced(matchMedia('(prefers-reduced-motion: reduce)').matches);
+      setFallback(true); setPhase('complete');
+      gsap.set(root.current?.querySelectorAll('.hero-reveal') || [], {opacity:1,y:0});
+      return;
+    }
     let cancelled = false;
     const reveals = root.current?.querySelectorAll(".hero-reveal") || [];
     const impactRing = root.current?.querySelector(".impact-ring");
@@ -110,7 +115,7 @@ export default function Hero() {
       gsap.killTweensOf(reveals);
       if (impactRing) gsap.killTweensOf(impactRing);
     };
-  }, []);
+  }, [requested]);
   const complete = phase === "complete" || phase === "fallback";
   return (
     <section
@@ -156,7 +161,7 @@ export default function Hero() {
       </div>
       <div className="impact-ring" aria-hidden="true" />
       <div className="hero-caption hero-reveal">
-        <p className="mono red">{t("NORMALNO IME.")}</p>
+        <p className="mono red">{t("NORMAL IME.")}</p>
         <h2>{t("Sve ostalo je")}<br />{t("stvar preciznosti.")}</h2>
         <a className="text-link" href="#o-klubu">{t("Upoznaj klub ")}<Arrow direction="down-right" />
         </a>
@@ -164,12 +169,12 @@ export default function Hero() {
       <div className="hero-bottom">
         <span className="mono">{t("MIRNA RUKA. JASAN CILJ.")}</span>
         <div className="cinema-controls">
-          {!reduced && !fallback && (
+          {!reduced && (
             <button
               onClick={() => {
                 if (complete) {
                   skipRequested.current = false;
-                  cinema.current?.replay();
+                  if (cinema.current) cinema.current.replay(); else setRequested(true);
                 } else {
                   skipRequested.current = true;
                   if (cinema.current) cinema.current.skip();
@@ -185,7 +190,7 @@ export default function Hero() {
               }}
               className="replay"
             >
-              <span aria-hidden="true">{complete ? "↺" : "↠"}</span>
+              <span aria-hidden="true">{complete ? <svg viewBox="0 0 32 32" fill="none"><path d="M24 8a11 11 0 1 0 3 12" stroke="currentColor" strokeWidth="1.5"/><path d="M13 14L26 3M18 10L21 13M20 8L23 11M22 6L25 9M16 12L9 10L8 15L14 15L15 21L20 20Z" stroke="currentColor" strokeWidth="1.4"/></svg> : <Arrow direction="right" />}</span>
               {complete ? t("Ponovi bacanje") : t("Preskoči uvod")}
             </button>
           )}

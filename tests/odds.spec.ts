@@ -30,7 +30,7 @@ test('virtual ledger: deterministic payout, no overspending, bounded history and
  const large = play({...newGame(), balance: 100000001}, pick, 100000001, .1, 'large-save');
  expect(restore(JSON.stringify(large))).toEqual(large);
  expect(() => play({...newGame(), balance: Number.MAX_SAFE_INTEGER}, pick, Number.MAX_SAFE_INTEGER, .1, 'overflow')).toThrow();
- for(const stake of [0,9,1001,NaN,Infinity,10.5,Number.MAX_SAFE_INTEGER+1]) expect(()=>play(newGame(),pick,stake,.2,'bad')).toThrow();
+ for(const stake of [0,-1,1001,NaN,Infinity,10.5,Number.MAX_SAFE_INTEGER+1]) expect(()=>play(newGame(),pick,stake,.2,'bad')).toThrow();
  expect(()=>play({...newGame(),balance:10},pick,20,.2,'bad')).toThrow();
  expect(()=>play(newGame(),pick,20,1,'bad')).toThrow();
  expect(restore('{broken')).toEqual(newGame());
@@ -38,20 +38,21 @@ test('virtual ledger: deterministic payout, no overspending, bounded history and
  expect(restore(JSON.stringify({...win,history:[{...win.history[0],payout:50000}]}))).toEqual(newGame());
  let game=newGame();for(let i=0;i<25;i++) game=play(game,pick,10,.1,String(i));expect(game.history).toHaveLength(20);
 });
-test('official snapshot reconciles individual and team duel and leg counts',()=>{
+test('official snapshot preserves published counts and flags independent aggregate discrepancies',()=>{
+ const differences=[];
  for(const team of oddsSnapshot.teams){
   const ps=oddsSnapshot.players.filter(p=>p.team===team.name);
-  expect(ps.reduce((n,p)=>n+p.wins,0)).toBe(team.duelsWon);
-  expect(ps.reduce((n,p)=>n+p.losses,0)).toBe(team.duelsLost);
-  expect(ps.reduce((n,p)=>n+p.legsWon,0)).toBe(team.legsWon);
-  expect(ps.reduce((n,p)=>n+p.legsLost,0)).toBe(team.legsLost);
+  expect(team.played).toBe(team.wins+team.draws+team.losses);
+  for(const p of ps){expect(p.played).toBe(p.wins+p.losses);expect(p.legsWon).toBeGreaterThanOrEqual(p.wins*2);expect(p.legsLost).toBeGreaterThanOrEqual(p.losses*2);}
+  if(ps.reduce((n,p)=>n+p.wins,0)!==team.duelsWon||ps.reduce((n,p)=>n+p.losses,0)!==team.duelsLost||ps.reduce((n,p)=>n+p.legsWon,0)!==team.legsWon||ps.reduce((n,p)=>n+p.legsLost,0)!==team.legsLost)differences.push(team.name);
  }
+ expect(differences.sort()).toEqual(['BBF BULLY BOYS','BLACK M','HOLLYWOOD PROMILI','MOZART DIAMANTI','VRAPČE 2','ZAGREB']);
 });
 test('all nine players, selection, play, refresh persistence, empty data and reset',async({page})=>{
  await page.addInitScript(()=>{Object.defineProperty(crypto,'randomUUID',{value:undefined});});
  await page.goto('/#dvoboji');
  await expect(page.locator('.odds-row')).toHaveCount(9);
- await expect(page.locator('.odds-player').filter({hasText:'Bez nastupa'})).toHaveCount(5);
+ await expect(page.locator('.odds-player').filter({hasText:'Bez nastupa'})).toHaveCount(1);
  await page.locator('.odds-row').nth(1).getByRole('button').first().click();
  await page.getByLabel('Ulog u bodovima').fill('1000');
  await page.getByRole('button',{name:'Simuliraj dvoboj'}).click();
@@ -61,8 +62,7 @@ test('all nine players, selection, play, refresh persistence, empty data and res
  await page.reload();await expect(page.locator('.odds-balance')).toHaveText(balance);
  await expect(page.locator('.odds-history li')).toHaveCount(1);
  await page.getByLabel('01 / Protivnička ekipa').selectOption('BLACK M');
- await expect(page.getByLabel('02 / Protivnički igrač')).toBeDisabled();
- await expect(page.locator('.odds-row button:disabled')).toHaveCount(18);
+ await expect(page.getByLabel('02 / Protivnički igrač')).toBeEnabled();
  await page.getByLabel('01 / Protivnička ekipa').selectOption('ZAGREB');
  await expect(page.locator('.odds-row button:disabled')).toHaveCount(0);
  await page.getByLabel('02 / Protivnički igrač').selectOption('Goran Chudy');
@@ -94,4 +94,24 @@ test('odds layouts, keyboard access and accessibility',async({page})=>{
   const button=page.locator('.odds-row button').first();await button.focus();await page.keyboard.press('Enter');await expect(button).toHaveAttribute('aria-pressed','true');
   expect((await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze()).violations).toEqual([]);
  }
+});
+
+test('daily reset survives play and storage, unlocks at Zagreb midnight and migrates v1',async()=>{
+ const {resetDaily,canReset,localDay}=await import('../src/odds/engine');
+ const now=Date.parse('2026-10-07T21:59:00Z');
+ const g=resetDaily(newGame(),now);
+ expect(localDay(now)).toBe('2026-10-07');expect(canReset(g,now)).toBe(false);
+ expect(()=>resetDaily(g,now)).toThrow();expect(canReset(g,Date.parse('2026-10-07T22:00:00Z'))).toBe(true);
+ const played=play(g,{player:'A',opponent:'B',team:'C',side:'home',probability:.5,odds:2},1,.9,'one');
+ expect(played.balance).toBe(999);expect(restore(JSON.stringify(played)).lastReset).toBe(g.lastReset);
+ expect(restore(JSON.stringify({version:1,balance:987,history:[]}))).toEqual({...newGame(),balance:987});
+});
+
+test('daily reset is shared between open tabs and survives refresh',async({page,context})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/#dvoboji');
+ const second=await context.newPage();await second.emulateMedia({reducedMotion:'reduce'});await second.goto('/#dvoboji');
+ const reset=page.getByRole('button',{name:'Vrati početnih'});
+ page.once('dialog',d=>d.accept());await reset.click();
+ await expect(reset).toBeDisabled();await expect(second.getByRole('button',{name:'Vrati početnih'})).toBeDisabled();
+ await second.reload();await expect(second.getByRole('button',{name:'Vrati početnih'})).toBeDisabled();
 });

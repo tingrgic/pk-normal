@@ -14,7 +14,7 @@ try {
  const data = await page.evaluate(() => {
   const rows = selector => [...document.querySelectorAll(selector)].map(row => [...row.querySelectorAll('td')].map(cell => cell.textContent.trim()));
   const pair = s => s.split('/').map(Number);
-  const teams = rows('table.ranking tbody tr').filter(r=>r.length===9).map(r=>({name:r[1],played:Number(r[3]),wins:Number(r[4]),losses:Number(r[6]),duelsWon:pair(r[7])[0],duelsLost:pair(r[7])[1],legsWon:pair(r[8])[0],legsLost:pair(r[8])[1]}));
+  const teams = rows('table.ranking tbody tr').filter(r=>r.length===9).map(r=>({name:r[1],played:Number(r[3]),wins:Number(r[4]),draws:r[5].split("-").reduce((sum,n)=>sum+Number(n),0),losses:Number(r[6]),duelsWon:pair(r[7])[0],duelsLost:pair(r[7])[1],legsWon:pair(r[8])[0],legsLost:pair(r[8])[1]}));
   const players = rows('table.scores tbody tr').filter(r=>r.length===9).map(r=>({name:r[1],team:r[2],played:Number(r[6]),wins:pair(r[7])[0],losses:pair(r[7])[1],legsWon:pair(r[8])[0],legsLost:pair(r[8])[1]}));
   return {teams,players};
  });

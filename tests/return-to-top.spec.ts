@@ -26,7 +26,7 @@ for (const reducedMotion of ["reduce", "no-preference"] as const) {
     await expect(page).toHaveURL(/#pocetak$/);
     await expect(page.locator(".nav .wordmark")).toBeFocused();
     if (reducedMotion === "no-preference") {
-      await expect(page.locator(".hero")).toHaveAttribute("data-phase", "fallback");
+      await expect(page.locator(".hero")).toHaveAttribute("data-phase", "complete");
       await expect(page.locator(".scene-poster")).toBeVisible();
     }
     release();

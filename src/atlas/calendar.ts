@@ -9,7 +9,7 @@ export function calendarText(games: Fixture[], language: Language = "hr"): strin
   const lines = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//PK Normal//Atlas utakmica//HR','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:PK Normal / '+atlasMeta.year];
   for (const f of games) {
     const venue = venueFor(f);
-    lines.push('BEGIN:VEVENT','UID:'+f.id+'@pk-normal-calendar','DTSTAMP:20260918T000000Z','DTSTART:'+utc(f.startsAt),'SUMMARY:'+escape(f.home+' — '+f.away),'LOCATION:'+escape(venue ? t(venue.name)+', '+venue.address : t('Lokacija čeka potvrdu')), 'DESCRIPTION:'+escape((f.kind === 'cup' ? t('PSGZ kup A · 1. krug.') : t(atlasMeta.league)+' · '+f.round+t('. kolo.'))+t(' Provjereno 18. 9. 2026. Termin se može promijeniti. ')+f.source),'URL:'+f.source,'END:VEVENT');
+    lines.push('BEGIN:VEVENT','UID:'+f.id+'@pk-normal-calendar','DTSTAMP:'+atlasMeta.checked.replaceAll('-','')+'T000000Z','DTSTART:'+utc(f.startsAt),'SUMMARY:'+escape(f.home+' — '+f.away),'LOCATION:'+escape(venue ? t(venue.name)+', '+venue.address : t('Lokacija čeka potvrdu')), 'DESCRIPTION:'+escape((f.kind === 'cup' ? t('PSGZ kup A · 1. krug.') : t(atlasMeta.league)+' · '+f.round+t('. kolo.'))+t(' Provjereno: ')+atlasMeta.checked+t('. Termin se može promijeniti. ')+f.source),'URL:'+f.source,'END:VEVENT');
   }
   lines.push('END:VCALENDAR');
   // RFC 5545 folding counts UTF-8 bytes, not JS code units.

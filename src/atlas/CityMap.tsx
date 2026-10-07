@@ -27,7 +27,7 @@ export default function CityMap({ selected, visibleVenues, onSelect }: Props) {
  }
  function showCity() {
    setOverview(true); overviewRef.current=true; setThreeD(false);
-   map.current?.fitBounds([[15.887,45.781],[16.114,45.841]], { padding: {top:105,bottom:145,left:45,right:45}, pitch:0,bearing:0,duration:reduced()?0:1200,maxZoom:12.2 });
+   map.current?.fitBounds([[15.887,45.781],[16.15,45.841]], { padding: {top:105,bottom:145,left:45,right:45}, pitch:0,bearing:0,duration:reduced()?0:1200,maxZoom:12.2 });
  }
  useEffect(()=>{
    let disposed=false, timeout:ReturnType<typeof setTimeout>;
@@ -83,7 +83,7 @@ export default function CityMap({ selected, visibleVenues, onSelect }: Props) {
    }
    timeout=setTimeout(()=>{if(!disposed){setStatus('error');abort.abort();}},18000);
    void init();
-   const resize=new ResizeObserver(()=>{map.current?.resize();if(overviewRef.current)map.current?.fitBounds([[15.887,45.781],[16.114,45.841]],{padding:{top:105,bottom:145,left:45,right:45},duration:0,maxZoom:12.2});});if(host.current)resize.observe(host.current);
+   const resize=new ResizeObserver(()=>{map.current?.resize();if(overviewRef.current)map.current?.fitBounds([[15.887,45.781],[16.15,45.841]],{padding:{top:105,bottom:145,left:45,right:45},duration:0,maxZoom:12.2});});if(host.current)resize.observe(host.current);
    return ()=>{disposed=true;abort.abort();clearTimeout(timeout);resize.disconnect();pins.current.forEach(p=>p.marker.remove());pins.current=[];map.current?.remove();map.current=null;};
  },[attempt, language]);
  useEffect(()=>{

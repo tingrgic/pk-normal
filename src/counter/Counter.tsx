@@ -1,9 +1,10 @@
 import { useLanguage } from "../i18n/Language";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Arrow from "../components/Arrow";
-import { MODES, TARGETS, SAVE_KEY, advance, hitLabel, isCricket, parseSession, replay, shuffled } from "./engine";
+import { MODES, TARGETS, SAVE_KEY, advance, hitLabel, isCricket, parseSession, replay, shuffled, statistics } from "./engine";
 import type { Config, Player, Session } from "./engine";
 import "./counter.css";
+import {VisitTable, MatchSummary} from "./Statistics";
 
 const defaultConfig: Config = {
   mode: "x01", start: 501, entry: "open", out: "double", rounds: 8,
@@ -27,10 +28,9 @@ export default function Counter() {
   const [storageError, setStorageError] = useState(false);
   const confirm = useRef<HTMLDialogElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
+  const stats = useMemo(() => session ? statistics(session) : [], [session]);
   const game = useMemo(() => session ? replay(session) : null, [session]);
-  useEffect(() => {
-    heading.current?.focus();
-  }, []);
+
   useEffect(() => {
     if (!session) return;
     try { localStorage.setItem(SAVE_KEY, JSON.stringify(session)); setStorageError(false); }
@@ -39,7 +39,7 @@ export default function Counter() {
   function begin() {
     const clean = ordered.map(p => ({ ...p, name: p.name.trim(), tag: p.tag.trim().toLocaleUpperCase("hr") }));
     setSession({ version: 1, config: { ...config, players: clean }, actions: [] });
-    setResume(false); setMultiplier(1); window.scrollTo(0, 0);
+    setResume(false); setMultiplier(1); heading.current?.scrollIntoView({block: "start"});
   }
   function updatePlayer(id: string, change: Partial<Player>) {
     setConfig(c => ({ ...c, players: c.players.map(p => p.id === id ? { ...p, ...change } : p) }));
@@ -62,23 +62,27 @@ export default function Counter() {
     if (session) setConfig(session.config);
     setSession(null); setResume(false); setStep("setup"); setMultiplier(1);
     try { localStorage.removeItem(SAVE_KEY); } catch { setStorageError(true); }
-    confirm.current?.close(); window.scrollTo(0, 0); heading.current?.focus();
+    confirm.current?.close(); heading.current?.scrollIntoView({block: "start"}); heading.current?.focus();
   }
   const current = game?.players[game.active];
   const playing = session && game && !resume;
   const mode = MODES.find(m => m.id === (playing ? session.config.mode : config.mode))!;
-  const rules = <details className="counter-rules"><summary>{t("Pravila igre ")}<span aria-hidden="true">+</span></summary>
+  const rules = <details className="counter-rules"><summary>{t("Pravila igre i objašnjenje izračuna ")}<span aria-hidden="true">+</span></summary>
     <p>{t(mode.rule)}</p><p>{t("Bull: vanjski 25, unutarnji 50. Promašaj ili ispala strelica: 0. Ovdje svi igraju pojedinačno; do 10 igrača. Nema vremenskog ograničenja.")}</p>
     <p>{t("U X01 unosite stvarno pogođeno polje, čak i kad još niste otvorili igru. Brojač primjenjuje odabrani ulaz i izlaz.")}</p>
+    <p>{t("AVG je broj priznatih bodova podijeljen brojem stvarno bačenih strelica, puta tri. Promašaji se broje; u X01 prebačaj poništava bodove cijele ruke, ali bačene strelice ostaju u nazivniku. Strelice prije double ulaza ne donose bodove.")}</p>
+    <p>{t("AVG prvih 9 koristi samo prvih devet stvarno bačenih strelica; ako ih je manje, računa se dostupni broj prikazan uz prosjek. U igrama osim X01 prosjek prikazuje vrijednost pogođenih polja, ne Cricket kazne ili zatvaranja.")}</p>
+    <p>{t("Najveći checkout je zbroj završne pobjedničke ruke u ovoj partiji. Checkout učinak je broj uspješnih izlaza / broj strelica bačenih kad je preostali rezultat bilo moguće završiti jednom strelicom, prema odabranom izlazu. Ne zaključujemo kamo je igrač ciljao.")}</p>
+    <p>{t("Redoslijed unosa je bitan: 112 → T20 → 52 → 2 → 50 → 13 → 37. Prije posljednje strelice bull je mogao završiti partiju: checkout učinak je 0/1. Poništi zadnji unos vraća i statistiku. Normal out dopušta bilo koje polje; double out samo double ili bull 50, master out i triple.")}</p>
   </details>;
   return <div className="counter">
     <header className="counter-header">
       <a href="#pocetak" className="wordmark"><span className="mark-target" aria-hidden="true" /><span>PK NORMAL<small>{t("BROJAČ PIKADA")}</small></span></a>
       <a href="#pocetak" className="counter-back">{t("Natrag u klub ")}<Arrow /></a>
     </header>
-    <main id="counter-main" className="counter-main">
+    <section id="counter-main" className="counter-main">
       <div className={"counter-heading" + (playing ? " is-session" : "")}>
-        <div><p className="mono red">{t("PIKADO / PK NORMAL")}</p><h1 ref={heading} tabIndex={-1}>{playing ? t(modeName(session.config)) : t("TI BACAJ.")}<span>{playing ? t("IGRA JE TU.") : t("MI BROJIMO.")}</span></h1></div>
+        <div><p className="mono red">{t("PIKADO / PK NORMAL")}</p><h2 ref={heading} tabIndex={-1}>{playing ? t(modeName(session.config)) : t("TI BACAJ.")}<span>{playing ? t("IGRA JE TU.") : t("MI BROJIMO.")}</span></h2></div>
         <p>{playing ? t("Mirna ruka. Sljedeća strelica.") : t("Od prvog zagrijavanja do zadnjeg doublea. Tvoj rezultat, tvoja ekipa.")}</p>
       </div>
       {storageError && <p role="status" className="counter-alert">{t("Spremanje nije dostupno u ovom pregledniku. Ostavite ovu stranicu otvorenom kako biste sačuvali igru.")}</p>}
@@ -87,12 +91,12 @@ export default function Counter() {
         <h2 id="resume-title">{t("JOŠ JEDNO BACANJE?")}</h2>
         <p>{t(modeName(session.config))} · {session.config.players.map(p => playerName(p)).join(" / ")}</p>
         <p>{game.winners.length ? t("Završena igra") : t("Krug ") + game.round + t(" · Na redu: ") + playerName(game.players[game.active])}</p>
-        <div className="counter-actions"><button className="counter-primary" onClick={() => { setResume(false); window.scrollTo(0, 0); }}>{t("Nastavi igru ")}<Arrow /></button><button className="counter-secondary" onClick={() => confirm.current?.showModal()}>{t("Nova igra")}</button></div>
+        <div className="counter-actions"><button className="counter-primary" onClick={() => { setResume(false); heading.current?.scrollIntoView({block: "start"}); }}>{t("Nastavi igru ")}<Arrow /></button><button className="counter-secondary" onClick={() => confirm.current?.showModal()}>{t("Nova igra")}</button></div>
       </section> : !playing ? <>
         {step === "setup" ? <form onSubmit={e => {
           e.preventDefault();
           setOrdered(order === "random" ? shuffled(config.players) : [...config.players]);
-          setStep("order"); window.scrollTo(0, 0);
+          setStep("order"); heading.current?.scrollIntoView({block: "start"});
         }}>
           <div className="counter-setup-grid">
             <section className="setup-mode">
@@ -103,12 +107,11 @@ export default function Counter() {
               <div className="game-options">
                 {config.mode === "x01" && <>
                   <label>{t("Početni rezultat")}<select value={config.start} onChange={e => setConfig(c => ({ ...c, start: Number(e.target.value) }))}>{[301, 501, 701, 901, 1001].map(n => <option key={n}>{n}</option>)}</select></label>
-                  <label>{t("Ulaz")}<select value={config.entry} onChange={e => setConfig(c => ({ ...c, entry: e.target.value as Config["entry"] }))}><option value="open">{t("Open in · bilo koje polje")}</option><option value="double">{t("Double in · dvostruko")}</option></select></label>
-                  <label>{t("Izlaz")}<select value={config.out} onChange={e => setConfig(c => ({ ...c, out: e.target.value as Config["out"] }))}><option value="double">{t("Double out · dvostruko")}</option><option value="open">{t("Open out · bilo koje polje")}</option><option value="master">{t("Master out · double ili triple")}</option></select></label>
+                  <label>{t("Ulaz")}<select value={config.entry} onChange={e => setConfig(c => ({ ...c, entry: e.target.value as Config["entry"] }))}><option value="open">{t("Normal in · bilo koje polje")}</option><option value="double">{t("Double in · dvostruko")}</option></select></label>
+                  <label>{t("Izlaz")}<select value={config.out} onChange={e => setConfig(c => ({ ...c, out: e.target.value as Config["out"] }))}><option value="double">{t("Double out · dvostruko")}</option><option value="open">{t("Normal out · bilo koje polje")}</option><option value="master">{t("Master out · double ili triple")}</option></select></label>
                 </>}
                 {(config.mode === "countup" || config.mode === "shanghai") && <label>{t("Broj krugova")}<select value={config.rounds} onChange={e => setConfig(c => ({ ...c, rounds: Number(e.target.value) }))}>{(config.mode === "shanghai" ? [7, 10, 20] : [5, 8, 10, 15, 20]).map(n => <option key={n}>{n}</option>)}</select></label>}
               </div>
-              {rules}
             </section>
             <section className="setup-players">
               <h2 className="counter-section-title"><span>02 /</span>{t(" TVOJA EKIPA ")}<small>{config.players.length} / 10</small></h2>
@@ -132,7 +135,7 @@ export default function Counter() {
         </section>}
         <p className="counter-footnote">{t("Bez prijave. Igra se sprema samo u ovom pregledniku. Nazive i rezultate ne šaljemo na poslužitelj.")}</p>
       </> : <>
-        <div className="match-bar"><strong className="match-mode">{t(modeName(session.config))}</strong><span className="mono">{t("KRUG ")}{game.round}{["countup", "shanghai"].includes(session.config.mode) ? " / " + session.config.rounds : ""}</span><span>{session.config.mode === "x01" ? (session.config.entry === "double" ? "Double in" : "Open in") + " / " + ({ open: "Open out", double: "Double out", master: "Master out" }[session.config.out]) : t(mode.subtitle)}</span><button onClick={() => confirm.current?.showModal()}>{t("Nova igra")}</button></div>
+        <div className="match-bar"><strong className="match-mode">{t(modeName(session.config))}</strong><span className="mono">{t("KRUG ")}{game.round}{["countup", "shanghai"].includes(session.config.mode) ? " / " + session.config.rounds : ""}</span><span>{session.config.mode === "x01" ? (session.config.entry === "double" ? "Double in" : "Normal in") + " / " + ({ open: "Normal out", double: "Double out", master: "Master out" }[session.config.out]) : t(mode.subtitle)}</span><button onClick={() => confirm.current?.showModal()}>{t("Nova igra")}</button></div>
         <div className="match-grid">
           <section className="throw-station" aria-label={t("Unos rezultata")}>
             {game.winners.length > 0 ? <div className="winner-panel" role="status">
@@ -164,16 +167,18 @@ export default function Counter() {
           <aside className="match-scoreboard" aria-label={t("Rezultati igrača")}>
             <h2 className="counter-section-title"><span>{t("REZULTAT /")}</span> {game.players.length} {game.players.length === 1 ? t("IGRAČ") : t("IGRAČA")}</h2>
             <ol className="score-list">{game.players.map((p, i) => <li key={p.id} className={i === game.active ? "active" : ""} aria-current={i === game.active ? "true" : undefined}>
-              <span className="counter-monogram">{initials({...p,name:playerName(p)})}</span><span className="score-name">{playerName(p)}<small>{p.darts}{t(" strelica ")}{i === game.active && !game.winners.length ? t("· na redu") : ""}</small></span><strong>{session.config.mode === "clock" ? p.target > 20 ? p.target === 21 ? "BULL" : "✓" : p.target : p.score}</strong>
+              <span className="counter-monogram">{initials({...p,name:playerName(p)})}</span><span className="score-name">{playerName(p)}<small>{p.darts}{t(" strelica ")} · AVG {stats[i]?.average.toFixed(2)} {i === game.active && !game.winners.length ? t("· na redu") : ""}</small></span><strong>{session.config.mode === "clock" ? p.target > 20 ? p.target === 21 ? "BULL" : "✓" : p.target : p.score}</strong>
             </li>)}</ol>
             {isCricket(session.config.mode) && <div className="cricket-table-wrap" role="region" aria-label={t("Cricket oznake, tablica se može pomicati vodoravno")} tabIndex={0}><table className="cricket-table"><caption>{t("Polja / tri oznake zatvaraju broj")}</caption><thead><tr><th scope="col">{t("Cilj")}</th>{game.players.map(p => <th key={p.id} scope="col">{playerName(p)}</th>)}</tr></thead><tbody>{TARGETS.map((n, j) => <tr key={n}><th scope="row">{n === 25 ? "BULL" : n}</th>{game.players.map(p => <td key={p.id} className={p.marks[j] === 3 ? "closed" : ""} aria-label={p.marks[j] + t(" od 3 oznake")}><span aria-hidden="true">{["—", "/", "×", "⊗"][p.marks[j]]}</span></td>)}</tr>)}</tbody></table></div>}
-            {rules}
-            <details className="counter-rules"><summary>{t("Zadnji unosi ")}<span aria-hidden="true">+</span></summary><ol className="throw-history">{session.actions.slice(-18).map((a, i) => <li key={session.actions.length - 18 + i}>{a.type === "next" ? t("Sljedeći igrač") : t(hitLabel(a.hit))}</li>)}</ol>{!session.actions.length && <p>{t("Prva strelica tek dolazi.")}</p>}</details>
+
             <p className="counter-footnote">{storageError ? t("Igra trenutačno nije spremljena.") : t("Automatski spremljeno na ovom uređaju.")}{t(" Možeš se vratiti u klub i nastaviti kasnije.")}</p>
           </aside>
         </div>
+        <VisitTable session={session} stats={stats} playerName={playerName} />
+        <MatchSummary session={session} stats={stats} playerName={playerName} finished={game.winners.length>0} />
       </>}
-    </main>
+      {rules}
+    </section>
     <footer className="counter-footer"><span className="mono">{t("PK NORMAL / JEDAN CILJ.")}</span><a href="#pocetak">{t("Povratak na stranicu kluba ")}<Arrow /></a></footer>
     <dialog ref={confirm} className="counter-confirm" aria-labelledby="confirm-title"><h2 id="confirm-title">{t("NOVA IGRA?")}</h2><p>{t("Trenutni rezultat bit će zamijenjen. Želiš li nastaviti?")}</p><div className="counter-actions"><button className="counter-secondary" autoFocus onClick={() => confirm.current?.close()}>{t("Zadrži igru")}</button><button className="counter-primary" onClick={newGame}>{t("Nova igra")}</button></div></dialog>
   </div>;

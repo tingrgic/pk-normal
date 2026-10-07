@@ -633,7 +633,7 @@ export const rhythm = [
     "text": "U granicama našeg imena, naravno."
   },
   {
-    "name": "Normalno nesavršeni",
+    "name": "Normal nesavršeni",
     "text": "Bez toga bi priče bile znatno kraće."
   },
   {

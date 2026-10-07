@@ -56,10 +56,10 @@ test('virtual duel messages and history follow language without resetting points
  await page.goto('/#dvoboji');await page.getByRole('button',{name:'English',exact:true}).click();
  await page.locator('.odds-row button').nth(2).click();await page.getByRole('button',{name:'Simulate duel',exact:true}).click();
  await expect(page.getByRole('status')).toContainText('Simulation:');
- const saved=await page.evaluate(()=>localStorage.getItem('pk-normal-virtual-duels-v1'));
+ const saved=await page.evaluate(()=>localStorage.getItem('pk-normal-virtual-duels-v2'));
  await page.getByRole('button',{name:'Deutsch',exact:true}).click();await expect(page.getByRole('status')).toContainText('Simulation:');
  await expect(page.getByRole('status')).not.toContainText('points');await expect(page.locator('.odds-history')).toContainText('Deine Simulationen.');
- expect(await page.evaluate(()=>localStorage.getItem('pk-normal-virtual-duels-v1'))).toBe(saved);
+ expect(await page.evaluate(()=>localStorage.getItem('pk-normal-virtual-duels-v2'))).toBe(saved);
  page.once('dialog',async dialog=>{expect(dialog.message()).toContain('Simulationsverlauf');await dialog.dismiss();});
  await page.getByRole('button',{name:'Auf 1.000 Startpunkte zurücksetzen'}).click();await expect(page.locator('.odds-history li')).toHaveCount(1);
 });

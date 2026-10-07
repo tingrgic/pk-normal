@@ -3,6 +3,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Navigation from "./components/Navigation";
 import Arrow from "./components/Arrow";
+import ToolPanel from "./components/ToolPanel";
 import Hero from "./sections/Hero";
 import { returnToTop } from "./components/returnToTop";
 import Sponsors from "./sections/Sponsors";
@@ -89,7 +90,7 @@ export default function App() {
             </h2>
             <div className="about-copy" data-reveal>
               <p className="lead">{t("Mi smo PK Normal.")}<br />{t("Zagrebačka ekipa s jasnim ciljem.")}</p>
-              <p>{t("Od ")}{t(club.admission)}{t(" dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog za novu partiju.")}</p>
+              <p>{t("Od ")}{t(club.admission)}{t(" dio smo Pikado saveza grada Zagreba. Drugi igraju pikado. Mi ga dišemo, jedemo i živimo. Strelice ipak vadimo iz tanjura.")}</p>
               <a
                 className="text-link"
                 href={club.sources.admission}
@@ -165,7 +166,7 @@ export default function App() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span className="mono roster-index">0{i + 3}</span>
+                <span className="mono roster-index">N / 0{i + 3}</span><span className="roster-monogram" aria-hidden="true">{p.initials}</span>
                 <h3>
                   {p.first} <strong>{p.last}</strong>
                 </h3>
@@ -192,12 +193,12 @@ export default function App() {
         >
           <Label number="04">{t("NATJECANJA")}</Label>
           <div className="competition-content">
-            <h2 id="competition-title" data-reveal>{t("SPREMNI.")}<br />
-              <span className="outline-type">{t("U IGRI.")}</span>
+            <h2 id="competition-title" data-reveal>{t("PRATI NAS.")}<br />
+              <span className="outline-type">{t("BUDI U IGRI.")}</span>
             </h2>
             <div className="competition-details">
-              <p className="lead">{t("Raspored se prati.")}<br />{t("Sljedeći potez se priprema.")}</p>
-              <p>{t("Službene rasporede, tablice i rezultate potraži na stranicama saveza.")}</p>
+              <p className="lead">{t("Zajedno čekamo sljedeću tekmu.")}<br />{t("Ti prati. Mi ciljamo.")}</p>
+              <p>{t("Borimo se za svaki leg.")} <strong>{t(club.competition)}</strong>{t(" je naš teren — službeni raspored, tablicu i rezultate prati na stranicama saveza.")}</p>
               <a
                 className="competition-link"
                 href={club.sources.competitions}
@@ -222,18 +223,22 @@ export default function App() {
           </div>
         </section>
         <div className="atlas-teaser-section section"><AtlasTeaser /><noscript>{t("Za interaktivnu kartu uključi JavaScript. Službeni raspored nalazi se na stranicama PSGZ-a.")}</noscript></div>
+        <ToolPanel name="karta" />
         <section id="brojac" className="counter-invite section" aria-labelledby="counter-invite-title">
           <div><p className="mono">{t("ALAT ZA TVOJU EKIPU / 01–10 IGRAČA")}</p><h2 id="counter-invite-title">{t("TI BACAJ.")}<br /><span>{t("MI BROJIMO.")}</span></h2></div>
           <div className="counter-invite-copy"><p>{t("501, Cricket ili samo zagrijavanje. Složi ekipu, odredi tko prvi baca i prepusti nam računanje.")}</p><a className="text-link" href="#brojac">{t("Otvori brojač ")}<Arrow /></a><small>{t("Bez prijave. Na tvom mobitelu.")}</small><noscript>{t("Za pokretanje brojača uključi JavaScript u pregledniku.")}</noscript></div>
         </section>
+        <ToolPanel name="brojac" />
         <section className="odds-invite section" id="prognoze" aria-labelledby="odds-invite-title">
           <div><p className="mono">{t("VIRTUALNI DVOBOJI / PK NORMAL")}</p><h2 id="odds-invite-title">{t("TVOJA")}<br /><em>{t("PROGNOZA.")}</em></h2></div>
           <div className="odds-invite-copy"><p>{t("Naša ekipa protiv tvoje procjene. Usporedi učinak igrača, pogledaj simulirane koeficijente i odigraj virtualni dvoboj.")}</p><a className="text-link" id="dvoboji" href="#dvoboji">{t("Otvori dvoboje ")}<Arrow /></a><small>{t("Podaci saveza. Naš model. Samo virtualni bodovi.")}</small><noscript>{t("Za virtualne dvoboje uključi JavaScript.")}</noscript></div>
         </section>
+        <ToolPanel name="dvoboji" />
         <section className="merch-invite section" id="merch" aria-labelledby="merch-invite-title">
           <div><p className="mono">PK NORMAL / MERCHSHOP</p><h2 id="merch-invite-title">{t("NORMALNO.")}<br /><em>{t("ZA NOSITI.")}</em></h2><p>{t("Za igru. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.")}</p><a className="text-link" id="shop" href="#shop">{t("Istraži kolekciju")} <Arrow /></a><small>{t("Koncept kolekcije · još nije u prodaji")}</small></div>
           <a href="#shop" tabIndex={-1} aria-hidden="true"><img src={import.meta.env.BASE_URL + "images/merch/robe-cutout.webp"} alt="" width="960" height="960" loading="lazy" /></a>
         </section>
+        <ToolPanel name="shop" />
         <Sponsors />
         <section
           className="join section"
@@ -289,7 +294,7 @@ export default function App() {
               PK NORMAL<small>{t("PIKADO KLUB / ZAGREB")}</small>
             </span>
           </a>
-          <span>{t("Normalno ime. Jasan cilj.")}</span>
+          <span>{t("Normal ime. Jasan cilj.")}</span>
           <a className="text-link" href="#pocetak" onClick={returnToTop}>{t("Na vrh ")}<Arrow direction="up" />
           </a>
         </div>

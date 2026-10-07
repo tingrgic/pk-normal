@@ -212,3 +212,7 @@
   .is-playing .hero-caption, .is-playing .hero-title { opacity: 1; }
   .impact-ring, .scene-opening { display: none; }
 }
+
+.hero-bottom .replay { font-size:15px; gap:12px; min-height:48px; padding:8px 0; }
+.hero-bottom .replay > span { display:flex; width:32px; height:32px; }
+.replay svg { width:32px; height:32px; }

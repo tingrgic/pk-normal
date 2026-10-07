@@ -75,10 +75,6 @@
     "en": "OUR RHYTHM",
     "de": "UNSER RHYTHMUS"
   },
-  "NORMALNO JE IMATI SVOJ ĐIR.": {
-    "en": "IT IS NORMAL TO DO YOUR OWN THING.",
-    "de": "DEIN EIGENER STIL IST NORMAL."
-  },
   "PK NORMAL — U SVOM RITMU —": {
     "en": "PK NORMAL — IN OUR OWN RHYTHM —",
     "de": "PK NORMAL — IM EIGENEN RHYTHMUS —"
@@ -118,22 +114,6 @@
   "NATJECANJA": {
     "en": "COMPETITIONS",
     "de": "WETTBEWERBE"
-  },
-  "SPREMNI.": {
-    "en": "READY.",
-    "de": "BEREIT."
-  },
-  "U IGRI.": {
-    "en": "IN THE GAME.",
-    "de": "IM SPIEL."
-  },
-  "Raspored se prati.": {
-    "en": "Following the fixtures.",
-    "de": "Den Spielplan im Blick."
-  },
-  "Sljedeći potez se priprema.": {
-    "en": "Preparing the next move.",
-    "de": "Den nächsten Wurf im Kopf."
   },
   "Službene rasporede, tablice i rezultate potraži na stranicama saveza.": {
     "en": "Find official fixtures, standings and results on the federation websites.",
@@ -251,10 +231,6 @@
     "en": "DARTS CLUB / ZAGREB",
     "de": "DARTVEREIN / ZAGREB"
   },
-  "Normalno ime. Jasan cilj.": {
-    "en": "Normal name. Clear aim.",
-    "de": "Normaler Name. Klares Ziel."
-  },
   "Na vrh": {
     "en": "Back to top",
     "de": "Nach oben"
@@ -298,10 +274,6 @@
   "— Pikado klub Zagreb": {
     "en": "— Zagreb darts club",
     "de": "— Dartverein Zagreb"
-  },
-  "NORMALNO IME.": {
-    "en": "A NORMAL NAME.",
-    "de": "EIN NORMALER NAME."
   },
   "Sve ostalo je": {
     "en": "Everything else is",
@@ -467,10 +439,6 @@
     "en": "Normal darts club — Zagreb",
     "de": "Dartverein Normal — Zagreb"
   },
-  "Pravila igre": {
-    "en": "Game rules",
-    "de": "Spielregeln"
-  },
   "Bull: vanjski 25, unutarnji 50. Promašaj ili ispala strelica: 0. Ovdje svi igraju pojedinačno; do 10 igrača. Nema vremenskog ograničenja.": {
     "en": "Bull: outer 25, inner 50. A miss or fallen dart scores 0. Everyone plays individually here, with up to 10 players. No time limit.",
     "de": "Bull: außen 25, innen 50. Fehlwürfe oder herausgefallene Darts zählen 0. Hier spielt jeder einzeln, mit bis zu 10 Spielern. Ohne Zeitlimit."
@@ -543,10 +511,6 @@
     "en": "Entry",
     "de": "Einstieg"
   },
-  "Open in · bilo koje polje": {
-    "en": "Open in · any field",
-    "de": "Open in · beliebiges Feld"
-  },
   "Double in · dvostruko": {
     "en": "Double in · double field",
     "de": "Double in · Doppelfeld"
@@ -558,10 +522,6 @@
   "Double out · dvostruko": {
     "en": "Double out · double field",
     "de": "Double out · Doppelfeld"
-  },
-  "Open out · bilo koje polje": {
-    "en": "Open out · any field",
-    "de": "Open out · beliebiges Feld"
   },
   "Master out · double ili triple": {
     "en": "Master out · double or triple",
@@ -1070,10 +1030,6 @@
   "Dodaj u kalendar": {
     "en": "Add to calendar",
     "de": "Zum Kalender hinzufügen"
-  },
-  "Službena utakmica / PSGZ": {
-    "en": "Official match / PSGZ",
-    "de": "Offizielles Spiel / PSGZ"
   },
   "Prethodna utakmica": {
     "en": "Previous match",
@@ -3123,10 +3079,6 @@
     "en": "Within the limits of our name, of course.",
     "de": "Natürlich im Rahmen unseres Namens."
   },
-  "Normalno nesavršeni": {
-    "en": "Normally imperfect",
-    "de": "Normal unvollkommen"
-  },
   "Bez toga bi priče bile znatno kraće.": {
     "en": "Otherwise the stories would be much shorter.",
     "de": "Sonst wären die Geschichten deutlich kürzer."
@@ -3311,10 +3263,6 @@
     "en": "You are never alone in the team.",
     "de": "Im Team bist du nie allein."
   },
-  "dio smo Pikado saveza grada Zagreba. Za nas je pikado dobar razlog da se okupimo. I još bolji razlog za novu partiju.": {
-    "en": "we have been part of the Zagreb Darts Association. For us, darts is a good reason to get together. And an even better reason for another game.",
-    "de": "sind wir Teil des Dartsverbands der Stadt Zagreb. Für uns ist Darts ein guter Grund, zusammenzukommen. Und ein noch besserer für eine neue Partie."
-  },
   "Za igru. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.": {
     "en": "For the game. For the sofa. For everything in between. Explore 12 ideas for our first merch collection.",
     "de": "Fürs Spiel. Fürs Sofa. Für alles dazwischen. Entdecke 12 Ideen für unsere erste Merch-Kollektion."
@@ -3386,5 +3334,313 @@
   "Broj bodova prelazi podržanu preciznost.": {
     "en": "The points total exceeds supported precision.",
     "de": "Die Punktzahl überschreitet die unterstützte Genauigkeit."
+  },
+  "dio smo Pikado saveza grada Zagreba. Drugi igraju pikado. Mi ga dišemo, jedemo i živimo. Strelice ipak vadimo iz tanjura.": {
+    "en": "we have been part of the Zagreb Darts Association. Others play darts. We breathe, eat and live it. We do take the darts out of the plate, though.",
+    "de": "sind wir Teil des Zagreber Dartverbands. Andere spielen Darts. Wir atmen, essen und leben Darts. Die Pfeile nehmen wir aber vorher vom Teller."
+  },
+  "Normal ime. Jasan cilj.": {
+    "en": "Normal name. Clear aim.",
+    "de": "Normaler Name. Klares Ziel."
+  },
+  "NORMAL IME.": {
+    "en": "NORMAL NAME.",
+    "de": "NORMALER NAME."
+  },
+  "NORMAL JE IMATI SVOJ ĐIR.": {
+    "en": "NORMAL IS HAVING YOUR OWN STYLE.",
+    "de": "NORMAL IST, SEINEN EIGENEN STIL ZU HABEN."
+  },
+  "Normal nesavršeni": {
+    "en": "Normal imperfect",
+    "de": "Normal unperfekt"
+  },
+  "PRATI NAS.": {
+    "en": "FOLLOW US.",
+    "de": "SEI DABEI."
+  },
+  "BUDI U IGRI.": {
+    "en": "BE IN THE GAME.",
+    "de": "BLEIB IM SPIEL."
+  },
+  "Zajedno čekamo sljedeću tekmu.": {
+    "en": "Together, we await the next match.",
+    "de": "Gemeinsam warten wir aufs nächste Spiel."
+  },
+  "Ti prati. Mi ciljamo.": {
+    "en": "You follow. We aim.",
+    "de": "Du fieberst mit. Wir zielen."
+  },
+  "Prati nas live / PSGZ": {
+    "en": "Follow us live / PSGZ",
+    "de": "Live mitfiebern / PSGZ"
+  },
+  "Normal in · bilo koje polje": {
+    "en": "Normal in · any segment",
+    "de": "Normal in · jedes Feld"
+  },
+  "Normal out · bilo koje polje": {
+    "en": "Normal out · any segment",
+    "de": "Normal out · jedes Feld"
+  },
+  "Pravila igre i objašnjenje izračuna": {
+    "en": "Game rules and calculation guide",
+    "de": "Spielregeln und Berechnung"
+  },
+  "Borimo se za svaki leg.": {
+    "en": "We fight for every leg.",
+    "de": "Wir kämpfen um jedes Leg."
+  },
+  "je naš teren — službeni raspored, tablicu i rezultate prati na stranicama saveza.": {
+    "en": "is our arena — follow the official fixtures, standings and results on the federation website.",
+    "de": "ist unser Spielfeld — Spielplan, Tabelle und Ergebnisse findest du beim Verband."
+  },
+  "Zatvori": {
+    "en": "Close",
+    "de": "Schließen"
+  },
+  "Merchshop": {
+    "en": "Merchshop",
+    "de": "Merchshop"
+  },
+  "NORMAL IME. JASAN CILJ.": {
+    "en": "NORMAL NAME. CLEAR AIM.",
+    "de": "NORMALER NAME. KLARES ZIEL."
+  },
+  "Sve je ovdje. Skrolaj dalje kad poželiš.": {
+    "en": "Everything is here. Keep scrolling whenever you like.",
+    "de": "Alles ist hier. Scrolle weiter, wann du möchtest."
+  },
+  "Zatvori prikaz": {
+    "en": "Close panel",
+    "de": "Ansicht schließen"
+  },
+  "Učitavanje…": {
+    "en": "Loading…",
+    "de": "Wird geladen…"
+  },
+  "Otvori 3D kartu utakmica PK Normal za sezonu 2026/27.": {
+    "en": "Open the PK Normal match map for the 2026/27 season.",
+    "de": "Öffne die Spielkarte von PK Normal für die Saison 2026/27."
+  },
+  "ATLAS UTAKMICA / 2026–27": {
+    "en": "MATCH ATLAS / 2026–27",
+    "de": "SPIELATLAS / 2026–27"
+  },
+  "Ulog u bodovima": {
+    "en": "Stake in points",
+    "de": "Einsatz in Punkten"
+  },
+  "Unesi pozitivan cijeli broj, najviše do svog salda.": {
+    "en": "Enter a positive whole number, up to your balance.",
+    "de": "Gib eine positive ganze Zahl bis zu deinem Guthaben ein."
+  },
+  "Ulog mora biti pozitivan cijeli broj unutar tvog salda.": {
+    "en": "The stake must be a positive whole number within your balance.",
+    "de": "Der Einsatz muss eine positive ganze Zahl innerhalb deines Guthabens sein."
+  },
+  "Reset je dostupan jednom dnevno, prema vremenu u Zagrebu. Bodovi su spremljeni samo na ovom uređaju.": {
+    "en": "Reset is available once per calendar day in Zagreb time. Points are saved only on this device.",
+    "de": "Ein Reset ist einmal pro Kalendertag nach Zagreber Zeit möglich. Punkte bleiben auf diesem Gerät."
+  },
+  "Bodove možeš resetirati jednom dnevno. Novi reset dostupan je nakon ponoći u Zagrebu.": {
+    "en": "You can reset once per day. A new reset is available after midnight in Zagreb.",
+    "de": "Ein Reset ist einmal täglich möglich. Ab Mitternacht in Zagreb ist er wieder verfügbar."
+  },
+  "VAŠ BREND.": {
+    "en": "YOUR BRAND.",
+    "de": "EURE MARKE."
+  },
+  "NAŠA META.": {
+    "en": "OUR TARGET.",
+    "de": "UNSER ZIEL."
+  },
+  "Mjesto za Vas kao sponzora kluba. Mi gađamo bull, Vi pogodite pravu ekipu.": {
+    "en": "Your spot as our club sponsor. We aim for the bull; you pick the right team.",
+    "de": "Euer Platz als Vereinssponsor. Wir treffen das Bull, ihr trefft die richtige Teamwahl."
+  },
+  "OVDJE MOŽE VAŠ LOGO": {
+    "en": "YOUR LOGO COULD BE HERE",
+    "de": "HIER KÖNNTE EUER LOGO STEHEN"
+  },
+  "Link na Vašu stranicu, sponzore": {
+    "en": "A link to your website, dear sponsor",
+    "de": "Ein Link zu eurer Website, liebe Sponsoren"
+  },
+  "Ovaj prostor čeka partnera. Zasad vodi ravno u naš inbox.": {
+    "en": "This space awaits a partner. For now, it leads straight to our inbox.",
+    "de": "Dieser Platz wartet auf einen Partner. Vorerst führt er direkt in unser Postfach."
+  },
+  ". · vrijeme u Zagrebu": {
+    "en": ". · Zagreb time",
+    "de": ". · Zagreber Zeit"
+  },
+  "Prijašnja tekma": {
+    "en": "Previous match",
+    "de": "Voriges Spiel"
+  },
+  "Iduća tekma": {
+    "en": "Next match",
+    "de": "Nächstes Spiel"
+  },
+  "objavljenih utakmica · sezona 2026/27.": {
+    "en": "published matches · 2026/27 season.",
+    "de": "veröffentlichte Spiele · Saison 2026/27."
+  },
+  "Cijela sezona": {
+    "en": "Full season",
+    "de": "Ganze Saison"
+  },
+  "Siječanj": {
+    "en": "January",
+    "de": "Januar"
+  },
+  "Veljača": {
+    "en": "February",
+    "de": "Februar"
+  },
+  "Ožujak": {
+    "en": "March",
+    "de": "März"
+  },
+  "Sva igrališta. Provjerene adrese.": {
+    "en": "Every ground. Verified addresses.",
+    "de": "Alle Spielorte. Geprüfte Adressen."
+  },
+  "Igrališta prema HPS registru. Prazno polje u registru znači da adresa još nije potvrđena.": {
+    "en": "Playing grounds from the HPS register. A blank field means the address is not yet confirmed.",
+    "de": "Spielorte laut HPS-Register. Ein leeres Feld bedeutet, dass die Adresse noch nicht bestätigt ist."
+  },
+  "Prikazane su objavljene utakmice sezone 2026/27. Provjereno": {
+    "en": "Published fixtures for the 2026/27 season. Checked",
+    "de": "Veröffentlichte Spiele der Saison 2026/27. Geprüft am"
+  },
+  "Provjereno:": {
+    "en": "Checked:",
+    "de": "Geprüft:"
+  },
+  ". Termin se može promijeniti.": {
+    "en": ". Dates may change.",
+    "de": ". Termine können sich ändern."
+  },
+  "Svaka ruka. Svaka strelica.": {
+    "en": "Every visit. Every dart.",
+    "de": "Jede Aufnahme. Jeder Dart."
+  },
+  "Jedan stupac po igraču. Svaki redak je jedna ruka; strelice su zapisane redom.": {
+    "en": "One column per player. Each row is a visit, with darts in throwing order.",
+    "de": "Eine Spalte pro Spieler. Jede Zeile ist eine Aufnahme mit Würfen in ihrer Reihenfolge."
+  },
+  "Povijest bacanja, tablica se može pomicati": {
+    "en": "Throw history, scrollable table",
+    "de": "Wurfhistorie, verschiebbare Tabelle"
+  },
+  "Povijest svih ruku": {
+    "en": "All visits",
+    "de": "Alle Aufnahmen"
+  },
+  "Ruka": {
+    "en": "Visit",
+    "de": "Aufnahme"
+  },
+  "bacanje": {
+    "en": "throw",
+    "de": "Wurf"
+  },
+  "Prebačaj · 0 bodova": {
+    "en": "Bust · 0 points",
+    "de": "Überworfen · 0 Punkte"
+  },
+  "Statistika partije": {
+    "en": "Game statistics",
+    "de": "Spielstatistik"
+  },
+  "PARTIJA U BROJKAMA.": {
+    "en": "THE GAME IN NUMBERS.",
+    "de": "DAS SPIEL IN ZAHLEN."
+  },
+  "AVG = prosjek na tri stvarno bačene strelice. Detalji izračuna nalaze se u pravilima.": {
+    "en": "AVG = average per three actually thrown darts. See the rules for calculations.",
+    "de": "AVG = Durchschnitt pro drei tatsächlich geworfene Darts. Die Berechnung steht in den Regeln."
+  },
+  "Bačene strelice": {
+    "en": "Darts thrown",
+    "de": "Geworfene Darts"
+  },
+  "Cjelokupni AVG": {
+    "en": "Overall AVG",
+    "de": "Gesamt-AVG"
+  },
+  "AVG prvih 9": {
+    "en": "First 9 AVG",
+    "de": "Erste 9 AVG"
+  },
+  "Najveći checkout": {
+    "en": "Highest checkout",
+    "de": "Höchstes Checkout"
+  },
+  "Checkout učinak": {
+    "en": "Checkout rate",
+    "de": "Checkout-Quote"
+  },
+  "Prilike za izlaz jednom strelicom": {
+    "en": "One-dart checkout opportunities",
+    "de": "Checkout-Chancen mit einem Dart"
+  },
+  "Preostali broj": {
+    "en": "Remainder",
+    "de": "Restpunktzahl"
+  },
+  "Pogoci / prilike": {
+    "en": "Hits / attempts",
+    "de": "Treffer / Versuche"
+  },
+  "Još nema prilike za izlaz jednom strelicom.": {
+    "en": "No one-dart checkout opportunities yet.",
+    "de": "Noch keine Checkout-Chance mit einem Dart."
+  },
+  "AVG je broj priznatih bodova podijeljen brojem stvarno bačenih strelica, puta tri. Promašaji se broje; u X01 prebačaj poništava bodove cijele ruke, ali bačene strelice ostaju u nazivniku. Strelice prije double ulaza ne donose bodove.": {
+    "en": "AVG is credited points divided by actual darts thrown, multiplied by three. Misses count. In X01 a bust cancels the entire visit’s points, but actual darts remain in the denominator. Darts before double entry score zero.",
+    "de": "AVG sind gewertete Punkte geteilt durch tatsächlich geworfene Darts, mal drei. Fehlwürfe zählen mit. Beim Überwerfen in X01 entfallen die Punkte der gesamten Aufnahme, die geworfenen Darts bleiben im Nenner. Vor dem Double-in zählen keine Punkte."
+  },
+  "AVG prvih 9 koristi samo prvih devet stvarno bačenih strelica; ako ih je manje, računa se dostupni broj prikazan uz prosjek. U igrama osim X01 prosjek prikazuje vrijednost pogođenih polja, ne Cricket kazne ili zatvaranja.": {
+    "en": "First 9 AVG uses the first nine actual darts; fewer darts use the available count shown beside the average. Outside X01 the average uses hit values, not Cricket penalties or closures.",
+    "de": "Erste 9 AVG nutzt die ersten neun tatsächlich geworfenen Darts; bei weniger Darts gilt die angezeigte Anzahl. Außerhalb von X01 zählen getroffene Feldwerte, keine Cricket-Strafen oder geschlossenen Felder."
+  },
+  "Najveći checkout je zbroj završne pobjedničke ruke u ovoj partiji. Checkout učinak je broj uspješnih izlaza / broj strelica bačenih kad je preostali rezultat bilo moguće završiti jednom strelicom, prema odabranom izlazu. Ne zaključujemo kamo je igrač ciljao.": {
+    "en": "Highest checkout is the winning visit total in this game. Checkout rate is successful finishes / darts thrown when the remainder could be finished with one dart under the selected out rule. We do not infer where a player aimed.",
+    "de": "Das höchste Checkout ist die Punktzahl der siegreichen letzten Aufnahme dieses Spiels. Die Quote ist erfolgreiche Checkouts / Darts bei einer mit einem Dart auscheckbaren Restpunktzahl gemäß gewählter Regel. Das anvisierte Feld wird nicht angenommen."
+  },
+  "Redoslijed unosa je bitan: 112 → T20 → 52 → 2 → 50 → 13 → 37. Prije posljednje strelice bull je mogao završiti partiju: checkout učinak je 0/1. Poništi zadnji unos vraća i statistiku. Normal out dopušta bilo koje polje; double out samo double ili bull 50, master out i triple.": {
+    "en": "Order matters: 112 → T20 → 52 → 2 → 50 → 13 → 37. Before the final dart, bull could finish the game: checkout rate is 0/1. Undo also restores statistics. Normal out allows any segment; double out requires a double or bull 50, master out also allows triples.",
+    "de": "Die Reihenfolge zählt: 112 → T20 → 52 → 2 → 50 → 13 → 37. Vor dem letzten Dart hätte Bull das Spiel beendet: Quote 0/1. Rückgängig setzt auch die Statistik zurück. Normal out erlaubt jedes Feld, Double-out nur Doppel oder Bull 50, Master-out auch Triple."
+  },
+  "Ekipni i pojedinačni zbrojevi u izvoru nisu svugdje usklađeni. Prikazujemo objavljene vrijednosti bez prepravljanja.": {
+    "en": "Team and individual totals in the source do not always reconcile. Published values are shown without alterations.",
+    "de": "Team- und Einzelwerte der Quelle stimmen nicht überall überein. Wir zeigen die veröffentlichten Werte unverändert."
+  },
+  "{wins} pobjeda / {draws} remija / {losses} poraza · susreti {won}:{lost}": {
+    "en": "{wins} wins / {draws} draws / {losses} losses · duels {won}:{lost}",
+    "de": "{wins} Siege / {draws} Remis / {losses} Niederlagen · Duelle {won}:{lost}"
+  },
+  "PSGZ: rezultati ekipa i učinak igrača": {
+    "en": "PSGZ: team results and player performance",
+    "de": "PSGZ: Teamergebnisse und Spielerleistung"
+  },
+  "HPS: registrirana ekipa Normal": {
+    "en": "HPS: registered Normal team",
+    "de": "HPS: registriertes Team Normal"
+  },
+  "Brojač pikada": {
+    "en": "Darts scorer",
+    "de": "Dartzähler"
+  },
+  "Atlas utakmica": {
+    "en": "Match atlas",
+    "de": "Spielatlas"
+  },
+  "Virtualni dvoboji": {
+    "en": "Virtual duels",
+    "de": "Virtuelle Duelle"
   }
 }

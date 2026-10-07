@@ -53,3 +53,38 @@ Croatian, English and German UI labels and rules share the site language switch.
 Scoring rules are unchanged. Optional `generatedName` metadata localizes automatic
 player labels; custom names and older saved names are preserved. Version-1 saves,
 undo and active scores survive language changes. See `docs/i18n.md`.
+
+## Inline counter and statistics — 2026-10-07
+
+The counter now expands inside the homepage. One H1 and one main landmark remain.
+Tools load on demand and the rest of the document remains scrollable. Closing the
+panel retains its versioned local save. Rules are a single collapsed disclosure
+below the entire counter, titled “Pravila igre i objašnjenje izračuna”.
+
+The always-expanded visit table has one column per player; each cell has first,
+second and third dart in order. Rows are each player's first, second, etc. visit.
+Its own horizontal scroll preserves ten-player layouts without page overflow.
+
+Owner-requested statistics are computed by replaying the existing v1 action log;
+there is no scoring/save-format migration. Each actual valid dart counts once;
+unthrown darts after a bust or finish do not count. X01 AVG = net credited points /
+actual darts × 3. A bust zeros all credits for its visit, including early darts in
+that visit. Double-in misses score zero. First-nine AVG uses at most the first nine
+actual darts with the same rules and displays the actual sample size. Other modes
+show raw hit-value averages (not Cricket penalties, marks or Shanghai target score).
+Highest checkout = start remainder of the winning visit. One game is one leg;
+previous legs are not accumulated into the current game's statistics.
+
+Checkout attempts are **opportunities**, not inferred aiming intent: before each
+actual dart, test whether the remainder is legally finishable with one dart under
+the current out/entry rules. Record attempts and successful finishes by that
+remainder, and aggregate hits/attempts plus percentage. With double out,
+112 → T20 → 52 → 2 → 50 → 13 → 37 records 0/1 at 50. 52 has no one-dart double
+finish. Normal out allows singles, doubles and triples; master out doubles/triples.
+Bull 50 qualifies as double 25; outer bull 25 only for normal out. Undo reconstructs
+all statistics. These are explicit local display definitions requested by the owner,
+not claims about a federation's averaging conventions.
+
+The end-of-game native modal shows every player and all recorded finish chances;
+it can be dismissed, reopened and used with keyboard focus. Normal in/out are UI
+names for the existing open in/out behavior; Double in/out remains double-only.

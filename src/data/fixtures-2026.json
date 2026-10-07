@@ -11,7 +11,8 @@
     "result": [
       9,
       7
-    ]
+    ],
+    "checked": "2026-10-07"
   },
   {
     "id": "pepuycnd",
@@ -22,7 +23,11 @@
     "round": 2,
     "venueId": "quattro",
     "source": "https://psgz.hr/event/pepuycnd",
-    "result": null
+    "result": [
+      4,
+      12
+    ],
+    "checked": "2026-10-07"
   },
   {
     "id": "sshhukuq",
@@ -33,7 +38,11 @@
     "round": 3,
     "venueId": "bbf",
     "source": "https://psgz.hr/event/sshhukuq",
-    "result": null
+    "result": [
+      13,
+      3
+    ],
+    "checked": "2026-10-07"
   },
   {
     "id": "lfxviryk",
@@ -44,7 +53,11 @@
     "round": 4,
     "venueId": "quattro",
     "source": "https://psgz.hr/event/lfxviryk",
-    "result": null
+    "result": [
+      4,
+      12
+    ],
+    "checked": "2026-10-07"
   },
   {
     "id": "ijotufns",
@@ -55,7 +68,8 @@
     "round": 5,
     "venueId": null,
     "source": "https://psgz.hr/event/ijotufns",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "cup-a-2026",
@@ -66,7 +80,8 @@
     "round": 1,
     "venueId": "pivana",
     "source": "https://psgz.hr/event/mrwtxbao/bracket",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "ylqiwagm",
@@ -77,7 +92,8 @@
     "round": 7,
     "venueId": "quattro",
     "source": "https://psgz.hr/event/ylqiwagm",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "xgjjijwm",
@@ -88,7 +104,8 @@
     "round": 8,
     "venueId": "degusto",
     "source": "https://psgz.hr/event/xgjjijwm",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "sujvmldw",
@@ -99,7 +116,8 @@
     "round": 9,
     "venueId": "quattro",
     "source": "https://psgz.hr/event/sujvmldw",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "hgswlsez",
@@ -110,7 +128,8 @@
     "round": 10,
     "venueId": "exterium",
     "source": "https://psgz.hr/event/hgswlsez",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "kqzcxvqs",
@@ -121,7 +140,8 @@
     "round": 11,
     "venueId": "quattro",
     "source": "https://psgz.hr/event/kqzcxvqs",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "uazauxvk",
@@ -132,7 +152,8 @@
     "round": 12,
     "venueId": "quattro",
     "source": "https://psgz.hr/event/uazauxvk",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
   },
   {
     "id": "sfeuffca",
@@ -143,6 +164,103 @@
     "round": 13,
     "venueId": "zapad",
     "source": "https://psgz.hr/event/sfeuffca",
-    "result": null
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "sxsqhfyb",
+    "startsAt": "2027-01-08T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "BBF BULLY BOYS",
+    "kind": "league",
+    "round": 14,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/sxsqhfyb",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "gjxtnmhg",
+    "startsAt": "2027-01-15T19:00:00+01:00",
+    "home": "VRAPČE 2",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 15,
+    "venueId": "vrapce",
+    "source": "https://psgz.hr/event/gjxtnmhg",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "yyhbitkp",
+    "startsAt": "2027-01-22T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "HOLLYWOOD PROMILI",
+    "kind": "league",
+    "round": 16,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/yyhbitkp",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "enahsvtu",
+    "startsAt": "2027-02-05T19:00:00+01:00",
+    "home": "MOZART DIAMANTI",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 18,
+    "venueId": null,
+    "source": "https://psgz.hr/event/enahsvtu",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "cueftkil",
+    "startsAt": "2027-02-19T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "KOCKA FELGA CVRČAK",
+    "kind": "league",
+    "round": 19,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/cueftkil",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "zkhsykyx",
+    "startsAt": "2027-02-26T19:00:00+01:00",
+    "home": "BLACK M",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 20,
+    "venueId": "black-m",
+    "source": "https://psgz.hr/event/zkhsykyx",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "akyoyblz",
+    "startsAt": "2027-03-05T19:00:00+01:00",
+    "home": "NORMAL",
+    "away": "EXTERIUM II",
+    "kind": "league",
+    "round": 21,
+    "venueId": "quattro",
+    "source": "https://psgz.hr/event/akyoyblz",
+    "result": null,
+    "checked": "2026-10-07"
+  },
+  {
+    "id": "shweeipr",
+    "startsAt": "2027-03-12T19:00:00+01:00",
+    "home": "BULLDOG GIANTS",
+    "away": "NORMAL",
+    "kind": "league",
+    "round": 22,
+    "venueId": "bulldog",
+    "source": "https://psgz.hr/event/shweeipr",
+    "result": null,
+    "checked": "2026-10-07"
   }
 ]

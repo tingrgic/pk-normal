@@ -149,7 +149,7 @@ export default function Navigation() {
             ))}
           </div>
         </nav>
-        <p className="mono menu-bottom">{t("NORMALNO IME. JASAN CILJ.")}</p>
+        <p className="mono menu-bottom">{t("NORMAL IME. JASAN CILJ.")}</p>
       </dialog>
     </>
   );

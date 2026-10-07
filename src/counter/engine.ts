@@ -125,3 +125,51 @@ export function parseSession(raw: string | null): Session | null {
     return s;
   } catch { return null; }
 }
+
+export type Visit = { round: number; hits: Hit[]; points: number; remaining: number; bust: boolean; credits: number[] };
+export type PlayerStats = { id: string; darts: number; points: number; average: number; firstNineAverage: number; firstNineDarts: number; highestCheckout: number; checkoutHits: number; checkoutAttempts: number; finishes: Record<number, { hits: number; attempts: number }>; visits: Visit[] };
+/** Is this remainder finishable with ONE dart under the selected exit? */
+export function canCheckout(score: number, out: Config['out']) {
+  return [1, 2, 3].some(multiplier => (out === 'open' || multiplier === 2 || (out === 'master' && multiplier === 3)) &&
+    ((score / multiplier >= 1 && score / multiplier <= 20 && Number.isInteger(score / multiplier)) || (score === 50 && multiplier === 2) || (score === 25 && multiplier === 1)));
+}
+/** Derive every statistic from the ordered event log, so undo and v1 saves agree. */
+export function statistics(session: Session): PlayerStats[] {
+  const stats: PlayerStats[] = session.config.players.map(p => ({id:p.id,darts:0,points:0,average:0,firstNineAverage:0,firstNineDarts:0,highestCheckout:0,checkoutHits:0,checkoutAttempts:0,finishes:{},visits:[]}));
+  let game = initialGame(session.config);
+  for (const action of session.actions) {
+    const before = game;
+    game = advance(before, action, session.config);
+    if (action.type !== 'dart' || game === before) continue;
+    const stat = stats[before.active], previous = before.players[before.active], after = game.players[before.active];
+    if (!before.hits.length) stat.visits.push({round:before.round,hits:[],points:0,remaining:previous.score,bust:false,credits:[]});
+    const visit = stat.visits[stat.visits.length - 1];
+    stat.darts++;
+    visit.hits.push(action.hit);
+    const won = game.winners.includes(after.id);
+    if (session.config.mode === 'x01') {
+      const eligible = canCheckout(previous.score, session.config.out) && (previous.opened || canCheckout(previous.score, 'double'));
+      if (eligible) {
+        const finish = stat.finishes[previous.score] ||= {hits:0,attempts:0};
+        finish.attempts++; stat.checkoutAttempts++;
+        if (won) { finish.hits++; stat.checkoutHits++; }
+      }
+      visit.credits.push(previous.opened || after.opened ? Math.max(0, previous.score - after.score) : 0);
+      if (game.bust) visit.credits.fill(0);
+      visit.points = game.bust ? 0 : before.turnStart - after.score;
+      if (won) stat.highestCheckout = Math.max(stat.highestCheckout, before.turnStart);
+    } else {
+      const points = action.hit.number * action.hit.multiplier;
+      visit.credits.push(points); visit.points += points;
+    }
+    visit.remaining = after.score; visit.bust = game.bust;
+  }
+  for (const stat of stats) {
+    stat.points = stat.visits.reduce((sum,v) => sum+v.points,0);
+    stat.average = stat.darts ? stat.points / stat.darts * 3 : 0;
+    const first = stat.visits.flatMap(v => v.credits).slice(0,9);
+    stat.firstNineDarts = first.length;
+    stat.firstNineAverage = first.length ? first.reduce((sum,n) => sum+n,0) / first.length * 3 : 0;
+  }
+  return stats;
+}

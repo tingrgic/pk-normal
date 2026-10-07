@@ -10,18 +10,17 @@ Every selected pairing is hypothetical, even if the two players have met before.
 All factual data are in `src/data/club.ts` (`oddsSnapshot`), retrieved from the
 PSGZ 4. liga / skupina B 2026/27 table. The roster of nine Normal players remains
 HPS sourced. The snapshot records its exact UTC retrieval time; the UI formats
-it in Europe/Zagreb. It is not a live feed. Each of the 11 team rows and 50 player
-rows has the shared official source and retrieval date. The initial snapshot
-contains one completed league fixture per active team (BLACK M has none).
-It includes four Normal players with appearances. Absence from the performance
+it in Europe/Zagreb. It is not a live feed. Each of the 11 team rows and 68 player
+rows has the shared official source and retrieval date. The 7 October snapshot
+includes four completed Normal league fixtures and eight Normal players with appearances. Absence from the performance
 table is displayed as “Bez nastupa u presjeku”, never as a zero-win record.
 
 `scripts/update-odds.mjs` fetches the official public league renderer, extracts
 standings and the individual W/L and leg W/L table, validates the shape, and
 replaces only the generated snapshot block in club.ts. Run manually, inspect
 changes and run tests before releasing. The script does not infer results from
-schedule placeholders or from ongoing fixture scores. The tests reconcile every
-team's duel and leg totals with individual totals. The snapshot is archived in
+schedule placeholders or from ongoing fixture scores. The tests compare published
+team and player aggregates and record the known source discrepancies instead of changing published values. The snapshot is archived in
 `docs/qa/odds-source.json`; this file is not read by the app.
 
 ## Model v1 (project choice, not a federation rule)
@@ -48,17 +47,17 @@ If an opposing team has no recorded players, odds and play are unavailable.
 
 ## Virtual game
 
-Start with 1,000 points. Pick either player in one duel, stake an integer of at least 10
+Start with 1,000 points. Pick either player in one duel, stake a positive whole number
 up to the full balance (no fixed upper stake cap), and explicitly trigger a simulation. Browser randomness draws
 a binary outcome from the selected probability. Payout includes stake and rounds
 stake × full-precision odds to the nearest point. The UI discloses rounded odds.
 Only the last 20 simulations are retained, with frozen picks, odds and payouts.
 They are never mixed with official results, schedules, players or club statistics.
-Versioned localStorage key `pk-normal-virtual-duels-v1` stores balance and history.
+Versioned localStorage key `pk-normal-virtual-duels-v2` stores balance, history and the last reset day.
 Malformed or incompatible saves reset to a clean game. Blocked storage displays
 a notice and leaves in-memory play available. Reset asks before deleting history.
 Random IDs use getRandomValues rather than secure-context-only randomUUID so LAN
-HTTP previews work too. A fresh browser or reset is a new local game.
+HTTP previews work too. A fresh browser starts a separate local game. Reset is allowed once per Zagreb calendar day.
 
 ## Tests
 
@@ -70,3 +69,18 @@ blocked storage, keyboard operation, nine viewports and desktop/mobile axe audit
 Owner-requested change, 2026-10-07: removed the 100-point stake cap and the
 100-million saved-balance cap. Version 1 saves remain compatible. Arithmetic
 must remain within JavaScript safe integers; unsafe payouts are rejected.
+
+## Daily resets — 2026-10-07
+
+The simulator expands inline. Stakes are positive whole virtual points, with no
+10-point minimum and no fixed upper cap; the balance is the maximum. Reset to 1,000
+is allowed once per Europe/Zagreb calendar day. The v2 ledger records lastReset and
+preserves it on every play; v1 saves migrate with balance/history intact and one
+reset available. This is a local entertainment limit, not server-enforced identity:
+clearing browser storage or changing devices starts a separate ledger. Reset is
+not a deposit, payment or promise of real value.
+
+The official Ner column records draws and is preserved beside wins and losses.
+Storage events synchronize open tabs; plays and resets reread the latest local
+ledger before applying a change. Published team/player aggregate differences
+affect BBF, BLACK M, HOLLYWOOD PROMILI, MOZART DIAMANTI, VRAPČE 2 and ZAGREB.
