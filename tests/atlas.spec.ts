@@ -30,7 +30,7 @@ test('every opponent has dated federation evidence and home fixtures use the hos
   const record = addresses.find(a => a.name === name);
   expect(record, name).toBeDefined();
   expect(record!.checked).toBe('2026-10-16');
-  expect(record!.corroboratingSource).toBe('https://psgz.hr/hps/' + record!.slug);
+  expect(record!.manualSource).toBe('https://hps-dart.hr/hps-crews');
  }
  for (const fixture of fixtures.filter(f => f.kind === 'league')) {
   const host = addresses.find(a => a.name === fixture.home)!;
@@ -66,14 +66,14 @@ test.describe('atlas interface independent of external map tiles',()=>{
   await expect(page.locator('.atlas-venue')).toContainText('Lokacija čeka potvrdu');
   await expect(page.locator('.atlas-match-actions').getByRole('link',{name:'Upute za dolazak'})).toHaveCount(0);
  });
- test('directory shows every dated report and both federation links without invented directions', async({page}) => {
+ test('directory shows every dated HPS-register report without invented directions', async({page}) => {
   const directory = page.locator('.atlas-address-directory');
   await expect(directory.locator('article')).toHaveCount(12);
   await expect(directory.locator('time[datetime="2026-10-16"]')).toHaveCount(12);
   for (const name of ['HOLLYWOOD PROMILI', 'MOZART DIAMANTI']) {
    const row = directory.locator('article').filter({has: page.getByRole('heading', {name, exact:true})});
    await expect(row).toContainText('Adresa nije objavljena');
-   await expect(row.getByRole('link')).toHaveCount(2);
+   await expect(row.getByRole('link')).toHaveCount(1);
    await expect(row.getByRole('link', {name:'Upute za dolazak'})).toHaveCount(0);
   }
   await expect(directory.getByRole('heading', {name:'KOCKA FELGA CVRČAK',exact:true})).toBeVisible();

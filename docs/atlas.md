@@ -117,20 +117,20 @@ federation match page, while local scores remain a dated snapshot.
 
 ## Opponent venue recheck — 2026-10-16
 
-All 12 team address records (11 opponents plus Normal) were re-fetched from HPS
-and independently compared with PSGZ team profiles. No published address changed;
-Hollywood Promili and Mozart Diamanti are still blank in both records. Every
-directory row now shows its own check date, official team name with Croatian
-spelling, and links to both reports. A1 Thriller's home ground is explicitly
-distinguished from the neutral cup venue. Address checks do not advance schedule,
-result or coordinate freshness.
+All 12 team address records (11 opponents plus Normal) were checked manually in
+HPS → Članovi HPS → Registar ekipa. The procedure filters the visible register by
+the exact team name, then records its displayed address cell. No published address
+changed; Hollywood Promili and Mozart Diamanti have blank address cells. Every
+directory row now shows its own check date and an HPS register link. A1 Thriller's
+home ground is explicitly distinguished from the neutral cup venue. Address checks
+do not advance schedule, result or coordinate freshness.
 
-Run `node scripts/refresh-venues.mjs` for a manual recheck. It requires successful
-responses, recognizable team/address fields and agreement between both federation
-reports before writing any data. It prints changed addresses for review: reconcile
-`venues`, fixture placement and grounded coordinates manually before publishing
-such changes. The audit stores only team names and address evidence, without player
-personal information. Review the diff, update docs/sources.md, build and test.
+For future checks, use the visible HPS register rather than constructing a team
+profile URL. Record the entered team name and the displayed address result in
+`docs/qa/venue-audit.json`; then reconcile `venues`, fixture placement and grounded
+coordinates manually before publishing any address change. The audit stores only
+team names and address evidence, without player personal information. Review the
+diff, update docs/sources.md, build and test.
 
 Validation: frozen-lockfile install and production build passed. All six atlas
 checks passed on the final build, covering dated evidence for every opponent,
