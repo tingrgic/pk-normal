@@ -13,7 +13,8 @@ test('translation catalogue and calendar exports preserve data and placeholders'
  expect(translate('Pomakni {name} gore','de',{name:'Tin Grgić'})).toBe('Tin Grgić nach oben verschieben');
  expect(translate('Tin Grgić','en')).toBe('Tin Grgić');
  expect(translate(' Natrag u klub ','en')).toBe(' Back to the club ');
- const unknown=fixtures.find(f=>!f.venueId)!;
+ // Keep unknown-location coverage even when every live fixture has a verified venue.
+ const unknown={...fixtures[0],venueId:null};
  for(const [language,label] of [['en','Venue awaiting confirmation'],['de','Spielort noch unbestätigt']] as const){
   const calendar=calendarText([unknown],language).replace(/\r\n /g,'');
   expect(calendar).toContain('LOCATION:'+label);expect(calendar).toContain(unknown.id+'@pk-normal-calendar');expect(calendar).toContain(unknown.source);

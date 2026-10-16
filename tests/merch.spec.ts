@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 test('merch filters, favourites persistence, dialog focus and club return', async ({ page }) => {
   await page.goto('/#shop');
-  await expect(page.locator('.merch-product')).toHaveCount(12);
+  await expect(page.locator('.merch-product')).toHaveCount(27);
   await page.getByRole('button', { name: 'Istraži kolekciju' }).click();
   await expect(page).toHaveURL(/#shop$/);
   await expect(page.locator('#merch-collection')).toBeFocused();
@@ -21,6 +21,14 @@ test('merch filters, favourites persistence, dialog focus and club return', asyn
   await page.getByRole('button', { name: 'Sve', exact: true }).click();
   const results = await new AxeBuilder({ page }).analyze();
   expect(results.violations).toEqual([]);
+  // Newly added concepts use the shop's deferred translations, including details.
+  await page.getByRole('button', { name: 'English', exact: true }).click();
+  await page.getByRole('button', { name: 'View concept: Kamagra dart', exact: true }).click();
+  await expect(page.getByRole('dialog')).toContainText('contains no medicine');
+  await page.keyboard.press('Escape');
+  await page.getByRole('button', { name: 'Deutsch', exact: true }).click();
+  await expect(page.locator('.merch-grid')).toContainText('Notenheft');
+  await page.getByRole('button', { name: 'Hrvatski', exact: true }).click();
   await page.getByRole('link', { name: 'Natrag u klub' }).first().click();
   await expect(page.locator('#merch')).toBeVisible();
 });
@@ -29,7 +37,7 @@ for (const [width, height] of [[390,844],[430,932],[844,390],[932,430],[768,1024
     await page.setViewportSize({width,height});
     await page.emulateMedia({reducedMotion:'reduce'});
     await page.goto('/#shop');
-    await expect(page.locator('.merch-product')).toHaveCount(12);
+    await expect(page.locator('.merch-product')).toHaveCount(27);
     for (const image of await page.locator('.merch-page img').all()) await image.scrollIntoViewIfNeeded();
     await page.waitForFunction(() => Array.from(document.querySelectorAll<HTMLImageElement>('.merch-page img')).every(i => i.complete && i.naturalWidth > 0));
     await page.evaluate(() => window.scrollTo(0,0));

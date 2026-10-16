@@ -235,7 +235,7 @@ export default function App() {
         </section>
         <ToolPanel name="dvoboji" />
         <section className="merch-invite section" id="merch" aria-labelledby="merch-invite-title">
-          <div><p className="mono">PK NORMAL / MERCHSHOP</p><h2 id="merch-invite-title">{t("NORMALNO.")}<br /><em>{t("ZA NOSITI.")}</em></h2><p>{t("Za igru. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.")}</p><a className="text-link" id="shop" href="#shop">{t("Istraži kolekciju")} <Arrow /></a><small>{t("Koncept kolekcije · još nije u prodaji")}</small></div>
+          <div><p className="mono">PK NORMAL / MERCHSHOP</p><h2 id="merch-invite-title">{t("NORMALNO.")}<br /><em>{t("ZA NOSITI.")}</em></h2><p>{t("Za igru. Za kauč. Za sve između. Istraži 27 ideja za našu prvu merch kolekciju.")}</p><a className="text-link" id="shop" href="#shop">{t("Istraži kolekciju")} <Arrow /></a><small>{t("Koncept kolekcije · još nije u prodaji")}</small></div>
           <a href="#shop" tabIndex={-1} aria-hidden="true"><img src={import.meta.env.BASE_URL + "images/merch/robe-cutout.webp"} alt="" width="960" height="960" loading="lazy" /></a>
         </section>
         <ToolPanel name="shop" />

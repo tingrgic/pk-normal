@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-16",
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "id": "undershirt",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A black ribbed sleeveless undershirt / tank top, laid flat, red piping. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-6378e191-d9f8-4f1e-a59e-63976515b2b6.png",
+      "finalAsset": "public/images/merch/undershirt.webp"
+    },
+    {
+      "id": "prayerbook",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A tiny black pocket prayer book closed, red ribbon bookmark and small concentric dart target on cover. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-124eb187-0eb3-4a07-adc5-d842c78bd83f.png",
+      "finalAsset": "public/images/merch/prayerbook.webp"
+    },
+    {
+      "id": "bikini",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A black two-piece bikini displayed flat, no person, red and white dart bullseye circles printed on the two cups. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-6fb893ed-7d4b-4497-81d1-158aa4c63ed6.png",
+      "finalAsset": "public/images/merch/bikini.webp"
+    },
+    {
+      "id": "ornaments",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: Three elegant black Christmas baubles with red and white concentric dart targets and black hanging ribbons. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-d75f7a09-65e7-480b-bf02-d611518b5cc7.png",
+      "finalAsset": "public/images/merch/ornaments.webp"
+    },
+    {
+      "id": "beer-glass",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: One empty clear pint beer glass with white PK NORMAL print and small red bullseye. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-0205883f-ada6-4282-9830-9607fe8ec0a6.png",
+      "finalAsset": "public/images/merch/beer-glass.webp"
+    },
+    {
+      "id": "kamagra",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A satirical empty black novelty carton labelled KAMAGRA STRELICA and PK NORMAL, with a red dart silhouette. No medicine, no pills, no dosage or health claims. Clearly a fictional joke packaging concept. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-e3e89b07-2d2f-47da-9796-0d301a7db4f6.png",
+      "finalAsset": "public/images/merch/kamagra.webp"
+    },
+    {
+      "id": "suppositories",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: An empty satirical black novelty carton labelled MIRNA RUKA and PK NORMAL, abstract red dart shape. Fictional fever-suppository packaging joke only, no medicine, no dosage or health claims. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-8433cf42-9c00-477c-9997-e1f57d1c5658.png",
+      "finalAsset": "public/images/merch/suppositories.webp"
+    },
+    {
+      "id": "stickers",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A neat assortment of die-cut PK NORMAL stickers, rectangular wordmarks and concentric red-white dart targets. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-21a2d20e-b089-4f9d-9804-075deb8a0b2b.png",
+      "finalAsset": "public/images/merch/stickers.webp"
+    },
+    {
+      "id": "business-cards",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A stack of premium black business cards, white PK NORMAL wordmark, red line, no names, no contact details. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-b1b90208-946d-4d47-b229-504c0fcf31fe.png",
+      "finalAsset": "public/images/merch/business-cards.webp"
+    },
+    {
+      "id": "membership-card",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: Two premium black membership card design mockups, white PK NORMAL wordmark and red bullseye, no personal data or invented member numbers. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-0155501e-431b-4fbb-9a59-32a9e0e55564.png",
+      "finalAsset": "public/images/merch/membership-card.webp"
+    },
+    {
+      "id": "condoms",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A sealed square black novelty condom wrapper printed PK NORMAL and red dart silhouette, next to a closed small black carton. No exposed condom, no sharp physical dart inside. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-6ee40810-3f0e-4424-96e1-68f22a37d3db.png",
+      "finalAsset": "public/images/merch/condoms.webp"
+    },
+    {
+      "id": "lighter",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A matte black pocket lighter with white PK NORMAL and red dart target. Unlit. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-3e108c98-0b98-4307-b93c-41f218c12a2b.png",
+      "finalAsset": "public/images/merch/lighter.webp"
+    },
+    {
+      "id": "iqos-case",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A black protective fabric sleeve for a slim rectangular heated-tobacco device, white PK NORMAL print and red seam. Sleeve only, no device or tobacco. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-c94d029d-62c5-4b2d-9ddb-6019215c0941.png",
+      "finalAsset": "public/images/merch/iqos-case.webp"
+    },
+    {
+      "id": "tobacco-pouch",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A closed black roll-up tobacco storage pouch with red stitching and white PK NORMAL, empty pouch only, no tobacco. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-cdce429b-595d-4fed-ab26-515bdce7f65c.png",
+      "finalAsset": "public/images/merch/tobacco-pouch.webp"
+    },
+    {
+      "id": "music-notebook",
+      "prompt": "Use case: product-mockup. Asset type: square webshop concept photograph for Croatian darts club PK Normal. Subject: A black music manuscript notebook with white PK NORMAL and red target on cover, beside a second open copy showing blank five-line musical staves. Warm off-white #f0eee8 seamless studio background, premium realistic material textures, soft directional light and gentle contact shadow. Centered entire object with generous margins, three-quarter overhead view, square composition. Black #090909, warm white, signal red #ed382b brand palette. Exact brand text \"PK NORMAL\", condensed bold uppercase typography. No fake crest, no people, no watermarks, no prices. Original design proposal, visually refined and coherent with an editorial darts merchandise catalogue.",
+      "generatedSource": "/home/tin/.codex/generated_images/01a146a8-3596-78e0-b3a9-a58b6cc0cb32/exec-69c42f20-ac8a-48d5-839c-66360349ef8b.png",
+      "finalAsset": "public/images/merch/music-notebook.webp"
+    }
+  ]
+}

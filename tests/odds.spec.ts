@@ -111,6 +111,8 @@ test('daily reset is shared between open tabs and survives refresh',async({page,
  await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/#dvoboji');
  const second=await context.newPage();await second.emulateMedia({reducedMotion:'reduce'});await second.goto('/#dvoboji');
  const reset=page.getByRole('button',{name:'Vrati početnih'});
+ // Both lazy views must be mounted before checking cross-tab storage delivery.
+ await expect(second.getByRole('button',{name:'Vrati početnih'})).toBeEnabled();
  page.once('dialog',d=>d.accept());await reset.click();
  await expect(reset).toBeDisabled();await expect(second.getByRole('button',{name:'Vrati početnih'})).toBeDisabled();
  await second.reload();await expect(second.getByRole('button',{name:'Vrati početnih'})).toBeDisabled();

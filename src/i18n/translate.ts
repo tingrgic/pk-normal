@@ -3,6 +3,9 @@ export type Language = 'hr' | 'en' | 'de';
 export const locales: Record<Language, string> = { hr: 'hr-HR', en: 'en-GB', de: 'de-DE' };
 export const isLanguage = (value: unknown): value is Language => value === 'hr' || value === 'en' || value === 'de';
 const messages = catalog as Record<string, { en: string; de: string }>;
+export function registerTranslations(entries: Record<string, { en: string; de: string }>) {
+  Object.assign(messages, entries);
+}
 export function translate(text: string, language: Language, values: Record<string, string | number> = {}): string {
   const key = text.replace(/\s+/g, ' ').trim();
   let result = language === 'hr' ? text : messages[key]?.[language];

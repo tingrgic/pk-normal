@@ -3263,10 +3263,6 @@
     "en": "You are never alone in the team.",
     "de": "Im Team bist du nie allein."
   },
-  "Za igru. Za kauč. Za sve između. Istraži 12 ideja za našu prvu merch kolekciju.": {
-    "en": "For the game. For the sofa. For everything in between. Explore 12 ideas for our first merch collection.",
-    "de": "Fürs Spiel. Fürs Sofa. Für alles dazwischen. Entdecke 12 Ideen für unsere erste Merch-Kollektion."
-  },
   "Za igru. Za kauč. Za sve između.": {
     "en": "For the game. For the sofa. For everything in between.",
     "de": "Fürs Spiel. Fürs Sofa. Für alles dazwischen."
@@ -3654,5 +3650,9 @@
   "Prijavljena domaća igrališta ekipa. Kup protiv A1 Thrillera igra se na neutralnom igralištu navedenom uz utakmicu.": {
     "en": "Reported home venues for each team. The cup match against A1 Thriller is at the neutral venue shown with the fixture.",
     "de": "Gemeldete Heimspielorte der Teams. Das Pokalspiel gegen A1 Thriller findet am beim Spiel angegebenen neutralen Spielort statt."
+  },
+  "Za igru. Za kauč. Za sve između. Istraži 27 ideja za našu prvu merch kolekciju.": {
+    "en": "For the game. For the sofa. For everything in between. Explore 27 ideas for our first merch collection.",
+    "de": "Fürs Spiel. Fürs Sofa. Für alles dazwischen. Entdecke 27 Ideen für unsere erste Merch-Kollektion."
   }
 }
