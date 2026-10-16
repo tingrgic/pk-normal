@@ -114,3 +114,28 @@ Three additional address-level geocodes cover Vrapče 2, Black M and Bulldog Gia
 Mozart Diamanti and Hollywood Promili remain explicitly unknown. The overview
 bounds include the easternmost new venue. The “Prati nas live” link goes to the
 federation match page, while local scores remain a dated snapshot.
+
+## Opponent venue recheck — 2026-10-16
+
+All 12 team address records (11 opponents plus Normal) were re-fetched from HPS
+and independently compared with PSGZ team profiles. No published address changed;
+Hollywood Promili and Mozart Diamanti are still blank in both records. Every
+directory row now shows its own check date, official team name with Croatian
+spelling, and links to both reports. A1 Thriller's home ground is explicitly
+distinguished from the neutral cup venue. Address checks do not advance schedule,
+result or coordinate freshness.
+
+Run `node scripts/refresh-venues.mjs` for a manual recheck. It requires successful
+responses, recognizable team/address fields and agreement between both federation
+reports before writing any data. It prints changed addresses for review: reconcile
+`venues`, fixture placement and grounded coordinates manually before publishing
+such changes. The audit stores only team names and address evidence, without player
+personal information. Review the diff, update docs/sources.md, build and test.
+
+Validation: frozen-lockfile install and production build passed. All six atlas
+checks passed on the final build, covering dated evidence for every opponent,
+host-ground assignment, unknown locations, calendar, keyboard, accessibility and
+nine viewports. Directory screenshots are `docs/qa/venue-audit-{width}.png`.
+The full suite passed 81/82 tests. The existing virtual-duel cross-tab daily-reset
+test (`tests/odds.spec.ts:110`) failed and also failed on a focused rerun; no odds
+implementation or reset rules were changed in this venue refresh.

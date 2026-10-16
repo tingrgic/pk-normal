@@ -3,96 +3,120 @@
     "slug": "a1-thriller",
     "address": "CB A1, CIRKOVCI 72",
     "source": "https://hps-dart.hr/a1-thriller",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "A1 THRILLER",
+    "corroboratingSource": "https://psgz.hr/hps/a1-thriller"
   },
   {
     "slug": "bbf-bully-boys",
     "address": "BBF Savska cesta 150",
     "source": "https://hps-dart.hr/bbf-bully-boys",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "BBF BULLY BOYS",
+    "corroboratingSource": "https://psgz.hr/hps/bbf-bully-boys"
   },
   {
     "slug": "black-m",
     "address": "CB BLACK M, ZAGREBAČKA CESTA 76, SESVETE",
     "source": "https://hps-dart.hr/black-m",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "BLACK M",
+    "corroboratingSource": "https://psgz.hr/hps/black-m"
   },
   {
     "slug": "bulldog-giants",
     "address": "CB MARKO, SESVETSKA CESTA 61",
     "source": "https://hps-dart.hr/bulldog-giants",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "BULLDOG GIANTS",
+    "corroboratingSource": "https://psgz.hr/hps/bulldog-giants"
   },
   {
     "slug": "exterium-ii",
     "address": "CB EXTERIUM, POLJAČKA 52",
     "source": "https://hps-dart.hr/exterium-ii",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "EXTERIUM II",
+    "corroboratingSource": "https://psgz.hr/hps/exterium-ii"
   },
   {
     "slug": "hollywood-promili",
     "address": "",
     "source": "https://hps-dart.hr/hollywood-promili",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: source field blank"
+    "confidence": "High: source field blank",
+    "name": "HOLLYWOOD PROMILI",
+    "corroboratingSource": "https://psgz.hr/hps/hollywood-promili"
   },
   {
     "slug": "kocka-felga-cvrcak",
     "address": "CB DeGusto, Ilica 506, Vrapče",
     "source": "https://hps-dart.hr/kocka-felga-cvrcak",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "KOCKA FELGA CVRČAK",
+    "corroboratingSource": "https://psgz.hr/hps/kocka-felga-cvrcak"
   },
   {
     "slug": "mozart-diamanti",
     "address": "",
     "source": "https://hps-dart.hr/mozart-diamanti",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: source field blank"
+    "confidence": "High: source field blank",
+    "name": "MOZART DIAMANTI",
+    "corroboratingSource": "https://psgz.hr/hps/mozart-diamanti"
   },
   {
     "slug": "normal",
     "address": "CB QUATTRO, ZAGREBAČKA 26, SESVETE",
     "source": "https://hps-dart.hr/normal",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "NORMAL",
+    "corroboratingSource": "https://psgz.hr/hps/normal"
   },
   {
     "slug": "pkz-voltage",
     "address": "Ulica Dragutina Golika 44, 10000 Zagreb",
     "source": "https://hps-dart.hr/pkz-voltage",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "PKZ VOLTAGE",
+    "corroboratingSource": "https://psgz.hr/hps/pkz-voltage"
   },
   {
     "slug": "vrapce-2",
     "address": "CB 9, MAJKE TEREZIJE 6, VRAPČE",
     "source": "https://hps-dart.hr/vrapce-2",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "VRAPČE 2",
+    "corroboratingSource": "https://psgz.hr/hps/vrapce-2"
   },
   {
     "slug": "zagreb",
     "address": "CB X, LERMANOVA 49",
     "source": "https://hps-dart.hr/zagreb",
-    "checked": "2026-10-07",
+    "checked": "2026-10-16",
     "sourceType": "Official HPS playing address",
-    "confidence": "High: published address"
+    "confidence": "High: published address",
+    "name": "ZAGREB",
+    "corroboratingSource": "https://psgz.hr/hps/zagreb"
   }
 ]

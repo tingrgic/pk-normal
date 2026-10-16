@@ -215,3 +215,10 @@
 .atlas-address-directory article p { font-size:13px; }
 .atlas-address-directory a { display:flex; align-items:center; min-height:44px; font-size:12px; gap:12px; }
 @media(max-width:900px) { .atlas-address-directory article { grid-template-columns:1fr 1fr; }.atlas-address-directory article p { grid-column:1/-1; grid-row:2; } }
+
+.atlas-address-checked { display:block; margin-top:8px; color:#c2c7b8; font-size:12px; line-height:1.6; }
+.atlas-address-sources { min-width:0; }
+@media(min-width:901px) {
+ .atlas-address-directory article > p { grid-column:2; grid-row:1; }
+ .atlas-address-directory .atlas-address-sources { grid-column:3; grid-row:1; }
+}

@@ -235,3 +235,37 @@ The official Ner column contains two draw outcomes; their sum is retained as dra
 ## Owner-requested presentation and local tools — 2026-10-07
 
 Source: owner instructions in this conversation (no public URL); high confidence, owner-provided creative/product choices. Revised club copy, fixed 180-item identity set with shuffled order, smaller roster cards, sponsor invitation, inline tools, and local counter statistics do not assert new federation facts. Counter average/opportunity definitions are documented in docs/counter.md and in the UI.
+
+## Opponent home-venue audit — 2026-10-16
+
+All eleven opponents (ten league teams and cup opponent A1 Thriller), plus Normal,
+were fetched directly from their HPS profiles and cross-checked against the PSGZ
+team profiles. All 24 pages returned HTTP 200; the reported address fields agree.
+The complete per-team record, exact reported address, both official URLs, check
+date and confidence are in `docs/qa/venue-audit.json` and
+`src/data/club-addresses.json`. Source type: official primary federation records.
+Confidence is high in the published fields, including the absence of an address.
+
+| Team | Reported home playing address | HPS source | PSGZ corroboration | Checked | Confidence / source type |
+|---|---|---|---|---|---|
+| A1 THRILLER | CB A1, CIRKOVCI 72 | https://hps-dart.hr/a1-thriller | https://psgz.hr/hps/a1-thriller | 2026-10-16 | High: published address; official primary |
+| BBF BULLY BOYS | BBF Savska cesta 150 | https://hps-dart.hr/bbf-bully-boys | https://psgz.hr/hps/bbf-bully-boys | 2026-10-16 | High: published address; official primary |
+| BLACK M | CB BLACK M, ZAGREBAČKA CESTA 76, SESVETE | https://hps-dart.hr/black-m | https://psgz.hr/hps/black-m | 2026-10-16 | High: published address; official primary |
+| BULLDOG GIANTS | CB MARKO, SESVETSKA CESTA 61 | https://hps-dart.hr/bulldog-giants | https://psgz.hr/hps/bulldog-giants | 2026-10-16 | High: published address; official primary |
+| EXTERIUM II | CB EXTERIUM, POLJAČKA 52 | https://hps-dart.hr/exterium-ii | https://psgz.hr/hps/exterium-ii | 2026-10-16 | High: published address; official primary |
+| HOLLYWOOD PROMILI | Not published (blank address field) | https://hps-dart.hr/hollywood-promili | https://psgz.hr/hps/hollywood-promili | 2026-10-16 | High: source field blank; official primary |
+| KOCKA FELGA CVRČAK | CB DeGusto, Ilica 506, Vrapče | https://hps-dart.hr/kocka-felga-cvrcak | https://psgz.hr/hps/kocka-felga-cvrcak | 2026-10-16 | High: published address; official primary |
+| MOZART DIAMANTI | Not published (blank address field) | https://hps-dart.hr/mozart-diamanti | https://psgz.hr/hps/mozart-diamanti | 2026-10-16 | High: source field blank; official primary |
+| NORMAL | CB QUATTRO, ZAGREBAČKA 26, SESVETE | https://hps-dart.hr/normal | https://psgz.hr/hps/normal | 2026-10-16 | High: published address; official primary |
+| PKZ VOLTAGE | Ulica Dragutina Golika 44, 10000 Zagreb | https://hps-dart.hr/pkz-voltage | https://psgz.hr/hps/pkz-voltage | 2026-10-16 | High: published address; official primary |
+| VRAPČE 2 | CB 9, MAJKE TEREZIJE 6, VRAPČE | https://hps-dart.hr/vrapce-2 | https://psgz.hr/hps/vrapce-2 | 2026-10-16 | High: published address; official primary |
+| ZAGREB | CB X, LERMANOVA 49 | https://hps-dart.hr/zagreb | https://psgz.hr/hps/zagreb | 2026-10-16 | High: published address; official primary |
+
+No reported playing addresses changed since 7 October. Hollywood Promili and
+Mozart Diamanti remain unknown in both federation records: no legal registration
+address, similarly named business or another squad's venue is substituted.
+League fixture locations remain inferences from the home team's reported ground,
+not independent confirmation of every individual match. A1 Thriller's own ground
+is distinct from the neutral cup location. Existing coordinates were not newly
+geocoded or recertified by this address-only audit. Schedule/result freshness stays
+7 October; the directory now displays each address's separate 16 October check.

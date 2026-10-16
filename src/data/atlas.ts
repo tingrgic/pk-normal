@@ -1,9 +1,10 @@
+import addresses from './club-addresses.json' with { type: 'json' };
 import data from './fixtures-2026.json' with { type: 'json' };
 export type Fixture = { id: string; startsAt: string; home: string; away: string; kind: 'league' | 'cup'; round: number; venueId: string | null; source: string; result: number[] | null; checked: string };
 export type Venue = { id: string; number: string; name: string; address: string; area: string; coordinates: [number, number]; source: string; coordinateSource: string; precision: 'address' | 'venue'; checked?: string };
 export const atlasMeta = { year: 2026, season: '2026/27', checked: '2026-10-07', league: '4. liga · skupina B', source: 'https://psgz.hr/ranking-table/831', cupSource: 'https://psgz.hr/ranking-table/859', venueNote: 'Igrališta lige prema registru HPS-a. Moguće promjene provjeri na službenoj stranici utakmice.' };
 export const fixtures = data as Fixture[];
-export const venues: Venue[] = [
+export const venues: Venue[] = ([
  { id: 'quattro', number: '01', name: 'CB Quattro', address: 'Zagrebačka 26, Sesvete', area: 'Sesvete', coordinates: [16.1024289,45.8285209], source:'https://hps-dart.hr/normal', coordinateSource:'https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Zagrebacka%20cesta%2026%2C%20Sesvete%2C%20Croatia&f=json', precision:'address' },
  { id: 'bbf', number: '02', name: 'BBF', address: 'Savska cesta 150, Zagreb', area: 'Knežija', coordinates: [15.9555944,45.7910847], source:'https://hps-dart.hr/bbf-bully-boys', coordinateSource:'https://www.openstreetmap.org/node/919803676', precision:'venue' },
  { id: 'pivana', number: '03', name: 'Pivana', address: 'Ilica 222, Zagreb', area: 'Črnomerec', coordinates: [15.9473690,45.8126659], source:'https://psgz.hr/masters-serija-elektronskog-i-klasicnog-pikada-ekipni-kup', coordinateSource:'https://www.openstreetmap.org/node/2286844151', precision:'venue' },
@@ -14,7 +15,7 @@ export const venues: Venue[] = [
 {"id": "vrapce", "number": "08", "name": "CB 9", "address": "Ulica Majke Terezije 6, Zagreb", "area": "Vrapče", "coordinates": [15.898612391156, 45.813674654725], "source": "https://hps-dart.hr/vrapce-2", "coordinateSource": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Ulica+Majke+Terezije+6%2C+Zagreb%2C+Croatia&f=json&outFields=Addr_type%2CMatch_addr", "precision": "address", "checked": "2026-10-07"},
 {"id": "black-m", "number": "09", "name": "CB Black M", "address": "Zagrebačka cesta 76, Sesvete", "area": "Sesvete", "coordinates": [16.093632120683, 45.827057285154], "source": "https://hps-dart.hr/black-m", "coordinateSource": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Zagreba%C4%8Dka+cesta+76%2C+Sesvete%2C+Croatia&f=json&outFields=Addr_type%2CMatch_addr", "precision": "address", "checked": "2026-10-07"},
 {"id": "bulldog", "number": "10", "name": "CB Marko", "address": "Sesvetska cesta 61, Sesvete", "area": "Sesvete", "coordinates": [16.132408924143, 45.823792471019], "source": "https://hps-dart.hr/bulldog-giants", "coordinateSource": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates?SingleLine=Sesvetska+cesta+61%2C+Zagreb%2C+Croatia&f=json&outFields=Addr_type%2CMatch_addr", "precision": "address", "checked": "2026-10-07"},
-];
+] satisfies Venue[]).map(venue => ({ ...venue, coordinates: venue.coordinates as [number, number], checked: addresses.find(address => address.source === venue.source)?.checked || venue.checked || '2026-09-18' }));
 export const venueFor = (fixture: Fixture) => venues.find(v => v.id === fixture.venueId);
 export const opponent = (f: Fixture) => f.home === 'NORMAL' ? f.away : f.home;
 export const ground = (f: Fixture) => f.kind === 'cup' ? 'neutral' : f.home === 'NORMAL' ? 'home' : 'away';
