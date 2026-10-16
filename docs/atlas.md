@@ -120,10 +120,14 @@ federation match page, while local scores remain a dated snapshot.
 All 12 team address records (11 opponents plus Normal) were checked manually in
 HPS → Članovi HPS → Registar ekipa. The procedure filters the visible register by
 the exact team name, then records its displayed address cell. No published address
-changed; Hollywood Promili and Mozart Diamanti have blank address cells. Every
-directory row now shows its own check date and an HPS register link. A1 Thriller's
-home ground is explicitly distinguished from the neutral cup venue. Address checks
-do not advance schedule, result or coordinate freshness.
+changed in the team register. Hollywood Promili and Mozart Diamanti have blank
+team address cells. Hollywood is assigned to the official PK Hollywood club-register
+address, Ljudevita Posavskog 25D, after owner confirmation; Mozart is assigned to
+Svetice 25 after owner confirmation. Both are labelled in the data as distinct from
+an HPS team playing-address field. Every directory row now shows its own check date
+and an HPS register link. A1 Thriller's home ground is explicitly distinguished from
+the neutral cup venue. Address checks do not advance schedule, result or coordinate
+freshness.
 
 For future checks, use the visible HPS register rather than constructing a team
 profile URL. Record the entered team name and the displayed address result in

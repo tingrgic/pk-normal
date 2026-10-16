@@ -10,7 +10,7 @@ test('verified fixture integrity and timezone-correct, folded calendar export',(
  expect(fixtures.filter(f=>f.kind==='league')).toHaveLength(20);
  expect(fixtures.filter(f=>f.kind==='cup')).toHaveLength(1);
  for(const f of fixtures){expect(/^202[67]-/.test(f.startsAt)).toBe(true);expect([f.home,f.away]).toContain('NORMAL');expect(f.source.startsWith('https://psgz.hr/')).toBe(true);if(f.venueId)expect(venueFor(f)).toBeDefined();}
- expect(fixtures.filter(f=>!f.venueId).map(f=>f.home)).toEqual(['HOLLYWOOD PROMILI','MOZART DIAMANTI']);
+ expect(fixtures.filter(f=>!f.venueId)).toEqual([]);
  expect(ground(fixtures.find(f=>f.kind==='cup')!)).toBe('neutral');
  expect(localTime(fixtures.find(f=>f.id==='xgjjijwm')!)).toBe('19:00');
  const calendar=calendarText(fixtures);
@@ -30,7 +30,7 @@ test('every opponent has dated federation evidence and home fixtures use the hos
   const record = addresses.find(a => a.name === name);
   expect(record, name).toBeDefined();
   expect(record!.checked).toBe('2026-10-16');
-  expect(record!.manualSource).toBe('https://hps-dart.hr/hps-crews');
+  expect(['https://hps-dart.hr/hps-crews','https://hps-dart.hr/hps-clubs']).toContain(record!.manualSource);
  }
  for (const fixture of fixtures.filter(f => f.kind === 'league')) {
   const host = addresses.find(a => a.name === fixture.home)!;
@@ -51,7 +51,7 @@ test.describe('atlas interface independent of external map tiles',()=>{
   await page.goto('/#karta');
   await expect(page.locator('#atlas-title')).toContainText('GRAD JE');
  });
- test('home/away/cup and month filtering, missing venue, clear empty state',async({page})=>{
+ test('home/away/cup and month filtering, owner-confirmed venues, clear empty state',async({page})=>{
   await page.getByRole('button',{name:'Kup',exact:true}).click();
   await expect(page.locator('.atlas-fixture')).toHaveCount(1);
   await expect(page.locator('.atlas-match-panel')).toContainText('Pivana');
@@ -63,19 +63,15 @@ test.describe('atlas interface independent of external map tiles',()=>{
   await page.getByRole('button',{name:'Gosti',exact:true}).click();
   await expect(page.locator('.atlas-fixture')).toHaveCount(10);
   await page.getByRole('button',{name:/9\. listopada, HOLLYWOOD PROMILI/}).click();
-  await expect(page.locator('.atlas-venue')).toContainText('Lokacija čeka potvrdu');
-  await expect(page.locator('.atlas-match-actions').getByRole('link',{name:'Upute za dolazak'})).toHaveCount(0);
+  await expect(page.locator('.atlas-venue')).toContainText('Ljudevita Posavskog 25D');
+  await expect(page.locator('.atlas-match-actions').getByRole('link',{name:'Upute za dolazak'})).toHaveAttribute('href',/Ljudevita%20Posavskog%2025D/);
  });
- test('directory shows every dated HPS-register report without invented directions', async({page}) => {
+ test('directory shows every dated report and disclosed owner-confirmed venues', async({page}) => {
   const directory = page.locator('.atlas-address-directory');
   await expect(directory.locator('article')).toHaveCount(12);
   await expect(directory.locator('time[datetime="2026-10-16"]')).toHaveCount(12);
-  for (const name of ['HOLLYWOOD PROMILI', 'MOZART DIAMANTI']) {
-   const row = directory.locator('article').filter({has: page.getByRole('heading', {name, exact:true})});
-   await expect(row).toContainText('Adresa nije objavljena');
-   await expect(row.getByRole('link')).toHaveCount(1);
-   await expect(row.getByRole('link', {name:'Upute za dolazak'})).toHaveCount(0);
-  }
+  await expect(directory.locator('article').filter({has: page.getByRole('heading', {name:'HOLLYWOOD PROMILI', exact:true})})).toContainText('Ljudevita Posavskog 25D');
+  await expect(directory.locator('article').filter({has: page.getByRole('heading', {name:'MOZART DIAMANTI', exact:true})})).toContainText('Svetice 25');
   await expect(directory.getByRole('heading', {name:'KOCKA FELGA CVRČAK',exact:true})).toBeVisible();
  });
  test('calendar downloads work even if the map is unavailable; no runtime errors',async({page})=>{

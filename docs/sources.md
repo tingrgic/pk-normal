@@ -253,18 +253,20 @@ complete per-team record and check date are in `docs/qa/venue-audit.json` and
 | BLACK M | CB BLACK M, ZAGREBAČKA CESTA 76, SESVETE | Published address | 2026-10-16 | High; official primary register |
 | BULLDOG GIANTS | CB MARKO, SESVETSKA CESTA 61 | Published address | 2026-10-16 | High; official primary register |
 | EXTERIUM II | CB EXTERIUM, POLJAČKA 52 | Published address | 2026-10-16 | High; official primary register |
-| HOLLYWOOD PROMILI | Not published | Blank address column | 2026-10-16 | High; official primary register |
+| HOLLYWOOD PROMILI | Ljudevita Posavskog 25D, Zagreb | Team register blank; club register finds PK Hollywood | 2026-10-16 | High: official club address; owner-confirmed as hosting location |
 | KOCKA FELGA CVRČAK | CB DeGusto, Ilica 506, Vrapče | Published address | 2026-10-16 | High; official primary register |
-| MOZART DIAMANTI | Not published | Blank address column | 2026-10-16 | High; official primary register |
+| MOZART DIAMANTI | Svetice 25, Zagreb | Team register blank; location supplied by owner | 2026-10-16 | High: owner-provided; not independently federation-verified as a playing venue |
 | NORMAL | CB QUATTRO, ZAGREBAČKA 26, SESVETE | Published address | 2026-10-16 | High; official primary register |
 | PKZ VOLTAGE | Ulica Dragutina Golika 44, 10000 Zagreb | Published address | 2026-10-16 | High; official primary register |
 | VRAPČE 2 | CB 9, MAJKE TEREZIJE 6, VRAPČE | Published address | 2026-10-16 | High; official primary register |
 | ZAGREB | CB X, LERMANOVA 49 | Published address | 2026-10-16 | High; official primary register |
 
-No reported playing addresses changed since 7 October. Hollywood Promili and
-Mozart Diamanti remain unknown: their address cells are blank in the official
-HPS register, so no legal registration address, similarly named business or
-another squad's venue is substituted.
+No reported team-register playing address changed since 7 October. Hollywood
+Promili's team field remains blank, but the official HPS club register shows PK
+Hollywood at Ljudevita Posavskog 25D; the owner confirmed that address for the
+home-match location. Mozart Diamanti's team field remains blank; Svetice 25 was
+supplied by the owner as its home-match location. These two assignments are
+explicitly distinct from a published HPS team playing-address field.
 League fixture locations remain inferences from the home team's reported ground,
 not independent confirmation of every individual match. A1 Thriller's own ground
 is distinct from the neutral cup location. Existing coordinates were not newly

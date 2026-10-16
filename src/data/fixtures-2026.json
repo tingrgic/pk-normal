@@ -66,7 +66,7 @@
     "away": "NORMAL",
     "kind": "league",
     "round": 5,
-    "venueId": null,
+    "venueId": "hollywood",
     "source": "https://psgz.hr/event/ijotufns",
     "result": null,
     "checked": "2026-10-07"
@@ -210,7 +210,7 @@
     "away": "NORMAL",
     "kind": "league",
     "round": 18,
-    "venueId": null,
+    "venueId": "mozart",
     "source": "https://psgz.hr/event/enahsvtu",
     "result": null,
     "checked": "2026-10-07"
